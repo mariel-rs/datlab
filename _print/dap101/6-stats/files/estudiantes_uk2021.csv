@@ -1,0 +1,121 @@
+id,estado_origen,edad,nivel,programa,beca,financiamiento,universidad
+1,CDMX,31,Maestria,Social Entrepreneurship,FUNED-CONACyT,,Goldsmiths University of London
+2,GRO,26,Maestria,Carbon Management,CONACyT Regional-Centro,,University of Edinburgh
+3,SIN,28,Maestria,Human Resource Management,FUNED-CONACyT,,University of Sussex
+4,CDMX,28,Maestria,Graphic Communication Design,"Universidad, FUNED-CONACyT, FONCA-CONACyT ",FIDERH,University of the Arts London
+5,PUE,30,Maestria,Business Administration,FUNED-CONACyT,FIDERH,University of Sheffield
+6,CDMX,29,Maestria,Law,FUNED-CONACyT,,London School of Economics
+7,JAL,24,Maestria,Business Analytics and Finance,FUNED-CONACyT,FIDERH,University of Southampton
+8,CDMX,28,Maestria,Evidence Based Social Intervention and Policy Evaluation ,Universidad,,University of Oxford
+9,TAMPS,30,Maestria,Engineering Business Management,Universidad,,University of Warwick
+10,CDMX,27,Maestria,International Political Economy,FUNED-CONACyT,FIDERH,King's College London
+11,CDMX,28,Maestria,Business Strategy and Innovation Management,FUNED-CONACyT,,University of Southampton
+12,JAL,28,Doctorado,Project Data Analytics,Universidad,,University of Warwick
+13,CDMX,27,Maestria,Landscape Architecture,FUNED-CONACyT,,University College London
+14,PUE,26,Maestria,Anthropology of Development and Social Transformation,FUNED-CONACyT,,University of Sussex
+15,CDMX,26,Maestria,Business Administration,FUNED-CONACyT,FIDERH,University of Warwick
+16,CDMX,26,Maestria,International Banking and Financial Studies ,FUNED-CONACyT,,University of Southampton
+17,CDMX,24,Maestria,Acoustical Engineering ,FUNED-CONACyT,,University of Southampton
+18,BC,25,Maestria,Design Management,FUNED-CONACyT,,University of Southampton
+19,AGS,22,Maestria,International Disaster Management,FUNED-CONACyT,,University of Manchester
+20,CDMX,30,Maestria,Law and Finance,FUNED-CONACyT,,University of Oxford
+21,NL,23,Maestria,Sensors and Imaging Systems,CONACyT Regional-Noreste,,University of Glasgow
+22,NL,27,Maestria,Business Administration,FUNED-CONACyT,FIDERH,University of Cambridge
+23,NL,27,Maestria,Psychology,Universidad,,Anglia Ruskin University
+24,DGO,25,Maestria,Public Health and Policy,FUNED-CONACyT,,Queen Mary University of London
+25,CDMX,33,Maestria,Energy and Natural Resources Law,FUNED-CONACyT,,Queen Mary University of London
+26,MICH,28,Maestria,Intercultural Communication and International Development,FUNED-CONACyT,,University of Sheffield
+27,PUE,28,Maestria,Psychology of Economic Life,Ninguna,,London School of Economics
+28,SON,28,Maestria,Digital Transformation,FUNED-CONACyT,FIDERH,ESCP Europe
+29,CDMX,27,Maestria,Law,FUNED-CONACyT,,King's College London
+30,SIN,27,Maestria,Law,FUNED-CONACyT,,University of Cambridge
+31,CDMX,25,Maestria,Conservation Leadership ,Chevening,,University of Cambridge
+32,CDMX,29,Maestria,Business Administration in Energy Management,Universidad,,University of Aberdeen
+33,CDMX,27,Maestria,Real Estate Economics and Finance,"Universidad, FUNED-CONACyT",FIDERH,London School of Economics
+34,CDMX,28,Maestria,Business Administration,"Universidad, FUNED-CONACYT",,University of Warwick
+35,CDMX,33,Maestria,Financial and Computational Mathematics,"Universidad, FUNED-CONACyT",,University of Nottingham
+36,MICH,27,Maestria,Economics,Chevening,,University of Edinburgh
+37,CDMX,25,Maestria,Public Health,Ninguna,,London School of Hygiene and Tropical Medicine
+38,CDMX,27,Maestria,Finance and Economic Development,FUNED-CONACyT,,University of Glasgow
+39,CDMX,27,Maestria,Marketing and Strategy,FUNED-CONACyT,,University of Warwick
+40,MEX,24,Maestria,Sustainable Automotive Electrification,Universidad,,University of Warwick
+41,TAMPS,30,Maestria,Business Administration,Prodigy,,University of Cambridge
+42,CDMX,28,Maestria,Business Administration in Football Industries,FUNED-CONACyT,FIDERH,University of Liverpool
+43,CDMX,28,Maestria,"Gender, Media and Culture",FUNED-CONACyT,,London School of Economics
+44,GRO,31,Maestria,Operational Research,CONACYT Regional-Centro,,University of Edinburgh
+45,COAH,26,Maestria,International Relations,FUNED-CONACyT,,University of Edinburgh
+46,ZAC,28,Maestria,"Poverty, Inequality and Development",FUNED-CONACyT,,University of Birmingham
+47,BC,25,Maestria,Space Systems Engineering,Ninguna,Laudex,University of Southampton
+48,PUE,26,Maestria,Conflict Resolution and Peace Studies,FUNED-CONACyT,,Lancaster University
+49,PUE,26,Maestria,Consumer Analytics and Marketing Strategy,"Universidad, FUNED-CONACyT",,University of Leeds
+50,CDMX,27,Maestria,Business Administration,Ninguna,,London Business School
+51,CDMX,26,Maestria,Infectious Diseases and One Health,Erasmus,,University of Edinburgh
+52,CHIH,27,Maestria,Banking and Risk,Ninguna,,University of Edinburgh
+53,CDMX,28,Maestria,Finance,Ninguna,,London Business School
+54,SIN,28,Maestria,"Conflict, Governance and Development",FUNED-CONACyT,,University of York
+55,CDMX,30,Maestria,Energy and Natural Resources,Chevening,,Queen Mary University of London
+56,CDMX,29,Maestria,Business Administration,Prodigy,,University of Oxford
+57,CDMX,29,Maestria,Business Administration,Prodigy,,University of Oxford
+58,SLP,30,Maestria,Engineering Management,FUNED-CONACyT,,University of York
+59,QRO,28,Maestria,Business Administration ,Ninguna,,London Business School
+60,CDMX,29,Maestria,History of Art (Architectural History and Theory),FONCA-CONACyT,,University of York
+61,CHIH,26,Maestria,"Media, Communication and Development",Ninguna,,London School of Economics
+62,CDMX,25,Maestria,Global Health and Development,Ninguna,,University College London
+63,CDMX,25,Maestria,Bioinformatics,Universidad,FIDERH,University of Edinburgh
+64,VER,,Maestria,Environment and Development,FUNED-FIDERH,FIDERH,King's College London
+65,CDMX,,Maestria,Business Administration,Ninguna,,London Business School
+66,CDMX,,Maestria,Business Administration,Ninguna,,London Business School
+67,GTO,,Maestria,Business Administration,Talentos de Exportacion,,London Business School
+68,CDMX,,Maestria,Supply Chain and Logistics Management,FUNED-CONACyT,FIDERH,University of Warwick
+69,CDMX,28,Maestria,Business Administration,FUNED-CONACyT,,London Business School
+70,CDMX,23,Doctorado,DPhil Migration Studies,"Universidad, FUNED-CONACyT",,University of Oxford
+71,CDMX,22,Maestria,Latin American Studies,FUNED-CONACyT,,University of Oxford
+72,CDMX,28,Maestria,Data Analytics,Ninguna,,London Metropolitan University
+73,MEX,27,Maestria,Global Environment and Climate Change,Ninguna,,University of Edinburgh
+74,CDMX,27,Maestria,Business Administration,Ninguna,,London Business School
+75,GTO,25,Maestria,Finance,Ninguna,,London Business School
+76,CDMX,27,Maestria,Tax,FUNED-CONACyT,FIDERH,Queen Mary University of London
+77,CDMX,26,Maestria,Development Studies,Chevening,,London School of Economics
+78,CDMX,26,Maestria,Development Economics,"Universidad, FUNED-CONACyT",,University of Sussex
+79,CDMX,26,Maestria,Financial Law,"Universidad, FUNED-CONACyT",,University of Sussex
+80,CDMX,30,Maestria,Business Administration,"Universidad, FUNED-CONACyT",,University of Nottingham
+81,PUE,29,Maestria,Law,FUNED-CONACyT,,University of Leeds
+82,CDMX,30,Maestria,Business Administration,Ninguna,,University of Warwick
+83,CDMX,32,Maestria,Public Policy,Ninguna,FIDERH,University College London
+84,PUE,28,Maestria,Social Development,FUNED-CONACyT,FIDERH,University of Sussex
+85,CDMX,,Maestria,Business Administration,Ninguna,FIDERH,London Business School
+86,NL,24,Maestria,Advertising and Marketing,"Universidad, FUNED-CONACyT",FIDERH,University of Leeds
+87,QROO,27,Maestria,Engineering,FUNED-CONACyT,,University of Sussex
+88,MICH,31,Maestria,Business Administration,FUNED-CONACyT,FIDERH,University of Cambridge
+89,NL,24,Maestria,Motion Analysis,Universidad,,University of Dundee
+90,BC,27,Maestria,International Relations,FUNED-CONACyT,,University of Edinburgh
+91,NL,28,Maestria,Environmental Science and Management,Universidad,FIDERH,University of York
+92,CDMX,,Maestria,International Business,Ninguna,,University of Leeds
+93,CDMX,27,Maestria,Artificial Intelligence,Ninguna,,University of Edinburgh
+94,SIN,29,Maestria,Sustainable Automotive Electrification,"Universidad, Talentos de Exportacion",,University of Warwick
+95,NL,27,Maestria,Human Clinical Embriology and Assissted Conception,Ninguna,,University of Dundee
+96,CDMX,26,Maestria,Sustainable Automotive Electrification,Universidad,,University of Warwick
+97,MEX,28,Maestria,Regenerative Dentistry,CONACyT Regional-Centro,,King's College London
+98,CDMX,27,Maestria,Law,Ninguna,,Queen Mary University of London
+99,GTO,27,Maestria,Architecture and Urbanism,"Universidad, Talentos de Exportacion",,Manchester School of Architecture
+100,AGS,27,Maestria,Statistics,FUNED-CONACyT,FIDERH,University of Warwick
+101,CDMX,39,Maestria,International Relations,Ninguna,Credito,Goldsmiths University of London
+102,CDMX,27,Maestria,Business Administration,FUNED-CONACyT,FIDERH,University of Southampton
+103,VER,28,Maestria,Applied Social Data Science,Ninguna,,London School of Economics
+104,JAL,24,Maestria,Computational Finance,Ninguna,,University College London
+105,CDMX,26,Maestria,Public Policy,Ninguna,FIDERH,London School of Economics
+106,OAX,28,Maestria,Public Policy,FUNED-CONACyT,FIDERH,King's College London
+107,CDMX,26,Maestria,"Health Policy, Planning & Financing",Ninguna,,London School of Economics / London School of Hygiene and Tropical Medicine
+108,MOR,26,Maestria,Engineering with Innovation,FUNED-CONACyT,,University College London
+109,GTO,28,Maestria,International Political Economy,"Universidad, Talentos de Exportacion",,Newcastle University
+110,CDMX,28,Maestria,Operation and Supply Chain Management ,Ninguna,FIDERH,University of Liverpool
+111,NL,25,Maestria,Landscape Architecture,FONCA-CONACyT,,University College London
+112,CDMX,34,Maestria,Business Administration,Ninguna,,University of Warwick
+113,BCS,,Maestria,Creative Writing,FONCA-CONACyT,,University of Edinburgh
+114,VER,,Maestria,Marine Systems and Policies,,,University of Edinburgh
+115,CDMX,,Maestria,Marketing & Business Analysis,,,University of Edinburgh
+116,AGS,,Maestria,Sustainable Energy Systems,,,University of Edinburgh
+117,PUE,,Maestria,Human Rights,,,University of Edinburgh
+118,MEX,,Maestria,Global Environment,,,University of Edinburgh
+119,CDMX,27,Maestria,Statistics with Data Science,Ninguna,,University of Edinburgh
+120,NL,,Maestria,Advanced Sustainable Design,,,University of Edinburgh
