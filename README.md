@@ -1,7 +1,7 @@
 # Dat Lab
 
-Dat Lab (o también la Datería!) es un sitio web donde subo los materiales 
-utilizados en los talleres que imparto de Python y de análisis de datos.
+Dat Lab es un sitio web donde subo los materiales utilizados en los talleres que 
+imparto de Python y de análisis de datos.
 
 Si bien este material puede ser usado de forma independiente, es para ser 
 utilizado como material de apoyo a las sesiones en vivo.
