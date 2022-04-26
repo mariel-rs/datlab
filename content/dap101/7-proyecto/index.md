@@ -11,6 +11,4 @@ weight = 7
 
 Para los ejercicios de este tema, usaremos los siguientes archivos:
 
-{{% attachments /%}}
-
 ## Entregable
