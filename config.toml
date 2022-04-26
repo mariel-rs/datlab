@@ -1,0 +1,107 @@
+baseURL = "https://mariel-rs.github.io/datlab"
+canonifyURLs = false
+relativeURLs = false
+
+#themesdir = "themes/hugo-theme-relearn"
+theme = "hugo-theme-relearn"
+
+languageCode = "es"
+defaultContentLanguage = "es"
+disableLanguages = ['pir', 'en']
+
+title = "Dat Lab"
+
+[params]
+  #editURL = "https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/"
+  description = "Dat Lab"
+  author = "Mariel Reyes"
+  showVisitedLinks = false
+  collapsibleMenu = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableLandingPageButton = true
+  titleSeparator = "::"
+  #themeVariant = [ "relearn-light", "relearn-dark", "learn", "neon", "blue", "green", "red" ]
+  themeVariant = [ "relearn-light" ]
+  disableSeoHiddenPages = true
+  # this is for the stylesheet genertor to allow for interactivity in mermaid
+  # graphs; you usually will not need it and you should remove this for
+  # security reasons
+  mermaidInitialize = "{ \"securityLevel\": \"loose\" }"
+
+[outputs]
+  # add JSON to the home to support lunr search; This is a mandatory setting
+  # for the search functionality
+  # add PRINT to home, section and page to activate feature to print whole
+  # chapters
+  home = ["HTML", "RSS", "PRINT", "JSON"]
+  section = ["HTML", "RSS", "PRINT"]
+  page = ["HTML", "RSS", "PRINT"]
+
+[markup]
+  [markup.highlight]
+    # if `guessSyntax = true`, there will be no unstyled code even if no language
+    # was given BUT mermaid code fences will not work anymore! So this is a mandatory
+    # setting for your site
+    guessSyntax = false
+
+    # here in this showcase we use our own modified chroma syntax highlightning style
+    # which is imported in theme-relearn-light.css / theme-relearn-dark.css;
+    # if you want to use a predefined style instead:
+    # - remove the following `noClasses`
+    # - set the following `style` to a predefined style name
+    # - remove the `@import` of the self-defined chroma stylesheet from your CSS files
+    #   (here eg.: theme-relearn-light.css / theme-relearn-dark.css)
+    noClasses = false
+    # style = "tango"
+
+  [markup.goldmark.renderer]
+    # activated for this showcase to use HTML and JavaScript; decide on your own needs;
+    # if in doubt, remove this line
+    unsafe = true
+
+# allows `hugo server` to display this showcase in IE11; this is used for testing, as we
+# are still supporting IE11 - although with degraded experience; if you don't care about
+# `hugo server` or browsers of ancient times, fell free to remove this whole block
+[server]
+  [[server.headers]]
+    for = "**.html"
+    [server.headers.values]
+       X-UA-Compatible = "IE=edge"
+
+# showcase of the menu shortcuts; you can use relative URLs linking
+# to your content or use fully-quallified URLs to link outside of
+# your project
+[Languages]
+  [Languages.es]
+    title = "Español"
+    weight = 1
+    languageName = "Español"
+    landingPageURL = "/"
+    landingPageName = "<i class='fas fa-home'></i> Inicio"
+
+  [[Languages.es.menu.shortcuts]]
+    name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+    identifier = "ds"
+    url = "https://github.com/mariel-rs/datlab"
+    weight = 10
+
+  [[Languages.es.menu.shortcuts]]
+    name = "<i class='fas fa-fw fa-camera'></i> Escaparate"
+    url = "more/showcase/"
+    weight = 11
+
+#  [[Languages.es.menu.shortcuts]]
+#    name = "<i class='fas fa-fw fa-bullhorn'></i> Créditos"
+#    url = "more/credits/"
+#    weight = 30
+  
+    [[Languages.es.menu.shortcuts]]
+    name = "<i class='fas fa-child'></i> Acerca de"
+    url = "more/about/"
+    weight = 20
+
+  [[Languages.es.menu.shortcuts]]
+    name = "<i class='fas fa-fw fa-tags'></i> Tags"
+    url = "tags/"
+    weight = 40
