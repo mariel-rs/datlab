@@ -5,9 +5,12 @@ disabletoc = false
 weight = 1
 +++
 
-## Ejercicios
+## Introducción
 
 ### Salida por pantalla
+
+Lo primero que se suele hacer cuando aprendemos a programar es saludar... 
+[Hello world](https://es.wikipedia.org/wiki/Hola_mundo)
 
 ```python
 print("Hello world")
@@ -15,6 +18,8 @@ print(1+1)
 ```
 
 ### Un comentario
+
+Los comentarios no se ejecutan. Son eso, comentarios.
 
 ```python
 # Hola, soy un comentario.
@@ -28,7 +33,9 @@ print(1+1)
 print(1+1)
 ```
 
-### Variables 
+## Variables 
+
+Declarar una variable es tan fácil como definir un nombre y dar un valor.
 
 ```python
 a = 2
@@ -36,7 +43,8 @@ print(a)
 ```
 
 ### Tipo de datos
-1. Enteros (_int_)
+
+#### Enteros (_int_)
    
 ```python
 a = 1
@@ -44,7 +52,7 @@ print(a)
 print(type(a))
 ```
 
-2. Flotantes (_float_)
+#### Flotantes (_float_)
    
 ```python
 a = 3.98
@@ -58,7 +66,7 @@ print(a)
 print(type(a))
 ```  
 
-3. Booleanos (_bool_)
+#### Booleanos (_bool_)
 
 ```python
 a = True
@@ -72,14 +80,14 @@ print(a)
 print(type(a))
 ```   
 
-4. Cadenas de texto (_str_)
+#### Cadenas de texto (_str_)
 
 ```python
 a = "Hola"
 print(a)
 ```
 
-5. Convertir tipos de datos
+### Convertir tipos de datos
 
 ```python
 # Esto aunque parezca booleano, Python lo entendera como un entero
@@ -93,7 +101,7 @@ real_bool = bool(1)
 real_int = int(2.0)
 ```
 
-6. Entrada por teclado
+## Entrada por teclado
 
 ```python
 # Entrada por teclado usando input()
@@ -105,8 +113,8 @@ print(f"Hola, {nombre}")
 print(f"La variable tiene el tipo de dato {type(nombre)}")
 ```
 
-### Estructuras
-#### Listas
+## Estructuras
+### Listas
 
 ```python
 # Una lista vacia
@@ -119,19 +127,19 @@ int_list = [1, 2, 3]
 mixed_list = [1, 1.0, "2", "Hola", True, "True", [1, 2]]
 ```
 
-   - Imprimir en pantalla cada una de las listas
+- Imprimir en pantalla cada una de las listas
 
 ```python
 # Aqui va tu codigo
 ```
 
-   - Cuantos elementos tiene la lista?
+- Cuantos elementos tiene la lista?
 
 ```python
 print(len(str_list))
 ```
 
-   - Acceder a los elementos de la lista usando índices
+- Acceder a los elementos de la lista usando índices
   
 ```python
 # Todo empieza en cero...
@@ -139,7 +147,7 @@ print(str_list[0])
 print(str_list[3])
 ```
 
-   - Agregar elementos usando _append_
+- Agregar elementos usando _append_
 
 ```python
 str_list.append("4")
@@ -155,7 +163,7 @@ print(str_list[3])
 
 ```
 
-#### Diccionarios
+### Diccionarios
 
 ```python
 # Un diccionario vacio
@@ -226,8 +234,7 @@ del fruits['kiwis']
 print(fruits)
 ```
 
-
-## Tarea
+## Ejercicios
 
 1. Crear una variable ```colegiatura``` que pida un valor al usuario. 
    1. Imprimir el valor que el usuario introduce

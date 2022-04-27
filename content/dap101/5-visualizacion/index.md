@@ -5,26 +5,156 @@ disabletoc = false
 weight = 5
 +++
 
-## Ejercicios
-
 ## Datos
 
-Para los ejercicios de este tema, usaremos los siguientes archivos:
+Usaremos los siguientes archivos:
 
-{{% attachments /%}}
+{{% attachments title="Archivos" pattern=".*csv"/%}}
 
 ### matplotlib
 
-#### Barras
-
 #### Dispersión
+
+1. Creamos el eje x, y creamos dos funciones de x
+```python
+# Grafica 
+import numpy as np # Libreria para acceder a funciones matematicas
+
+x = np.linspace(-3, 3, 100)
+y1 = 3*x
+y2 = x**3 + x**2 - x + 1
+
+# Crear un grafico con ambas curvas en el mismo eje
+fig, ax = plt.subplots()
+ax.plot(x, y1, 'g--', label=r'$y_1$') # Trazos
+ax.plot(x, y2, 'y.', label=r'$y_2$') # Puntos
+
+# .legend() utiliza el argumento "label" para cada curva
+ax.legend(loc='lower right', fontsize=14)
+
+# Mostrar el grafico
+plt.show()
+```
 
 ### seaborn
 
+Usaremos los datos de aspirantes de INECOL `aspirantes_inecol2020.csv`
+
+```python
+# Importar datos aspirantes INECOL
+inecol_df = pd.read_csv("aspirantes_inecol2020.csv")
+```
+
 #### Pairplot para encontrar relaciones
+
+```python
+# Dale unos segundos...
+sns.pairplot(inecol_df)
+```
 
 #### Histogramas
 
-#### Diagramas de caja (boxplot)
+```python
+# Sintaxis
+sns.histplot(data = df, x = "columna", stat, kde)
+```
 
-## Tarea
+Un ejemplo de un histograma utilizando porcentaje como medida estadística.
+
+```python
+sns.histplot(data = inecol_df, x = "calificacion_final", stat = "percent")
+```
+
+La medida estadística `stat` utilizada en el eje puede ser:
+
+- `count`: número de observaciones en cada segmento
+- `frequency`: muestra el número de observaciones dividido entre el "ancho" (intervalo) del segmento
+- `probability`: normaliza el eje para que la altura de las barras sumen 1
+- `percent`: normaliza el eje para que la altura de las barras sumen 100
+- `density`: normaliza el eje para que el total del área del histograma sea 1
+
+`kde` es un parámetro opcional donde podemos obtener una distribución estimada
+de los datos. Para activarlo pasamos el siguiente argumento cuando creemos el 
+objeto histoplot: `kde = True`
+
+#### Diagramas de caja y bigotes (boxplot)
+
+Muestra la distribución de datos cuantitativos utilizando sus medidas de
+localización.
+
+```python
+# Ver la distribución de calificaciones finales de los aspirantes con boxplot
+# (Se ve mejor así, que si invirtieramos los ejes...)
+sns.boxplot(data = inecol_df, y = "resultado", x = "calificacion_final", whis = 1.5)
+```
+
+Como parámetro opcional se tiene `whis`, que define la extension de los "bigotes"
+de las cajas. En el ejemplo de arriba, 1.5 es 1.5 veces el rango intercuartílico.
+
+#### Diagramas de violín
+
+Visualización combinada de un diagrama de cajas y de la distribución estimada de
+los datos.
+
+```python
+# Ver la distribución de calificaciones finales de los aspirantes con violinplot
+sns.violinplot(data = inecol_df, y = "resultado", x = "calificacion_final")
+```
+
+#### Barras
+
+Mostrar en una gráfica de barras el número de centros INAH por estado
+
+```python
+# Usando los datos de visitantes a los centros INAH en 2022
+inah_df = pd.read_csv("inah_visitantes_2022.csv", thousands = ",")
+
+# Agrupando por estado y usando la función count()
+inah_grouped = inah_df.groupby(by = "Estado").count()
+inah_grouped = inah_grouped.reset_index() # Para que Estado no sea índice/label
+
+# Mostrar grafico
+sns.barplot(data = inah_grouped, x = "Tipo", y = "Estado")
+```
+
+## Edición
+
+Modificar etiquetas de los ejes y exportar imagen como PNG
+
+```python
+# Declarar el grafico
+ax = sns.barplot(data = inah_grouped, x = "Tipo", y = "Estado")
+
+# Modificar las etiquetas de los ejes
+ax.set_xlabel("Estado", fontsize = 12)
+ax.set_ylabel("Número de Centros INAH", fontsize = 12)
+
+# Ajustes para exportar imagen
+plt.tight_layout()
+plt.savefig('barplot_inah.png')
+
+# Mostrar imagen
+plt.show()
+```
+
+Girar ejes para mejorar la visualizacion
+
+```python
+# Misma boxplot de calificaciones de INECOL pero ahora los ejes invertidos
+sns.boxplot(data = inecol_df, x = "resultado", y = "calificacion_final", whis = 1.5)
+
+# Rotamos las etiquetas del eje x, 45 grados
+plt.xticks(rotation=45)
+
+plt.show()
+```
+
+## Ejercicios
+
+1. Usando los datos `estudiantes_mxuk2021.csv`, crear gráficos que muestren:
+   - Distribución de edad por universidad. 
+   - Becas que tienen los estudiantes.
+
+2. Usando los datos `inah_visitantes_2022.csv`:
+   - ¿Cuál es la visualización más representativa para mostrar el flujo de
+   visitantes en los meses reportados para un Centro INAH (o estado!) determinado?

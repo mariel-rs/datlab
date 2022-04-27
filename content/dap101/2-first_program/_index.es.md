@@ -5,63 +5,135 @@ disabletoc = false
 weight = 2
 +++
 
-## Ejercicios
+## Operaciones
 
-### Operaciones
+**Suma**
+
+Se indica con el operador `+`
 
 ```python
-# Sumas
 print(2 + 3)
+```
 
-# Restas
+**Resta**
+
+Se indica con el operador `-`
+
+```python
 print(2 - 3)
+```
 
+**Multiplicación**
+
+Se indica con el operador `*`
+
+```python
 # Multiplicaciones
 print(2 * 3)
+```
 
-# Divisiones
-print(2 / 3)
+**Potencias**
 
-# Potencia
+Las potencias se indican con el operador `**` (Python no usa ^ para indicar
+potencias como otros lenguajes)
+
+```python
+# cuidado con el operador...
 print(2 ** 3)
+```
 
+**Divisiones**
+
+Dependiendo lo que se requiera, las divisiones se indican con el operador `/`, 
+`//` o `%`
+
+```python
 # Division
 print(38 / 5)
 
-# Cociente de la division
+# Cociente de la division (devuelve un entero)
 print(38 // 5)
 
 # Residuo de la division
 print(38 % 5)
 ```
-### Comparadores
+
+## Comparadores / Operadores relacionales
+
+Consideremos dos variables,  `x` y `y`.
 
 ```python
 # Dos numeros
 x = 3
 y = 4
-
-# Menor que
-print(x < y)
-
-# Igual que
-print(x == y)
-
-# No es igual que 
-print(x != y)
-
-# O
-print(x == y or 5 >= 2)
-
-# Y
-print(x == y and 5 >= 2)
-
-# Una nueva variable
-z = x > y
-print(z)
 ```
 
-### Condicionales
+Los siguientes operadores devolverán un valor verdadero o falso, dependiendo de 
+la comparación
+
+**Igualdad**
+
+```python
+# Igual que
+print(x == y)
+```
+
+**Desigualdad**
+
+```python
+# No es igual que 
+print(x != y)
+```
+
+**Menor que, estrictamente menor**
+
+```python
+# Menor que
+print(x < y)
+```
+
+**Mayor que, estrictamente mayor**
+
+```python
+# Menor que
+print(x > y)
+```
+
+**Menor o igual que**
+
+```python
+# Menor o igual que
+print(x <= y)
+```
+
+**Mayor o igual que**
+
+```python
+# Mayor o igual que
+print(x >= y)
+```
+
+## Operadores lógicos
+
+**Y, operador and**
+
+Devuelve un valor verdadero si **todas** las premisas son verdaderas
+
+```python
+# Y
+print(x == y and 5 >= 2)
+```
+
+**O, operador or**
+
+Devuelve un valor verdadero si **al menos una** de las premisas es verdadera
+
+```python
+# O
+print(x == y or 5 >= 2)
+```
+
+## Condicionales
 
 **If**
 
@@ -116,7 +188,7 @@ else:
     print("Intenta un numero mayor que 0 pero menor o igual a 3")
 ```
 
-### Funciones
+## Funciones
 
 **Estructura de una funcion**
 
@@ -158,7 +230,7 @@ def media(a, b):
 Farenheit `tf` como argumento y la convierte a grados Celsius `tc`. La función 
 deberá **imprimir** la temperatura en grados Celsius. 
 
-![t_convert](https://latex.codecogs.com/png.image?\large&space;\dpi{110}T_c&space;=&space;\frac{5}{9}(T_f&space;-&space;32))
+$$ T_c = \frac{5}{9}(T_f - 32)$$
 
 ```python
 def temp_convert(tf):
@@ -177,7 +249,7 @@ Para verificar tu función, puedes usar las siguientes pruebas:
 | temp_convert(59) | 15 |
 | temp_convert(32) | 0 |
 
-2. Crea una función llamada **contabilidad** que tome una lista `pagos` con los 
+1. Crea una función llamada **contabilidad** que tome una lista `pagos` con los 
 pagos del mes y una variable `ingresos` que indica el total de ingresos del mes 
 como argumentos. La función deberá **regresar** el dinero que queda disponible.
 

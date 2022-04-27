@@ -1,11 +1,9 @@
 +++
 title = "6. Análisis estadístico"
-description = "Pruebas de hipótesis y regresiones usando SciPy"
+description = "Pruebas de hipótesis y regresiones usando SciPy y statsmodels"
 disabletoc = false
 weight = 6
 +++
-
-## Ejercicios
 
 ## Datos
 
@@ -17,4 +15,4 @@ Para los ejercicios de este tema, usaremos los siguientes archivos:
 
 ### Prueba de hipótesis
 
-## Tarea
+## Ejercicios

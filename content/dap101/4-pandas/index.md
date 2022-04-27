@@ -5,22 +5,19 @@ disabletoc = false
 weight = 4
 +++
 
-## Ejercicios
-
 ## Datos
 
 Para los ejercicios de este tema, usaremos los siguientes archivos:
 
 {{% attachments title="Archivos" pattern=".*csv"/%}}
 
-### Introducción
+## Introducción
 
 1. Creamos un Jupyter notebook como `pandas.ipynb` y creamos un cuadro con 
 código. Analizaremos el archivo `inah_visitantes_2022.csv`.
 
-Este archivo es especial por la presencia de tildes y porque usa , para separar
-miles. Esto se puede hacer usando las keywords `encoding` y `thousands`, 
-respectivamente. 
+Este archivo es especial porque usa , para separar miles. Esto se puede hacer 
+usando la keywords `thousands`. 
 
 ```python
 import pandas as pd
@@ -30,7 +27,7 @@ import os # interfaces de sistemas operativos
 path = os.path.join(os.getcwd(), "inah_visitantes_2022.csv")
 
 # Método read_csv() para leer el CSV y procesarlo como dataframe
-inah_visitantes2022 = pd.read_csv(path, thousands = ",", encoding = "latin-1")
+inah_visitantes2022 = pd.read_csv(path, thousands = ",")
 
 # Miramos lo que contiene el dataframe
 inah_visitantes2022
@@ -40,10 +37,21 @@ inah_visitantes2022
 # ver solo las primeras n filas
 inah_visitantes2022.head(5)
 ```
+### Resumen general
 
-#### Dimensiones
+El método `info` muestra información general del DataFrame como el tipo de datos
+por columna, conteo de valores no nulos y uso de memoria.
 
-Para inspeccionar las dimensiones de los datos importados, usamos el método `shape`
+```python
+# Informacion general
+inah_visitantes2022.info()
+```
+
+### Dimensiones
+
+Para inspeccionar las dimensiones de los datos importados, usamos el método 
+`shape`
+
 ```python
 # Dimensiones
 inah_visitantes2022.shape
@@ -52,7 +60,8 @@ inah_visitantes2022.shape
 Esto nos devuelve una tupla (277, 10) que contiene el numero de (filas, columnas)
 que tienen estos datos. 
 
-#### Columnas
+### Columnas
+
 Para inspeccionar el nombre de las columnas, usamos el método `columns`
 
 ```python
@@ -62,14 +71,14 @@ inah_visitantes2022.columns
 
 ### Ordenar datos
 
-1. Ordenar por una columna, en orden ascendente
+Ordenar por una columna, en orden ascendente.
 
 ```python
 # Ordenar por una sola columna, "enero_nac". ascending = True por defecto
 inah_visitantes2022.sort_values(by=['enero_nac'])
 ```
 
-2. Ordenar por dos columnas, en orden descendente
+Ordenar por dos columnas, en orden descendente.
 
 ```python
 # Ordenar por "enero_nac, febrero_nac" en orden descendente
@@ -100,9 +109,10 @@ centros_inah
 enero_nac = inah_visitantes2022["enero_nac"].to_list()
 ```
 
-### Estadística descriptiva
+## Estadística descriptiva
 
-#### DataFrame
+### DataFrame
+
 Accedemos a las medidas descriptivas de los datos usando el método describe()
 - Conteo
 - Media
@@ -118,7 +128,7 @@ Accedemos a las medidas descriptivas de los datos usando el método describe()
 inah_visitantes2022.describe()
 ```
 
-#### Serie
+### Serie
 
 Para una serie con valores numéricos, se reportan las mismas medidas que en un
 DataFrame. Pero para una serie con valores de texto, se reportan:
@@ -133,9 +143,9 @@ DataFrame. Pero para una serie con valores de texto, se reportan:
 inah_visitantes2022["Estado"].describe()
 ```
 
-### Selección de datos
+## Selección de datos
 
-#### Condicionales
+### Condicionales
 
 1. Una condición
 
@@ -206,7 +216,7 @@ ejemplo 2, o usando query:
 inah_visitantes2022.query('Estado == "Guerrero" & enero_nac >= 1000')
 ```
 
-#### Ver valores por su label, o utilizando con condiciones, .loc[ ]
+### Ver valores por su label, o utilizando con condiciones, .loc
 
 ```python
 # Vistas por condiciones. Tambien se pueden definir cuantas columnas mostrar
@@ -228,7 +238,7 @@ df_label = pd.DataFrame([[1, 2], [4, 5], [7, 8]],
 df_label.loc["cobra"]
 ```
 
-#### Ver valores por índices, .iloc[ ]
+### Ver valores por índices, .iloc
 
 ```python
 # Sintaxis general
@@ -272,7 +282,7 @@ inah_visitantes2022.iloc[0:3]
 inah_visitantes2022.iloc[0:2,0:3]
 ```
 
-### Agrupación de datos
+## Agrupación de datos
 
 ```python
 # Sintaxis
@@ -294,8 +304,19 @@ La funcion puede ser:
 inah_visitantes2022.groupby(by = "Estado").sum()
 ```
 
+## Remodelación usando "Melt"
 
-## Tarea
+A veces necesitaremos de "masajear" un DataFrame para convertir de un formato
+ancho a un formato largo. Es de utilidad cuando se tienen una o más columnas que
+pueden ser usadas como identificadores, y las demás columnas como valores.
+
+```python
+# Remodelando el df
+pd.melt(inah_visitantes2022)
+```
+
+
+## Ejercicios
 
 Usando los datos en `estudiantes_mxuk2021.csv`, realizar los siguientes 
 ejercicios. Puedes utilizar un jupyter notebook.

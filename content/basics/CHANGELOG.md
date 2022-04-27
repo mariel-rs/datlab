@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.0.5 (2022-04-27)
+
+### Actualización a _Análisis de datos en Python_
+
+- Creación de ejercicios del tema _Visualizaciones_
+
+### Soporte a MathJax
+
+- Ahora el sitio soporta MathJax para escribir ecuaciones :)
+
 ## 0.0.4 (2022-04-26)
 
 ### Actualización a _Análisis de datos en Python_

@@ -1,278 +1,278 @@
-Estado,Clave SIINAH,Tipo,Centro INAH,enero_nac,enero_ext,febrero_nac,febrero_ext,marzo_nac,marzo_ext
-Aguascalientes,2300100,M.- M.H,Museo Regional de Historia de Aguascalientes,496,23,183,10,943,41
-Baja California,2400100,M.- M.H,"Museo HistÛrico Regional, Ex Cuartel de la CompaÒÌa Fija",0,0,0,0,0,0
-Baja California,3120040,Z.A.,Z.A. de El Vallecito,"1,323",7,"1,148",12,"1,074",25
-Baja California Sur,2300200,M.- M.H,Museo Regional de AntropologÌa e Historia de Baja California Sur,299,226,384,341,497,367
-Baja California Sur,2400200,M.- M.H,Museo de Las Misiones JesuÌticas,239,70,552,131,744,249
-Baja California Sur,2400300,M.- M.H,Museo de las Pinturas Rupestres de San Ignacio,0,0,57,29,18,0
-Baja California Sur,4100016,M.- M.H,MisiÛn de San Francisco Javier,"1,261",568,"1,143","1,060",974,"1,010"
-Baja California Sur,3120007,Z.A.,Z.A. de San Francisco de la Sierra,0,0,275,47,22,0
-Campeche,2400500,M.- M.H,"Museo de Arquitectura Maya, Baluarte de la Soledad",0,0,0,0,0,0
-Campeche,2400400,M.- M.H,Museo de ArqueologÌa Maya Fuerte de San Miguel,"4,022",494,"2,681",505,"3,241",520
-Campeche,2400600,M.- M.H,Museo de ArqueologÌa Maya del Camino Real de Hecelchak·n,238,6,220,19,285,6
-Campeche,2400700,M.- M.H,Museo de ArqueologÌa Subacu·tica Fuerte de San JosÈ El Alto,"2,535",182,"1,688",161,"1,938",174
-Campeche,3120005,Z.A.,Z.A. de Balamk˙,264,312,209,333,245,388
-Campeche,3110002,Z.A.,Z.A. de Bec·n,737,866,428,994,627,"1,025"
-Campeche,3120008,Z.A.,Z.A. de Calakmul,"2,163","3,061","1,293","3,361","1,517","2,935"
-Campeche,3120017,Z.A.,Z.A. de Chicann·,257,372,133,486,309,479
-Campeche,3120020,Z.A.,Z.A. de Chunhuhub,82,24,67,2,77,11
-Campeche,3110011,Z.A.,Z.A. de Dzibilnocac,520,6,357,6,383,15
-Campeche,3110012,Z.A.,Z.A. de Edzn·,"3,527","1,121","2,628",901,"2,837",919
-Campeche,3110017,Z.A.,Z.A. de El Tigre,510,14,213,5,295,5
-Campeche,3120042,Z.A.,Z.A. de Hochob,168,41,80,33,208,20
-Campeche,3120043,Z.A.,Z.A. de Hormiguero,255,150,182,155,212,145
-Campeche,3120058,Z.A.,Z.A. de KankÌ,68,14,86,1,38,0
-Campeche,3120096,Z.A.,Z.A. de Santa Rosa Xtampak,197,29,78,23,164,7
-Campeche,3120118,Z.A.,Z.A. de Tohcok,120,23,107,0,149,12
-Campeche,3120125,Z.A.,Z.A. de XcalumkÌn,143,12,99,3,143,5
-Campeche,3110041,Z.A.,Z.A. de Xpuhil,653,448,422,364,619,359
-Campeche,3120098,Z.A.,Z.A. de TabasqueÒo,0,0,0,0,0,0
-Chiapas,2300500,M.- M.H,Museo Regional de Chiapas,287,14,377,27,"1,366",43
-Chiapas,2401000,M.- M.H,Museo de los Altos de Chiapas,"1,319",460,"1,331",0,"1,639",512
-Chiapas,2400900,M.- M.H,Museo ArqueolÛgico del Soconusco,0,0,0,0,0,0
-Chiapas,2400800,M.- M.H,Museo ArqueolÛgico de Comit·n,257,45,188,44,158,25
-Chiapas,3110004,Z.A.,Z.A. de Bonampak,"1,455",649,"1,497",801,"2,089",898
-Chiapas,3120019,Z.A.,Z.A. de Chincultic,"1,992",88,373,145,667,62
-Chiapas,3110018,Z.A.,Z.A. de Izapa,"1,270",145,156,35,163,47
-Chiapas,3110026,Z.A.,"Z.A. de Palenque con museo ""Alberto Ruz L¥Huiller""","31,865","5,133","13,283","6,219","18,844","6,183"
-Chiapas,3120103,Z.A.,Z.A. de Tenam Puente,0,0,0,0,0,0
-Chiapas,3110035,Z.A.,Z.A. de Tonin· con museo de sitio,"3,205",339,"1,585",273,"3,004",321
-Chiapas,3110044,Z.A.,Z.A. de Yaxchil·n,"2,578",612,"1,721","1,271","2,392","1,162"
-Chiapas,3220004,Z.A.,Z.A. de Chiapa de Corzo,258,43,129,23,296,23
-Chiapas,3220028,Z.A.,Z.A de Lagartero,0,0,0,0,0,0
-Chiapas,3120134,Z.A.,Z.A. de Iglesia Vieja,412,15,265,5,420,20
-Chihuahua,2401100,M.- M.H,Museo de la RevoluciÛn en la Frontera,0,0,0,0,0,0
-Chihuahua,3110028,Z.A.,Z.A. de PaquimÈ con Museo de las Culturas del Norte,161,51,"1,005",0,"2,265",209
-Chihuahua,3110010,Z.A.,Z.A. de Cuarenta Casas,216,0,91,1,276,5
-Chihuahua,3120027,Z.A.,Z.A. de Cueva de la Olla,956,31,678,21,"2,371",67
-Chihuahua,3120028,Z.A.,Z.A. de Cueva Grande,0,0,0,0,26,0
-Chihuahua,3120049,Z.A.,Z.A. de Huapoca,2,0,0,0,5,0
-Ciudad de MÈxico,2100100,M.- M.H,Museo Nacional de AntropologÌa,"42,359","14,177","55,613","18,119","81,161","27,961"
-Ciudad de MÈxico,2100200,M.- M.H,Museo Nacional de Historia,"39,219","10,961","33,484","5,614","50,784","6,457"
-Ciudad de MÈxico,2100300,M.- M.H,Museo Nacional de las Culturas,"7,563",606,"7,909",592,"9,294",699
-Ciudad de MÈxico,2100400,M.- M.H,Museo Nacional de las Intervenciones,"1,204",49,"1,610",45,"5,071",80
-Ciudad de MÈxico,2600100,M.- M.H,Museo Casa Carranza,291,12,394,3,522,9
-Ciudad de MÈxico,2200200,M.- M.H,Museo de El Carmen,722,13,726,0,"2,085",10
-Ciudad de MÈxico,2200100,M.- M.H,GalerÌa de Historia,772,37,126,8,952,7
-Ciudad de MÈxico,2500500,M.- M.H,Museo del Templo Mayor,"10,815","3,595","11,114","4,783","27,487","10,253"
-Ciudad de MÈxico,2700100,M.- M.H,"Centro Comunitario Culhuac·n, Ex Convento de San Juan Evangelista",298,0,545,0,"1,590",3
-Ciudad de MÈxico,3120013,Z.A.,Z.A. de Cerro de la Estrella,"3,037",0,"3,639",0,"10,171",0
-Ciudad de MÈxico,3120029,Z.A.,Z.A. de Cuicuilco con museo de sitio,"1,943",222,"2,136",187,"4,890",307
-Ciudad de MÈxico,3120116,Z.A.,Z.A. de Tlatelolco con museo de sitio,"1,598",463,472,267,"1,303",0
-Ciudad de MÈxico,,Z.A.,Z. A. de Mixcoac,200,0,255,0,458,0
-Coahuila,2300300,M.- M.H,Museo Regional de la Laguna,0,0,717,2,"3,196",0
-Colima,2300400,M.- M.H,Museo Regional de Historia de Colima,165,3,313,4,356,8
-Colima,3120035,Z.A.,Z.A. de El Chanal,246,1,501,7,552,6
-Colima,3120059,Z.A.,Z.A. de La Campana,392,6,779,17,917,8
-Durango,3110020,Z.A.,Z.A. de La FerrerÌa con museo de sitio,311,14,231,2,702,5
-Estado de MÈxico,2100500,M.- M.H,Museo Nacional del Virreinato,"1,228",30,"2,424",56,"3,596",165
-Estado de MÈxico,2501000,M.- M.H,Museo PrehistÛrico de Tepexpan,0,0,0,0,0,0
-Estado de MÈxico,2600200,M.- M.H,Museo Virreinal de Acolman,0,0,0,0,0,0
-Estado de MÈxico,2700200,M.- M.H,Centro Comunitario Ecatepec Casa de Morelos,74,0,168,0,221,0
-Estado de MÈxico,2500800,M.- M.H,Museo de Murales Teotihuacanos Beatriz de la Fuente,807,0,433,426,718,607
-Estado de MÈxico,4100007,M.- M.H,Ex-Convento de Oxtotipac,0,0,0,0,0,0
-Estado de MÈxico,4100002,M.- M.H,Capilla Abierta del Templo de Calimaya,0,0,0,0,0,0
-Estado de MÈxico,4100001,M.- M.H,Capilla Abierta de Tlalmanalco,0,0,0,0,0,0
-Estado de MÈxico,3110001,Z.A.,Z.A. de Acozac,0,0,0,0,"6,472",0
-Estado de MÈxico,3110006,Z.A.,Z.A. de Calixtlahuaca,0,0,656,0,"13,890",4
-Estado de MÈxico,3120018,Z.A.,Z.A. de Chimalhuac·n con museo de sitio,0,0,0,0,0,0
-Estado de MÈxico,3110014,Z.A.,Z.A. de El Conde,0,0,0,0,289,0
-Estado de MÈxico,3120050,Z.A.,Z.A. de Huexotla,0,0,0,0,0,0
-Estado de MÈxico,3120072,Z.A.,Z.A. de Los Melones,0,0,5,0,60,0
-Estado de MÈxico,3120073,Z.A.,Z.A. de Los Reyes La Paz,0,0,0,0,0,0
-Estado de MÈxico,3120075,Z.A.,Z.A. de Malinalco,"13,097",222,"8,092",184,"14,685",208
-Estado de MÈxico,3120095,Z.A.,"Z.A. de Santa Cecilia Acatitla con museo de la Escultura Mexica ""Eusebio D·valos Hurtado""",0,0,0,0,0,0
-Estado de MÈxico,3120104,Z.A.,Z.A. de Tenayuca I con museo XÛlotl,0,0,0,0,"1,162",0
-Estado de MÈxico,3120129,Z.A.,Z.A. de Tenayuca II,0,0,0,0,0,0
-Estado de MÈxico,3110031,Z.A.,Z. A. Teotihuacan (con Museo de Sitio),"84,892","39,520","82,875","37,214","170,541","43,137"
-Estado de MÈxico,3110032,Z.A.,Z.A. de Tetzcotzinco,0,0,0,0,"5,282",0
-Estado de MÈxico,3120115,Z.A.,Z.A. de Tlapacoya,0,0,0,0,198,0
-Estado de MÈxico,3120044,Z.A.,Z.A. de Huamango,0,0,0,0,0,0
-Estado de MÈxico,3120081,Z.A.,Z.A. de Ocoyoacac,0,0,0,0,0,0
-Estado de MÈxico,3120094,Z.A.,Z.A. de San Miguel Ixtapan,0,0,0,0,0,0
-Estado de MÈxico,3120108,Z.A.,Z.A. de Teotenango,0,0,0,0,0,0
-Guanajuato,2300600,M.- M.H,Museo Regional de Guanajuato AlhÛndiga de Granaditas,"7,394",799,"7,019",803,"7,696","1,001"
-Guanajuato,2401300,M.- M.H,Museo Casa del Dr. JosÈ MarÌa Luis Mora,0,0,0,0,0,0
-Guanajuato,2401400,M.- M.H,Museo Ex Convento Agustino de San Pablo,0,0,0,0,0,0
-Guanajuato,2401200,M.- M.H,"Museo Casa de Hidalgo ""La Francia Chiquita""",0,0,0,0,0,0
-Guanajuato,2401500,M.- M.H,Museo HistÛrico de San Miguel de Allende,"2,779",96,"3,283",193,"4,642",272
-Guanajuato,2600300,M.- M.H,Casa de Hidalgo,672,69,642,62,866,94
-Guanajuato,4100004,M.- M.H,Ex-Convento Agustino de Fray Juan de Sahag˙n,0,0,0,0,0,0
-Guanajuato,3120085,Z.A.,Z.A. de Plazuelas,"1,096",67,703,16,"1,017",28
-Guanajuato,3220023,Z.A.,Z.A. de Peralta,"1,213",38,816,33,"1,117",41
-Guanajuato,3220022,Z.A.,Z.A. de CaÒada de la Virgen,"1,222",420,"1,044",596,"1,664",833
-Guanajuato,3120133,Z.A.,Z.A El CÛporo,570,0,447,0,853,0
+Estado,Clave_SIINAH,Tipo,Centro_INAH,enero_nac,enero_ext,febrero_nac,febrero_ext,marzo_nac,marzo_ext
+Aguascalientes,2300100.0,M.- M.H,Museo Regional de Historia de Aguascalientes,496,23,183,10,943,41
+Baja California,2400100.0,M.- M.H,"Museo Hist√≥rico Regional, Ex Cuartel de la Compa√±√≠a Fija",0,0,0,0,0,0
+Baja California,3120040.0,Z.A.,Z.A. de El Vallecito,1323,7,1148,12,1074,25
+Baja California Sur,2300200.0,M.- M.H,Museo Regional de Antropolog√≠a e Historia de Baja California Sur,299,226,384,341,497,367
+Baja California Sur,2400200.0,M.- M.H,Museo de Las Misiones Jesu√≠ticas,239,70,552,131,744,249
+Baja California Sur,2400300.0,M.- M.H,Museo de las Pinturas Rupestres de San Ignacio,0,0,57,29,18,0
+Baja California Sur,4100016.0,M.- M.H,Misi√≥n de San Francisco Javier,1261,568,1143,1060,974,1010
+Baja California Sur,3120007.0,Z.A.,Z.A. de San Francisco de la Sierra,0,0,275,47,22,0
+Campeche,2400500.0,M.- M.H,"Museo de Arquitectura Maya, Baluarte de la Soledad",0,0,0,0,0,0
+Campeche,2400400.0,M.- M.H,Museo de Arqueolog√≠a Maya Fuerte de San Miguel,4022,494,2681,505,3241,520
+Campeche,2400600.0,M.- M.H,Museo de Arqueolog√≠a Maya del Camino Real de Hecelchak√°n,238,6,220,19,285,6
+Campeche,2400700.0,M.- M.H,Museo de Arqueolog√≠a Subacu√°tica Fuerte de San Jos√© El Alto,2535,182,1688,161,1938,174
+Campeche,3120005.0,Z.A.,Z.A. de Balamk√∫,264,312,209,333,245,388
+Campeche,3110002.0,Z.A.,Z.A. de Bec√°n,737,866,428,994,627,1025
+Campeche,3120008.0,Z.A.,Z.A. de Calakmul,2163,3061,1293,3361,1517,2935
+Campeche,3120017.0,Z.A.,Z.A. de Chicann√°,257,372,133,486,309,479
+Campeche,3120020.0,Z.A.,Z.A. de Chunhuhub,82,24,67,2,77,11
+Campeche,3110011.0,Z.A.,Z.A. de Dzibilnocac,520,6,357,6,383,15
+Campeche,3110012.0,Z.A.,Z.A. de Edzn√°,3527,1121,2628,901,2837,919
+Campeche,3110017.0,Z.A.,Z.A. de El Tigre,510,14,213,5,295,5
+Campeche,3120042.0,Z.A.,Z.A. de Hochob,168,41,80,33,208,20
+Campeche,3120043.0,Z.A.,Z.A. de Hormiguero,255,150,182,155,212,145
+Campeche,3120058.0,Z.A.,Z.A. de Kank√≠,68,14,86,1,38,0
+Campeche,3120096.0,Z.A.,Z.A. de Santa Rosa Xtampak,197,29,78,23,164,7
+Campeche,3120118.0,Z.A.,Z.A. de Tohcok,120,23,107,0,149,12
+Campeche,3120125.0,Z.A.,Z.A. de Xcalumk√≠n,143,12,99,3,143,5
+Campeche,3110041.0,Z.A.,Z.A. de Xpuhil,653,448,422,364,619,359
+Campeche,3120098.0,Z.A.,Z.A. de Tabasque√±o,0,0,0,0,0,0
+Chiapas,2300500.0,M.- M.H,Museo Regional de Chiapas,287,14,377,27,1366,43
+Chiapas,2401000.0,M.- M.H,Museo de los Altos de Chiapas,1319,460,1331,0,1639,512
+Chiapas,2400900.0,M.- M.H,Museo Arqueol√≥gico del Soconusco,0,0,0,0,0,0
+Chiapas,2400800.0,M.- M.H,Museo Arqueol√≥gico de Comit√°n,257,45,188,44,158,25
+Chiapas,3110004.0,Z.A.,Z.A. de Bonampak,1455,649,1497,801,2089,898
+Chiapas,3120019.0,Z.A.,Z.A. de Chincultic,1992,88,373,145,667,62
+Chiapas,3110018.0,Z.A.,Z.A. de Izapa,1270,145,156,35,163,47
+Chiapas,3110026.0,Z.A.,"Z.A. de Palenque con museo ""Alberto Ruz L¬¥Huiller""",31865,5133,13283,6219,18844,6183
+Chiapas,3120103.0,Z.A.,Z.A. de Tenam Puente,0,0,0,0,0,0
+Chiapas,3110035.0,Z.A.,Z.A. de Tonin√° con museo de sitio,3205,339,1585,273,3004,321
+Chiapas,3110044.0,Z.A.,Z.A. de Yaxchil√°n,2578,612,1721,1271,2392,1162
+Chiapas,3220004.0,Z.A.,Z.A. de Chiapa de Corzo,258,43,129,23,296,23
+Chiapas,3220028.0,Z.A.,Z.A de Lagartero,0,0,0,0,0,0
+Chiapas,3120134.0,Z.A.,Z.A. de Iglesia Vieja,412,15,265,5,420,20
+Chihuahua,2401100.0,M.- M.H,Museo de la Revoluci√≥n en la Frontera,0,0,0,0,0,0
+Chihuahua,3110028.0,Z.A.,Z.A. de Paquim√© con Museo de las Culturas del Norte,161,51,1005,0,2265,209
+Chihuahua,3110010.0,Z.A.,Z.A. de Cuarenta Casas,216,0,91,1,276,5
+Chihuahua,3120027.0,Z.A.,Z.A. de Cueva de la Olla,956,31,678,21,2371,67
+Chihuahua,3120028.0,Z.A.,Z.A. de Cueva Grande,0,0,0,0,26,0
+Chihuahua,3120049.0,Z.A.,Z.A. de Huapoca,2,0,0,0,5,0
+Ciudad de M√©xico,2100100.0,M.- M.H,Museo Nacional de Antropolog√≠a,42359,14177,55613,18119,81161,27961
+Ciudad de M√©xico,2100200.0,M.- M.H,Museo Nacional de Historia,39219,10961,33484,5614,50784,6457
+Ciudad de M√©xico,2100300.0,M.- M.H,Museo Nacional de las Culturas,7563,606,7909,592,9294,699
+Ciudad de M√©xico,2100400.0,M.- M.H,Museo Nacional de las Intervenciones,1204,49,1610,45,5071,80
+Ciudad de M√©xico,2600100.0,M.- M.H,Museo Casa Carranza,291,12,394,3,522,9
+Ciudad de M√©xico,2200200.0,M.- M.H,Museo de El Carmen,722,13,726,0,2085,10
+Ciudad de M√©xico,2200100.0,M.- M.H,Galer√≠a de Historia,772,37,126,8,952,7
+Ciudad de M√©xico,2500500.0,M.- M.H,Museo del Templo Mayor,10815,3595,11114,4783,27487,10253
+Ciudad de M√©xico,2700100.0,M.- M.H,"Centro Comunitario Culhuac√°n, Ex Convento de San Juan Evangelista",298,0,545,0,1590,3
+Ciudad de M√©xico,3120013.0,Z.A.,Z.A. de Cerro de la Estrella,3037,0,3639,0,10171,0
+Ciudad de M√©xico,3120029.0,Z.A.,Z.A. de Cuicuilco con museo de sitio,1943,222,2136,187,4890,307
+Ciudad de M√©xico,3120116.0,Z.A.,Z.A. de Tlatelolco con museo de sitio,1598,463,472,267,1303,0
+Ciudad de M√©xico,,Z.A.,Z. A. de Mixcoac,200,0,255,0,458,0
+Coahuila,2300300.0,M.- M.H,Museo Regional de la Laguna,0,0,717,2,3196,0
+Colima,2300400.0,M.- M.H,Museo Regional de Historia de Colima,165,3,313,4,356,8
+Colima,3120035.0,Z.A.,Z.A. de El Chanal,246,1,501,7,552,6
+Colima,3120059.0,Z.A.,Z.A. de La Campana,392,6,779,17,917,8
+Durango,3110020.0,Z.A.,Z.A. de La Ferrer√≠a con museo de sitio,311,14,231,2,702,5
+Estado de M√©xico,2100500.0,M.- M.H,Museo Nacional del Virreinato,1228,30,2424,56,3596,165
+Estado de M√©xico,2501000.0,M.- M.H,Museo Prehist√≥rico de Tepexpan,0,0,0,0,0,0
+Estado de M√©xico,2600200.0,M.- M.H,Museo Virreinal de Acolman,0,0,0,0,0,0
+Estado de M√©xico,2700200.0,M.- M.H,Centro Comunitario Ecatepec Casa de Morelos,74,0,168,0,221,0
+Estado de M√©xico,2500800.0,M.- M.H,Museo de Murales Teotihuacanos Beatriz de la Fuente,807,0,433,426,718,607
+Estado de M√©xico,4100007.0,M.- M.H,Ex-Convento de Oxtotipac,0,0,0,0,0,0
+Estado de M√©xico,4100002.0,M.- M.H,Capilla Abierta del Templo de Calimaya,0,0,0,0,0,0
+Estado de M√©xico,4100001.0,M.- M.H,Capilla Abierta de Tlalmanalco,0,0,0,0,0,0
+Estado de M√©xico,3110001.0,Z.A.,Z.A. de Acozac,0,0,0,0,6472,0
+Estado de M√©xico,3110006.0,Z.A.,Z.A. de Calixtlahuaca,0,0,656,0,13890,4
+Estado de M√©xico,3120018.0,Z.A.,Z.A. de Chimalhuac√°n con museo de sitio,0,0,0,0,0,0
+Estado de M√©xico,3110014.0,Z.A.,Z.A. de El Conde,0,0,0,0,289,0
+Estado de M√©xico,3120050.0,Z.A.,Z.A. de Huexotla,0,0,0,0,0,0
+Estado de M√©xico,3120072.0,Z.A.,Z.A. de Los Melones,0,0,5,0,60,0
+Estado de M√©xico,3120073.0,Z.A.,Z.A. de Los Reyes La Paz,0,0,0,0,0,0
+Estado de M√©xico,3120075.0,Z.A.,Z.A. de Malinalco,13097,222,8092,184,14685,208
+Estado de M√©xico,3120095.0,Z.A.,"Z.A. de Santa Cecilia Acatitla con museo de la Escultura Mexica ""Eusebio D√°valos Hurtado""",0,0,0,0,0,0
+Estado de M√©xico,3120104.0,Z.A.,Z.A. de Tenayuca I con museo X√≥lotl,0,0,0,0,1162,0
+Estado de M√©xico,3120129.0,Z.A.,Z.A. de Tenayuca II,0,0,0,0,0,0
+Estado de M√©xico,3110031.0,Z.A.,Z. A. Teotihuacan (con Museo de Sitio),84892,39520,82875,37214,170541,43137
+Estado de M√©xico,3110032.0,Z.A.,Z.A. de Tetzcotzinco,0,0,0,0,5282,0
+Estado de M√©xico,3120115.0,Z.A.,Z.A. de Tlapacoya,0,0,0,0,198,0
+Estado de M√©xico,3120044.0,Z.A.,Z.A. de Huamango,0,0,0,0,0,0
+Estado de M√©xico,3120081.0,Z.A.,Z.A. de Ocoyoacac,0,0,0,0,0,0
+Estado de M√©xico,3120094.0,Z.A.,Z.A. de San Miguel Ixtapan,0,0,0,0,0,0
+Estado de M√©xico,3120108.0,Z.A.,Z.A. de Teotenango,0,0,0,0,0,0
+Guanajuato,2300600.0,M.- M.H,Museo Regional de Guanajuato Alh√≥ndiga de Granaditas,7394,799,7019,803,7696,1001
+Guanajuato,2401300.0,M.- M.H,Museo Casa del Dr. Jos√© Mar√≠a Luis Mora,0,0,0,0,0,0
+Guanajuato,2401400.0,M.- M.H,Museo Ex Convento Agustino de San Pablo,0,0,0,0,0,0
+Guanajuato,2401200.0,M.- M.H,"Museo Casa de Hidalgo ""La Francia Chiquita""",0,0,0,0,0,0
+Guanajuato,2401500.0,M.- M.H,Museo Hist√≥rico de San Miguel de Allende,2779,96,3283,193,4642,272
+Guanajuato,2600300.0,M.- M.H,Casa de Hidalgo,672,69,642,62,866,94
+Guanajuato,4100004.0,M.- M.H,Ex-Convento Agustino de Fray Juan de Sahag√∫n,0,0,0,0,0,0
+Guanajuato,3120085.0,Z.A.,Z.A. de Plazuelas,1096,67,703,16,1017,28
+Guanajuato,3220023.0,Z.A.,Z.A. de Peralta,1213,38,816,33,1117,41
+Guanajuato,3220022.0,Z.A.,Z.A. de Ca√±ada de la Virgen,1222,420,1044,596,1664,833
+Guanajuato,3120133.0,Z.A.,Z.A El C√≥poro,570,0,447,0,853,0
 Guanajuato,,Z.A.,Z.A. Arroyo Seco,174,9,229,0,395,29
-Guerrero,2300700,M.- M.H,Museo Regional de Guerrero,"1,786",6,"1,460",4,"2,449",6
-Guerrero,2401700,M.- M.H,Museo Guillermo Spratling,17,0,23,1,78,0
-Guerrero,2401800,M.- M.H,"Museo HistÛrico de Acapulco, Fuerte de San Diego",0,0,0,0,0,0
-Guerrero,3120046,Z.A.,Z.A. de Huamuxtitl·n,0,0,0,0,85,0
-Guerrero,3120053,Z.A.,Z.A. de Ixcateopan,51,1,671,2,299,2
-Guerrero,3110021,Z.A.,Z.A. de La Organera Xochipala,64,0,50,0,"1,226",0
-Guerrero,3120062,Z.A.,Z.A. de La Sabana,0,0,5,0,16,0
-Guerrero,3120026,Z.A.,Z.A. de Cuetlajuchitl·n (Los Querende),25,0,16,0,17,0
-Guerrero,3110027,Z.A.,Z.A. de Palma Sola,129,0,79,2,64,4
-Guerrero,3120106,Z.A.,Z.A. de Teopantecuanitl·n,53,0,40,0,78,0
-Guerrero,3220027,Z.A.,Z.A. de Tehuacalco,469,18,345,22,"1,128",18
-Guerrero,3120132,Z.A.,Z. A. Soledad de Maciel,310,210,196,284,363,289
-Hidalgo,2401900,M.- M.H,Museo de Actopan,520,0,405,0,937,21
-Hidalgo,2402000,M.- M.H,Museo de la FotografÌa,450,44,638,19,989,34
-Hidalgo,2402100,M.- M.H,Museo Tepeapulco,578,6,551,0,595,4
-Hidalgo,4100008,M.- M.H,Ex - convento de San AndrÈs Epazoyucan,541,0,411,1,497,2
-Hidalgo,3120048,Z.A.,Z.A. de Huapalcalco,"1,035",35,900,20,"2,850",150
-Hidalgo,3120110,Z.A.,Z.A. de Tepeapulco,"1,281",7,"1,217",10,"5,606",19
-Hidalgo,3110036,Z.A.,Z.A. de Tula con museo de sitio,"9,443",346,"7,456",282,"29,669",391
-Hidalgo,3120136,Z.A.,Z.A PahÒ˙,"1,028",8,688,12,941,14
-Jalisco,2300800,M.- M.H,Museo Regional de Guadalajara,746,86,"1,570",159,"3,185",161
-Jalisco,2402200,M.- M.H,Museo ArqueolÛgico de Ciudad Guzm·n,0,0,0,0,0,0
-Jalisco,2402400,M.- M.H,Museo del Cuale,0,0,0,0,0,0
-Jalisco,2402300,M.- M.H,"Museo ""Casa AgustÌn Rivera""",0,0,0,0,0,0
-Jalisco,3120054,Z.A.,Z.A. de IxtÈpete,0,0,0,0,0,0
-Jalisco,3120113,Z.A.,Z.A. de Teuchitl·n,"2,868",406,"11,362",736,"13,839",750
-Michoac·n,2300900,M.- M.H,"Museo Regional Michoacano ""Dr. Nicol·s LeÛn CalderÛn""",241,44,273,25,611,38
-Michoac·n,2402500,M.- M.H,Museo de Artes y Oficios de P·tzcuaro,147,16,172,56,472,58
-Michoac·n,2600400,M.- M.H,Museo Casa de Morelos,149,9,106,17,372,21
-Michoac·n,2402600,M.- M.H,Museo de la Estampa Ex Convento de Santa MarÌa Magdalena,212,0,210,2,484,12
-Michoac·n,4100015,M.- M.H,Templo de Tup·taro,83,0,71,0,85,0
-Michoac·n,3120047,Z.A.,Z.A. de Huandacareo,12,0,34,0,105,0
-Michoac·n,3120052,Z.A.,Z.A. de Ihuatzio,156,0,142,0,"1,044",20
-Michoac·n,3120091,Z.A.,Z.A. de San Felipe los Alzati,0,0,85,0,649,0
-Michoac·n,3120114,Z.A.,Z.A. de Tingambato,"1,026",0,452,11,"2,032",12
-Michoac·n,3120119,Z.A.,Z.A. de Tres Cerritos,0,0,0,0,0,0
-Michoac·n,3120121,Z.A.,Z.A. de Tzintzuntzan con museo de sitio,"1,415",0,"1,937",60,"5,126",89
-Morelos,2301000,M.- M.H,Museo Regional Cuauhn·huac,0,0,0,0,0,0
-Morelos,2402800,M.- M.H,"Museo HistÛrico del Oriente de Morelos ""Casa de Morelos""",218,0,218,0,268,0
-Morelos,2402700,M.- M.H,JardÌn Etnobot·nico y Museo de Medicina Tradicional y Herbolaria,439,25,637,22,957,15
-Morelos,2700300,M.- M.H,Museo y Centro de DocumentaciÛn HistÛrica Ex Convento de Tepoztl·n,"1,509",89,"2,388",141,"2,013",161
-Morelos,3110007,Z.A.,Z.A. de Chalcatzingo,"2,662",15,"1,861",19,"2,449",17
-Morelos,3110040,Z.A.,Z.A. de Xochicalco con museo de sitio,"5,558",350,"2,517",274,"6,934",411
-Morelos,3120021,Z.A.,Z.A. de Coatetelco con museo de sitio,44,0,9,0,154,0
-Morelos,3120069,Z.A.,Z.A. de Las Pilas,54,0,30,0,90,0
-Morelos,3120112,Z.A.,Z.A. de Tepozteco,0,0,0,0,0,0
-Morelos,3120107,Z.A.,Z.A. de Teopanzolco,372,11,398,20,850,61
-Morelos,3110043,Z.A.,Z.A. de Yautepec,172,0,97,0,243,0
-Nayarit,2301100,M.- M.H,Museo Regional de Nayarit,324,0,279,25,535,36
-Nayarit,2402900,M.- M.H,Museo Local de AntropologÌa e Historia de Compostela,116,17,94,9,193,35
-Nayarit,3120055,Z.A.,Z.A. de Ixtl·n del RÌo,124,2,246,10,536,22
-Nuevo LeÛn,2301200,M.- M.H,"Museo Regional de Nuevo LeÛn ""Ex Obispado""",112,18,539,9,"2,339",24
-Nuevo LeÛn,3110003,Z.A.,Z.A. de Boca de Potrerillos,67,0,204,4,478,10
-Oaxaca,2301300,M.- M.H,Museo de las Culturas de Oaxaca,0,0,0,0,0,0
-Oaxaca,2600500,M.- M.H,Museo Casa de Ju·rez,0,0,0,0,0,0
-Oaxaca,2403000,M.- M.H,Sala Homenaje a Ju·rez,0,0,0,0,0,0
-Oaxaca,4100005,M.- M.H,Ex-Convento de Coixtlahuaca,0,0,0,0,0,0
-Oaxaca,4100006,M.- M.H,Ex-Convento de Cuilapan,0,0,0,0,0,0
-Oaxaca,4100011,M.- M.H,Ex-Convento de Santo Domingo Yanhuitl·n,0,0,0,0,0,0
-Oaxaca,4100012,M.- M.H,Ex-Convento de Teposcolula,0,0,0,0,0,0
-Oaxaca,3120031,Z.A.,Z.A. de Dainz˙,84,16,251,5,193,7
-Oaxaca,3120041,Z.A.,Z.A. de Guiengola,0,0,0,0,0,0
-Oaxaca,3120051,Z.A.,Z.A. de Huijazoo,0,0,0,0,0,0
-Oaxaca,3120065,Z.A.,Z.A. de Lambityeco,0,0,0,0,0,0
-Oaxaca,3110024,Z.A.,Z.A. de Mitla,"2,649",385,"1,823",322,"2,820",493
-Oaxaca,3110025,Z.A.,Z.A. de Monte Alb·n con museo de sitio,"27,450","4,787","14,282","5,020","23,810","5,400"
-Oaxaca,3110042,Z.A.,Z.A. de Yagul,630,158,595,181,575,173
-Oaxaca,3110045,Z.A.,Z.A. de Zaachila,169,15,90,2,335,21
-Oaxaca,3120045,Z.A.,Z.A. de Huamelulpan,0,0,0,0,0,0
-Oaxaca,3120131,Z.A.,Z.A. de Bocana del RÌo Copalita (con museo de sitio),0,0,0,0,0,0
-Oaxaca,3220034,Z.A.,Z.A de Atzompa,205,20,654,26,327,9
-Puebla,2301400,M.- M.H,Museo Regional de Puebla,0,0,0,0,0,0
-Puebla,2403300,M.- M.H,Museo de la No IntervenciÛn ìFuerte de Loretoî,564,57,242,13,"1,397",137
-Puebla,2403100,M.- M.H,Museo de Arte Religioso de Santa MÛnica,354,38,142,19,319,28
-Puebla,2403200,M.- M.H,Museo de la EvangelizaciÛn,514,0,606,74,591,0
-Puebla,2403400,M.- M.H,Museo del Valle de Tehuac·n,266,0,271,0,406,0
-Puebla,4100003,M.- M.H,Casa del Dean,163,27,369,48,564,66
-Puebla,4100017,M.- M.H,Casa de la Palestina,0,0,0,0,0,0
-Puebla,4100013,M.- M.H,Ex-Convento Franciscano de Tecalli,0,0,0,0,242,1
-Puebla,4100009,M.- M.H,Ex-Convento de San Francisco Huaquechula,0,0,0,0,0,0
-Puebla,4100010,M.- M.H,Ex-Convento de San Francisco Tecamachalco,0,0,0,0,0,0
-Puebla,4100014,M.- M.H,Fuerte de Guadalupe,0,0,54,6,492,33
-Puebla,3120010,Z.A.,Z.A. de Cantona,"2,162",24,"1,707",12,"3,930",41
-Puebla,3110009,Z.A.,Z.A. de Cholula con museo de sitio,808,28,"1,658",354,"12,707","1,530"
-Puebla,3120090,Z.A.,Z.A. de San Cristobal Tepatlaxco,0,0,0,0,358,0
-Puebla,3120109,Z.A.,Z.A. de Tepapayeca,0,0,0,0,0,0
-Puebla,3120111,Z.A.,Z.A. de Tepexi el Viejo,0,0,0,0,0,0
-Puebla,3120128,Z.A.,Z.A. de Yohualichan,"1,434",22,954,25,"2,009",46
-Puebla,4100015,M.- M.H,Museo de Tehuacan el Viejo con zona arqueolÛgica,0,0,0,0,"2,034",37
-Puebla,4100016,M.- M.H,Museo de sitio de Teteles del Santo Nombre con zona arqueolÛgica,0,0,0,0,615,0
-QuerÈtaro,2301500,M.- M.H,Museo Regional de QuerÈtaro,"3,149",106,"2,876",170,"3,380",268
-QuerÈtaro,3110013,Z.A.,Z.A. de El Cerrito,"2,861",966,"3,320",401,"11,030",464
-QuerÈtaro,3110030,Z.A.,Z.A. de Ranas,0,0,0,0,0,0
-QuerÈtaro,3110034,Z.A.,Z.A. de Toluquilla,398,68,506,0,208,0
-QuerÈtaro,3220021,Z.A.,Z.A. de Tancama,929,16,236,12,602,24
-Quintana Roo,2403500,M.- M.H,Museo Maya de Canc˙n con Z. A,"2,147","1,940","1,662","2,399","1,659","2,792"
-Quintana Roo,3120022,Z.A.,Z.A. de Cob·,0,0,0,0,0,0
-Quintana Roo,3120032,Z.A.,Z.A. de DzibanchÈ-Kinichn·,820,477,496,"1,020",463,"1,043"
-Quintana Roo,3110015,Z.A.,Z.A. de El Meco,0,0,0,0,148,72
-Quintana Roo,3120038,Z.A.,Z.A. de El Rey,0,0,150,245,625,496
-Quintana Roo,3110019,Z.A.,Z.A. de Kohunlich,"2,107","1,434",730,"2,357",736,"2,842"
-Quintana Roo,3120078,Z.A.,Z.A. de Muyil,"5,367","2,349","4,864","2,493","2,842","3,434"
-Quintana Roo,3120084,Z.A.,Z.A. de Oxtankah,859,70,611,133,781,69
-Quintana Roo,3120092,Z.A.,Z.A. de San Gervasio,"2,938","4,970","3,067","5,292","5,225","8,548"
-Quintana Roo,3110037,Z.A.,Z.A. de Tulum,"48,617","65,570","51,121","61,679","26,557","49,320"
-Quintana Roo,3110038,Z.A.,Z.A. de Xcaret,0,0,9,0,8,0
-Quintana Roo,3110039,Z.A.,Z.A. de Xelh·,0,0,21,9,85,42
-Quintana Roo,3120014,Z.A.,Z.A. de Chacchoben,987,"11,271",969,"18,559",564,"16,838"
-San Luis PotosÌ,2301600,M.- M.H,Museo Regional Potosino,0,0,0,0,0,0
-San Luis PotosÌ,3120099,Z.A.,Z.A. de TamohÌ,191,40,94,8,197,38
-San Luis PotosÌ,3120100,Z.A.,Z.A. de Tamtoc,513,2,177,10,944,0
-Sinaloa,2403600,M.- M.H,Museo ArqueolÛgico de Mazatl·n,345,72,225,65,438,89
-Sinaloa,322033,Z.A.,Las Labradas,0,0,0,0,"5,254",70
-Sonora,2301700,M.- M.H,Museo Regional de Sonora,0,0,0,0,0,0
-Sonora,3210132,Z.A.,Z.A. de Cerro de las Trincheras,65,0,52,6,205,0
-Tabasco,2403700,M.- M.H,Museo de Oxolot·n,0,0,0,0,419,0
-Tabasco,3120023,Z.A.,Z.A. de Comalcalco con museo de sitio,"4,469",86,"2,887",59,"6,824",45
-Tabasco,3110023,Z.A.,Z.A. de La Venta con museo de sitio,486,44,166,36,352,29
-Tabasco,3120086,Z.A.,Z.A. de Pomon· con museo de sitio,61,5,50,6,98,4
-Tabasco,3120076,Z.A.,Z.A. de Malpasito,0,0,0,0,0,0
-Tabasco,3120089,Z.A.,Z.A. de Moral-Reforma,46,7,33,1,508,0
-Tabasco,3220017,Z.A.,Z.A. de San Claudio,15,3,9,0,17,0
-Tamaulipas,2403800,M.- M.H,Museo de la Cultura Huasteca,21,0,0,0,119,5
-Tamaulipas,3120039,Z.A.,Z.A. de El Sabinito,28,0,30,3,60,0
-Tamaulipas,3120067,Z.A.,Z.A. de Las Flores,0,0,0,0,78,1
-Tamaulipas,3120006,Z.A.,Z.A. de BalcÛn de Montezuma,40,0,70,0,92,0
-Tlaxcala,2301800,M.- M.H,Museo Regional de Tlaxcala,"1,291",14,"1,141",16,"1,682",16
-Tlaxcala,3110005,Z.A.,Z.A. de Cacaxtla con museo de sitio,"2,829",67,"2,883",110,"6,624",152
-Tlaxcala,3110105,Z.A.,Z.A. de XochitÈcatl con museo de sitio,0,0,0,0,"7,074",8
-Tlaxcala,3110033,Z.A.,Z.A. de Tizatl·n con museo de sitio},158,0,94,2,112,0
-Tlaxcala,3120080,Z.A.,Z.A. de Ocotelulco con museo de sitio,0,0,8,2,4,0
-Tlaxcala,3120101,Z.A.,Z.A. de Tecoaque,284,2,617,4,"1,193",12
-Veracruz,2404200,M.- M.H,Museo Local Tuxteco,0,0,0,0,103,2
-Veracruz,2403900,M.- M.H,Museo Baluarte de Santiago,0,0,0,0,0,0
-Veracruz,2404100,M.- M.H,Museo del Fuerte de San Juan de Ul˙a,"3,703",84,"3,559",115,"5,159",122
-Veracruz,2502900,M.- M.H,Museo de Sitio de El Zapotal,0,0,0,0,0,0
-Veracruz,3120011,Z.A.,Z.A. de Castillo de Teayo con museo de sitio,0,0,0,0,0,0
-Veracruz,3120012,Z.A.,Z.A. de Cempoala con museo de sitio,"1,026",78,"1,042",70,"2,637",68
-Veracruz,2503200,M.- M.H,Museo de Sitio de Tres Zapotes con Z.A.,0,0,0,0,149,6
-Veracruz,3120068,Z.A.,Z.A. de Las Higueras con museo de sitio,0,0,0,0,0,0
-Veracruz,3120093,Z.A.,Z.A. de San Lorenzo Tenochtitlan con museo de sitio,0,0,0,0,0,0
-Veracruz,3110016,Z.A.,Z.A. de El TajÌn,0,0,"3,513",118,"24,469",169
-Veracruz,3220012,Z.A.,Z.A. de Cuauhtochco,0,0,0,0,0,0
-Veracruz,3120123,Z.A.,Z.A. de Vega de la PeÒa,0,0,0,0,53,0
-Veracruz,3120088,Z.A.,Z.A. de Quiahuitztl·n,534,15,444,15,"1,347",19
-Veracruz,3120024,Z.A.,Z.A. de Cuajilote,87,0,66,0,116,0
-Veracruz,3120030,Z.A.,Z.A. de Cuyuxquihui,0,0,80,0,160,2
-Veracruz,2404000,M.- M.H,Museo de Palmillas,0,0,0,0,0,0
-Veracruz,3220014,Z.A.,Z.A. de Las Limas,0,0,0,0,0,0
-Yucat·n,2301900,M.- M.H,"Museo Regional de Yucat·n ""Palacio CantÛn""","2,301",831,"1,001",602,"2,282","1,144"
-Yucat·n,2404300,M.- M.H,"Pinacoteca del Estado ""Juan Gamboa Guzm·n""",0,0,0,0,0,0
-Yucat·n,3120001,Z.A.,Z.A. de Acanceh,0,0,0,0,244,31
-Yucat·n,3120002,Z.A.,Z.A. de AkÈ,0,0,0,0,393,6
-Yucat·n,3120004,Z.A.,Z.A. de BalamcanchÈ,0,0,0,0,0,0
-Yucat·n,3120015,Z.A.,Z.A. de Chacmult˙n,0,0,0,0,0,0
-Yucat·n,3110008,Z.A.,Z.A. de ChichÈn Itz·,"113,253","118,215","92,936","134,770","131,905","99,086"
-Yucat·n,3120033,Z.A.,Z.A. de Dzibilchalt˙n con museo del Pueblo Maya,"5,883","1,001",764,161,0,0
-Yucat·n,3120034,Z.A.,Z.A. de Ekbalam,"5,331","12,382","4,530","9,649","4,736","10,352"
-Yucat·n,3120057,Z.A.,Z.A. de Kabah,"1,576","1,003","1,578","1,444","1,263","1,327"
-Yucat·n,3120064,Z.A.,Z.A. de Labn·,0,0,0,0,0,0
-Yucat·n,3120071,Z.A.,Z.A. de Lolt˙n,0,0,0,0,0,0
-Yucat·n,3120077,Z.A.,Z.A. de Mayap·n,"3,566","2,221","2,695","2,228","2,786","2,396"
-Yucat·n,3120097,Z.A.,Z.A. de Sayil,0,0,0,0,0,0
-Yucat·n,3120122,Z.A.,Z.A. de Uxmal con museo de sitio,"14,301","7,881","10,557","8,050","12,424","7,413"
-Yucat·n,3120126,Z.A.,Z.A. de Xlapak,0,0,0,0,0,0
-Yucat·n,3120083,Z.A.,Z.A. de Oxkintok,0,0,0,0,0,0
-Yucat·n,3120056,Z.A.,Z.A. de Izamal,"1,639",776,"1,205",487,"1,975",385
-Yucat·n,3120135,Z.A.,Z.A. de XcambÛ,"1,711",884,"1,418","1,004","1,703","1,421"
-Zacatecas,2302000,M.- M.H,Museo de Guadalupe,"1,323",13,802,22,"1,464",22
-Zacatecas,3120003,Z.A.,Z.A. de Altavista o Chalchihuites con museo de sitio,207,8,158,2,"1,254",4
-Zacatecas,3110022,Z.A.,Z.A. de La Quemada con museo de sitio,"1,104",12,981,2,"2,042",51
-Zacatecas,,Z.A.,Z.A. Cerro del Te˙l,80,3,176,0,717,8
+Guerrero,2300700.0,M.- M.H,Museo Regional de Guerrero,1786,6,1460,4,2449,6
+Guerrero,2401700.0,M.- M.H,Museo Guillermo Spratling,17,0,23,1,78,0
+Guerrero,2401800.0,M.- M.H,"Museo Hist√≥rico de Acapulco, Fuerte de San Diego",0,0,0,0,0,0
+Guerrero,3120046.0,Z.A.,Z.A. de Huamuxtitl√°n,0,0,0,0,85,0
+Guerrero,3120053.0,Z.A.,Z.A. de Ixcateopan,51,1,671,2,299,2
+Guerrero,3110021.0,Z.A.,Z.A. de La Organera Xochipala,64,0,50,0,1226,0
+Guerrero,3120062.0,Z.A.,Z.A. de La Sabana,0,0,5,0,16,0
+Guerrero,3120026.0,Z.A.,Z.A. de Cuetlajuchitl√°n (Los Querende),25,0,16,0,17,0
+Guerrero,3110027.0,Z.A.,Z.A. de Palma Sola,129,0,79,2,64,4
+Guerrero,3120106.0,Z.A.,Z.A. de Teopantecuanitl√°n,53,0,40,0,78,0
+Guerrero,3220027.0,Z.A.,Z.A. de Tehuacalco,469,18,345,22,1128,18
+Guerrero,3120132.0,Z.A.,Z. A. Soledad de Maciel,310,210,196,284,363,289
+Hidalgo,2401900.0,M.- M.H,Museo de Actopan,520,0,405,0,937,21
+Hidalgo,2402000.0,M.- M.H,Museo de la Fotograf√≠a,450,44,638,19,989,34
+Hidalgo,2402100.0,M.- M.H,Museo Tepeapulco,578,6,551,0,595,4
+Hidalgo,4100008.0,M.- M.H,Ex - convento de San Andr√©s Epazoyucan,541,0,411,1,497,2
+Hidalgo,3120048.0,Z.A.,Z.A. de Huapalcalco,1035,35,900,20,2850,150
+Hidalgo,3120110.0,Z.A.,Z.A. de Tepeapulco,1281,7,1217,10,5606,19
+Hidalgo,3110036.0,Z.A.,Z.A. de Tula con museo de sitio,9443,346,7456,282,29669,391
+Hidalgo,3120136.0,Z.A.,Z.A Pah√±√∫,1028,8,688,12,941,14
+Jalisco,2300800.0,M.- M.H,Museo Regional de Guadalajara,746,86,1570,159,3185,161
+Jalisco,2402200.0,M.- M.H,Museo Arqueol√≥gico de Ciudad Guzm√°n,0,0,0,0,0,0
+Jalisco,2402400.0,M.- M.H,Museo del Cuale,0,0,0,0,0,0
+Jalisco,2402300.0,M.- M.H,"Museo ""Casa Agust√≠n Rivera""",0,0,0,0,0,0
+Jalisco,3120054.0,Z.A.,Z.A. de Ixt√©pete,0,0,0,0,0,0
+Jalisco,3120113.0,Z.A.,Z.A. de Teuchitl√°n,2868,406,11362,736,13839,750
+Michoac√°n,2300900.0,M.- M.H,"Museo Regional Michoacano ""Dr. Nicol√°s Le√≥n Calder√≥n""",241,44,273,25,611,38
+Michoac√°n,2402500.0,M.- M.H,Museo de Artes y Oficios de P√°tzcuaro,147,16,172,56,472,58
+Michoac√°n,2600400.0,M.- M.H,Museo Casa de Morelos,149,9,106,17,372,21
+Michoac√°n,2402600.0,M.- M.H,Museo de la Estampa Ex Convento de Santa Mar√≠a Magdalena,212,0,210,2,484,12
+Michoac√°n,4100015.0,M.- M.H,Templo de Tup√°taro,83,0,71,0,85,0
+Michoac√°n,3120047.0,Z.A.,Z.A. de Huandacareo,12,0,34,0,105,0
+Michoac√°n,3120052.0,Z.A.,Z.A. de Ihuatzio,156,0,142,0,1044,20
+Michoac√°n,3120091.0,Z.A.,Z.A. de San Felipe los Alzati,0,0,85,0,649,0
+Michoac√°n,3120114.0,Z.A.,Z.A. de Tingambato,1026,0,452,11,2032,12
+Michoac√°n,3120119.0,Z.A.,Z.A. de Tres Cerritos,0,0,0,0,0,0
+Michoac√°n,3120121.0,Z.A.,Z.A. de Tzintzuntzan con museo de sitio,1415,0,1937,60,5126,89
+Morelos,2301000.0,M.- M.H,Museo Regional Cuauhn√°huac,0,0,0,0,0,0
+Morelos,2402800.0,M.- M.H,"Museo Hist√≥rico del Oriente de Morelos ""Casa de Morelos""",218,0,218,0,268,0
+Morelos,2402700.0,M.- M.H,Jard√≠n Etnobot√°nico y Museo de Medicina Tradicional y Herbolaria,439,25,637,22,957,15
+Morelos,2700300.0,M.- M.H,Museo y Centro de Documentaci√≥n Hist√≥rica Ex Convento de Tepoztl√°n,1509,89,2388,141,2013,161
+Morelos,3110007.0,Z.A.,Z.A. de Chalcatzingo,2662,15,1861,19,2449,17
+Morelos,3110040.0,Z.A.,Z.A. de Xochicalco con museo de sitio,5558,350,2517,274,6934,411
+Morelos,3120021.0,Z.A.,Z.A. de Coatetelco con museo de sitio,44,0,9,0,154,0
+Morelos,3120069.0,Z.A.,Z.A. de Las Pilas,54,0,30,0,90,0
+Morelos,3120112.0,Z.A.,Z.A. de Tepozteco,0,0,0,0,0,0
+Morelos,3120107.0,Z.A.,Z.A. de Teopanzolco,372,11,398,20,850,61
+Morelos,3110043.0,Z.A.,Z.A. de Yautepec,172,0,97,0,243,0
+Nayarit,2301100.0,M.- M.H,Museo Regional de Nayarit,324,0,279,25,535,36
+Nayarit,2402900.0,M.- M.H,Museo Local de Antropolog√≠a e Historia de Compostela,116,17,94,9,193,35
+Nayarit,3120055.0,Z.A.,Z.A. de Ixtl√°n del R√≠o,124,2,246,10,536,22
+Nuevo Le√≥n,2301200.0,M.- M.H,"Museo Regional de Nuevo Le√≥n ""Ex Obispado""",112,18,539,9,2339,24
+Nuevo Le√≥n,3110003.0,Z.A.,Z.A. de Boca de Potrerillos,67,0,204,4,478,10
+Oaxaca,2301300.0,M.- M.H,Museo de las Culturas de Oaxaca,0,0,0,0,0,0
+Oaxaca,2600500.0,M.- M.H,Museo Casa de Ju√°rez,0,0,0,0,0,0
+Oaxaca,2403000.0,M.- M.H,Sala Homenaje a Ju√°rez,0,0,0,0,0,0
+Oaxaca,4100005.0,M.- M.H,Ex-Convento de Coixtlahuaca,0,0,0,0,0,0
+Oaxaca,4100006.0,M.- M.H,Ex-Convento de Cuilapan,0,0,0,0,0,0
+Oaxaca,4100011.0,M.- M.H,Ex-Convento de Santo Domingo Yanhuitl√°n,0,0,0,0,0,0
+Oaxaca,4100012.0,M.- M.H,Ex-Convento de Teposcolula,0,0,0,0,0,0
+Oaxaca,3120031.0,Z.A.,Z.A. de Dainz√∫,84,16,251,5,193,7
+Oaxaca,3120041.0,Z.A.,Z.A. de Guiengola,0,0,0,0,0,0
+Oaxaca,3120051.0,Z.A.,Z.A. de Huijazoo,0,0,0,0,0,0
+Oaxaca,3120065.0,Z.A.,Z.A. de Lambityeco,0,0,0,0,0,0
+Oaxaca,3110024.0,Z.A.,Z.A. de Mitla,2649,385,1823,322,2820,493
+Oaxaca,3110025.0,Z.A.,Z.A. de Monte Alb√°n con museo de sitio,27450,4787,14282,5020,23810,5400
+Oaxaca,3110042.0,Z.A.,Z.A. de Yagul,630,158,595,181,575,173
+Oaxaca,3110045.0,Z.A.,Z.A. de Zaachila,169,15,90,2,335,21
+Oaxaca,3120045.0,Z.A.,Z.A. de Huamelulpan,0,0,0,0,0,0
+Oaxaca,3120131.0,Z.A.,Z.A. de Bocana del R√≠o Copalita (con museo de sitio),0,0,0,0,0,0
+Oaxaca,3220034.0,Z.A.,Z.A de Atzompa,205,20,654,26,327,9
+Puebla,2301400.0,M.- M.H,Museo Regional de Puebla,0,0,0,0,0,0
+Puebla,2403300.0,M.- M.H,Museo de la No Intervenci√≥n ¬ìFuerte de Loreto¬î,564,57,242,13,1397,137
+Puebla,2403100.0,M.- M.H,Museo de Arte Religioso de Santa M√≥nica,354,38,142,19,319,28
+Puebla,2403200.0,M.- M.H,Museo de la Evangelizaci√≥n,514,0,606,74,591,0
+Puebla,2403400.0,M.- M.H,Museo del Valle de Tehuac√°n,266,0,271,0,406,0
+Puebla,4100003.0,M.- M.H,Casa del Dean,163,27,369,48,564,66
+Puebla,4100017.0,M.- M.H,Casa de la Palestina,0,0,0,0,0,0
+Puebla,4100013.0,M.- M.H,Ex-Convento Franciscano de Tecalli,0,0,0,0,242,1
+Puebla,4100009.0,M.- M.H,Ex-Convento de San Francisco Huaquechula,0,0,0,0,0,0
+Puebla,4100010.0,M.- M.H,Ex-Convento de San Francisco Tecamachalco,0,0,0,0,0,0
+Puebla,4100014.0,M.- M.H,Fuerte de Guadalupe,0,0,54,6,492,33
+Puebla,3120010.0,Z.A.,Z.A. de Cantona,2162,24,1707,12,3930,41
+Puebla,3110009.0,Z.A.,Z.A. de Cholula con museo de sitio,808,28,1658,354,12707,1530
+Puebla,3120090.0,Z.A.,Z.A. de San Cristobal Tepatlaxco,0,0,0,0,358,0
+Puebla,3120109.0,Z.A.,Z.A. de Tepapayeca,0,0,0,0,0,0
+Puebla,3120111.0,Z.A.,Z.A. de Tepexi el Viejo,0,0,0,0,0,0
+Puebla,3120128.0,Z.A.,Z.A. de Yohualichan,1434,22,954,25,2009,46
+Puebla,4100015.0,M.- M.H,Museo de Tehuacan el Viejo con zona arqueol√≥gica,0,0,0,0,2034,37
+Puebla,4100016.0,M.- M.H,Museo de sitio de Teteles del Santo Nombre con zona arqueol√≥gica,0,0,0,0,615,0
+Quer√©taro,2301500.0,M.- M.H,Museo Regional de Quer√©taro,3149,106,2876,170,3380,268
+Quer√©taro,3110013.0,Z.A.,Z.A. de El Cerrito,2861,966,3320,401,11030,464
+Quer√©taro,3110030.0,Z.A.,Z.A. de Ranas,0,0,0,0,0,0
+Quer√©taro,3110034.0,Z.A.,Z.A. de Toluquilla,398,68,506,0,208,0
+Quer√©taro,3220021.0,Z.A.,Z.A. de Tancama,929,16,236,12,602,24
+Quintana Roo,2403500.0,M.- M.H,Museo Maya de Canc√∫n con Z. A,2147,1940,1662,2399,1659,2792
+Quintana Roo,3120022.0,Z.A.,Z.A. de Cob√°,0,0,0,0,0,0
+Quintana Roo,3120032.0,Z.A.,Z.A. de Dzibanch√©-Kinichn√°,820,477,496,1020,463,1043
+Quintana Roo,3110015.0,Z.A.,Z.A. de El Meco,0,0,0,0,148,72
+Quintana Roo,3120038.0,Z.A.,Z.A. de El Rey,0,0,150,245,625,496
+Quintana Roo,3110019.0,Z.A.,Z.A. de Kohunlich,2107,1434,730,2357,736,2842
+Quintana Roo,3120078.0,Z.A.,Z.A. de Muyil,5367,2349,4864,2493,2842,3434
+Quintana Roo,3120084.0,Z.A.,Z.A. de Oxtankah,859,70,611,133,781,69
+Quintana Roo,3120092.0,Z.A.,Z.A. de San Gervasio,2938,4970,3067,5292,5225,8548
+Quintana Roo,3110037.0,Z.A.,Z.A. de Tulum,48617,65570,51121,61679,26557,49320
+Quintana Roo,3110038.0,Z.A.,Z.A. de Xcaret,0,0,9,0,8,0
+Quintana Roo,3110039.0,Z.A.,Z.A. de Xelh√°,0,0,21,9,85,42
+Quintana Roo,3120014.0,Z.A.,Z.A. de Chacchoben,987,11271,969,18559,564,16838
+San Luis Potos√≠,2301600.0,M.- M.H,Museo Regional Potosino,0,0,0,0,0,0
+San Luis Potos√≠,3120099.0,Z.A.,Z.A. de Tamoh√≠,191,40,94,8,197,38
+San Luis Potos√≠,3120100.0,Z.A.,Z.A. de Tamtoc,513,2,177,10,944,0
+Sinaloa,2403600.0,M.- M.H,Museo Arqueol√≥gico de Mazatl√°n,345,72,225,65,438,89
+Sinaloa,322033.0,Z.A.,Las Labradas,0,0,0,0,5254,70
+Sonora,2301700.0,M.- M.H,Museo Regional de Sonora,0,0,0,0,0,0
+Sonora,3210132.0,Z.A.,Z.A. de Cerro de las Trincheras,65,0,52,6,205,0
+Tabasco,2403700.0,M.- M.H,Museo de Oxolot√°n,0,0,0,0,419,0
+Tabasco,3120023.0,Z.A.,Z.A. de Comalcalco con museo de sitio,4469,86,2887,59,6824,45
+Tabasco,3110023.0,Z.A.,Z.A. de La Venta con museo de sitio,486,44,166,36,352,29
+Tabasco,3120086.0,Z.A.,Z.A. de Pomon√° con museo de sitio,61,5,50,6,98,4
+Tabasco,3120076.0,Z.A.,Z.A. de Malpasito,0,0,0,0,0,0
+Tabasco,3120089.0,Z.A.,Z.A. de Moral-Reforma,46,7,33,1,508,0
+Tabasco,3220017.0,Z.A.,Z.A. de San Claudio,15,3,9,0,17,0
+Tamaulipas,2403800.0,M.- M.H,Museo de la Cultura Huasteca,21,0,0,0,119,5
+Tamaulipas,3120039.0,Z.A.,Z.A. de El Sabinito,28,0,30,3,60,0
+Tamaulipas,3120067.0,Z.A.,Z.A. de Las Flores,0,0,0,0,78,1
+Tamaulipas,3120006.0,Z.A.,Z.A. de Balc√≥n de Montezuma,40,0,70,0,92,0
+Tlaxcala,2301800.0,M.- M.H,Museo Regional de Tlaxcala,1291,14,1141,16,1682,16
+Tlaxcala,3110005.0,Z.A.,Z.A. de Cacaxtla con museo de sitio,2829,67,2883,110,6624,152
+Tlaxcala,3110105.0,Z.A.,Z.A. de Xochit√©catl con museo de sitio,0,0,0,0,7074,8
+Tlaxcala,3110033.0,Z.A.,Z.A. de Tizatl√°n con museo de sitio},158,0,94,2,112,0
+Tlaxcala,3120080.0,Z.A.,Z.A. de Ocotelulco con museo de sitio,0,0,8,2,4,0
+Tlaxcala,3120101.0,Z.A.,Z.A. de Tecoaque,284,2,617,4,1193,12
+Veracruz,2404200.0,M.- M.H,Museo Local Tuxteco,0,0,0,0,103,2
+Veracruz,2403900.0,M.- M.H,Museo Baluarte de Santiago,0,0,0,0,0,0
+Veracruz,2404100.0,M.- M.H,Museo del Fuerte de San Juan de Ul√∫a,3703,84,3559,115,5159,122
+Veracruz,2502900.0,M.- M.H,Museo de Sitio de El Zapotal,0,0,0,0,0,0
+Veracruz,3120011.0,Z.A.,Z.A. de Castillo de Teayo con museo de sitio,0,0,0,0,0,0
+Veracruz,3120012.0,Z.A.,Z.A. de Cempoala con museo de sitio,1026,78,1042,70,2637,68
+Veracruz,2503200.0,M.- M.H,Museo de Sitio de Tres Zapotes con Z.A.,0,0,0,0,149,6
+Veracruz,3120068.0,Z.A.,Z.A. de Las Higueras con museo de sitio,0,0,0,0,0,0
+Veracruz,3120093.0,Z.A.,Z.A. de San Lorenzo Tenochtitlan con museo de sitio,0,0,0,0,0,0
+Veracruz,3110016.0,Z.A.,Z.A. de El Taj√≠n,0,0,3513,118,24469,169
+Veracruz,3220012.0,Z.A.,Z.A. de Cuauhtochco,0,0,0,0,0,0
+Veracruz,3120123.0,Z.A.,Z.A. de Vega de la Pe√±a,0,0,0,0,53,0
+Veracruz,3120088.0,Z.A.,Z.A. de Quiahuitztl√°n,534,15,444,15,1347,19
+Veracruz,3120024.0,Z.A.,Z.A. de Cuajilote,87,0,66,0,116,0
+Veracruz,3120030.0,Z.A.,Z.A. de Cuyuxquihui,0,0,80,0,160,2
+Veracruz,2404000.0,M.- M.H,Museo de Palmillas,0,0,0,0,0,0
+Veracruz,3220014.0,Z.A.,Z.A. de Las Limas,0,0,0,0,0,0
+Yucat√°n,2301900.0,M.- M.H,"Museo Regional de Yucat√°n ""Palacio Cant√≥n""",2301,831,1001,602,2282,1144
+Yucat√°n,2404300.0,M.- M.H,"Pinacoteca del Estado ""Juan Gamboa Guzm√°n""",0,0,0,0,0,0
+Yucat√°n,3120001.0,Z.A.,Z.A. de Acanceh,0,0,0,0,244,31
+Yucat√°n,3120002.0,Z.A.,Z.A. de Ak√©,0,0,0,0,393,6
+Yucat√°n,3120004.0,Z.A.,Z.A. de Balamcanch√©,0,0,0,0,0,0
+Yucat√°n,3120015.0,Z.A.,Z.A. de Chacmult√∫n,0,0,0,0,0,0
+Yucat√°n,3110008.0,Z.A.,Z.A. de Chich√©n Itz√°,113253,118215,92936,134770,131905,99086
+Yucat√°n,3120033.0,Z.A.,Z.A. de Dzibilchalt√∫n con museo del Pueblo Maya,5883,1001,764,161,0,0
+Yucat√°n,3120034.0,Z.A.,Z.A. de Ekbalam,5331,12382,4530,9649,4736,10352
+Yucat√°n,3120057.0,Z.A.,Z.A. de Kabah,1576,1003,1578,1444,1263,1327
+Yucat√°n,3120064.0,Z.A.,Z.A. de Labn√°,0,0,0,0,0,0
+Yucat√°n,3120071.0,Z.A.,Z.A. de Lolt√∫n,0,0,0,0,0,0
+Yucat√°n,3120077.0,Z.A.,Z.A. de Mayap√°n,3566,2221,2695,2228,2786,2396
+Yucat√°n,3120097.0,Z.A.,Z.A. de Sayil,0,0,0,0,0,0
+Yucat√°n,3120122.0,Z.A.,Z.A. de Uxmal con museo de sitio,14301,7881,10557,8050,12424,7413
+Yucat√°n,3120126.0,Z.A.,Z.A. de Xlapak,0,0,0,0,0,0
+Yucat√°n,3120083.0,Z.A.,Z.A. de Oxkintok,0,0,0,0,0,0
+Yucat√°n,3120056.0,Z.A.,Z.A. de Izamal,1639,776,1205,487,1975,385
+Yucat√°n,3120135.0,Z.A.,Z.A. de Xcamb√≥,1711,884,1418,1004,1703,1421
+Zacatecas,2302000.0,M.- M.H,Museo de Guadalupe,1323,13,802,22,1464,22
+Zacatecas,3120003.0,Z.A.,Z.A. de Altavista o Chalchihuites con museo de sitio,207,8,158,2,1254,4
+Zacatecas,3110022.0,Z.A.,Z.A. de La Quemada con museo de sitio,1104,12,981,2,2042,51
+Zacatecas,,Z.A.,Z.A. Cerro del Te√∫l,80,3,176,0,717,8
 Zacatecas,,Z.A.,Z.A. Cerro de las Ventanas,0,0,0,0,0,0

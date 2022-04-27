@@ -5,11 +5,9 @@ disabletoc = false
 weight = 3
 +++
 
-## Ejercicios
+## Bucles
 
-### Bucles
-
-#### For
+### For
 
 Accesando una lista por sus elementos
 
@@ -67,7 +65,7 @@ calificaciones:
 {{% notice tip %}}
 Representa las calificaciones como una lista. Primero sumar y al final, dividir.
 
-![Sample mean](https://latex.codecogs.com/png.image?\large&space;\dpi{110}\bar{x}&space;=&space;\frac{1}{N}\sum_{i=1}^N&space;x)
+$$ \bar{x} = \frac{1}{N}\sum_{i=1}^N x $$
 {{% /notice %}}
 
 
@@ -75,7 +73,7 @@ Representa las calificaciones como una lista. Primero sumar y al final, dividir.
 # Aqui va tu codigo
 ```
 
-#### While
+### While
 
 ```python
 i = 1
@@ -135,9 +133,9 @@ def break_loop():
             break
 ```
 
-## Tarea
+## Ejercicios
 
-### Aprobado/No aprobado
+##### Aprobado / No Aprobado
 Consideremos el caso de un estudiante que tiene que presentar tres exámenes. 
 La escala de evaluación es de 0 a 100 puntos. 
 
@@ -161,7 +159,7 @@ Puedes utilizar la siguientes pruebas para verificar tu función:
 | student_pass(70, 50, 35) | "Aprobado" |
 
 
-### "Dile que no"
+##### "Dile que no"
 Escribe un programa que imprima en pantalla la pregunta
 
 "¿Desea continuar el programa?:"
