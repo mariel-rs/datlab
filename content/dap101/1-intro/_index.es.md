@@ -3,9 +3,15 @@ title = "1. Introducción a Python"
 description = "Ejercicios y tareas del material introductorio a Python"
 disabletoc = false
 weight = 1
+tags = ["python"]
 +++
 
 ## Introducción
+
+Python es un lenguaje de programación fácil de aprender, con estructuras de
+datos eficientes. Es considerado como el lenguaje más popular para aprender por
+su versatilidad, su enfoque sencillo y la cantidad de librerías disponibles para
+machine learning, análisis de datos y visualización de datos.
 
 ### Salida por pantalla
 
@@ -35,6 +41,9 @@ print(1+1)
 
 ## Variables 
 
+Una variable es una ubicación en memoria que tiene un nombre simbólico asociado 
+y que puede guardar información.
+
 Declarar una variable es tan fácil como definir un nombre y dar un valor.
 
 ```python
@@ -43,6 +52,13 @@ print(a)
 ```
 
 ### Tipo de datos
+
+Python es un lenguaje de tipado dinámico. Es decir, no tenemos que definir el
+tipo de dato. Python asumirá el tipo de valor usando una regla llamada 
+***duck typing***:
+
+"Si veo un ave que camina como un pato, nada como un pato y suena como un pato, 
+entonces a esa ave yo la llamo un pato"
 
 #### Enteros (_int_)
    
@@ -113,7 +129,14 @@ print(f"Hola, {nombre}")
 print(f"La variable tiene el tipo de dato {type(nombre)}")
 ```
 
-## Estructuras
+## Estructuras de datos
+
+Una estructura de datos es un formato de organización, manejo y almacenamiento
+de datos que permite acceder y modificar datos de forma eficiente.
+
+Python tiene 4 estructuras de datos básicas: listas, sets, tuplas y dictionarios.
+En este curso sólo veremos listas y diccionarios.
+
 ### Listas
 
 ```python
@@ -241,8 +264,7 @@ print(fruits)
    2. Imprimir el tipo de dato que tiene ```colegiatura```
    3. Convertir el valor a _float_
 
-2. Usando las listas ```mixed_list``` y ```str_list``` de los ejercicios, 
-realizar los siguientes ejercicios:
+2. Usando las listas ```mixed_list``` y ```str_list``` de los ejercicios:
     1. Agregar el último elemento de la lista ```str_list``` a la lista ```mixed_list```
     2. Imprimir en pantalla:
        1. Tipo de dato del primer elemento de ```mixed_list```
@@ -262,10 +284,8 @@ referencia de Python [Estructuras de Datos](https://docs.python.org/3/es/tutoria
     1. Llenar el diccionario con un ejemplo de un estudiante
     2. **Reto** Llenar el diccionario con 3 estudiantes.
 
-5. **Opcional** Consultar el sitio [McLibre](https://www.mclibre.org/consultar/python/index.html)
-sobre los temas vistos en la sesión.
-
-{{% notice info %}}
-Las tareas se pueden realizar en un Jupyter notebook, o en un archivo .py. 
+{{% notice tip "Referencias" %}} 
+- Introducción a la programación con Python. Bartolomé Sintes Marco. Disponible 
+en: https://www.mclibre.org/consultar/python/index.html
 {{% /notice %}}
 

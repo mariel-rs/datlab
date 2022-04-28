@@ -3,24 +3,36 @@ title = "5. Visualización"
 description = "Creación de gráficos y visualizaciones con matplotlib y seaborn"
 disabletoc = false
 weight = 5
+tags = ["visualizaciones", "matplotlib", "seaborn", "pandas"]
 +++
 
-## Datos
+## Introducción
 
-Usaremos los siguientes archivos:
+La información que hemos procesado previamente se puede visualizar usando
+gráficos. En esta sección veremos como crear gráficos profesionales con 
+matplotlib y seaborn.
+
+**Datos**
+
+Usaremos los siguientes archivos para los ejercicios de este tema:
 
 {{% attachments title="Archivos" pattern=".*csv"/%}}
 
-### matplotlib
+## matplotlib
 
-#### Dispersión
+matplotlib es una librería de bajo nivel, es decir, necesitamos definir muchas
+cosas, pero tendremos más libertad y flexibilidad en nuestros gráficos. 
+Revisaremos las gráficas de dispersión y barras.  
 
-1. Creamos el eje x, y creamos dos funciones de x
+### Dispersión
+
+Vamos a utilizar datos artificiales de una variable `x`, y creamos dos funciones 
+de `x`.
+
 ```python
-# Grafica 
 import numpy as np # Libreria para acceder a funciones matematicas
 
-x = np.linspace(-3, 3, 100)
+x = np.linspace(-3, 3, 100) # crear 100 valores en un rango -3 a 3
 y1 = 3*x
 y2 = x**3 + x**2 - x + 1
 
@@ -36,23 +48,30 @@ ax.legend(loc='lower right', fontsize=14)
 plt.show()
 ```
 
-### seaborn
+## seaborn
 
-Usaremos los datos de aspirantes de INECOL `aspirantes_inecol2020.csv`
+seaborn es una librería basada en matplotlib, pero es de alto nivel. Es decir,
+no tendremos que escribir tanto para crear gráficos.
+
+Ahora usaremos los datos de aspirantes a posgrado de INECOL, que están en el 
+archivo `aspirantes_inecol2020.csv`. 
 
 ```python
 # Importar datos aspirantes INECOL
 inecol_df = pd.read_csv("aspirantes_inecol2020.csv")
 ```
 
-#### Pairplot para encontrar relaciones
+### Pairplot
+
+Este gráfico nos puede server para encontrar relaciones entre variables y como
+primer paso en nuestro análisis de datos. 
 
 ```python
 # Dale unos segundos...
 sns.pairplot(inecol_df)
 ```
 
-#### Histogramas
+### Histograma
 
 ```python
 # Sintaxis
@@ -77,7 +96,7 @@ La medida estadística `stat` utilizada en el eje puede ser:
 de los datos. Para activarlo pasamos el siguiente argumento cuando creemos el 
 objeto histoplot: `kde = True`
 
-#### Diagramas de caja y bigotes (boxplot)
+### Diagramas de caja y bigotes (boxplot)
 
 Muestra la distribución de datos cuantitativos utilizando sus medidas de
 localización.
@@ -88,10 +107,11 @@ localización.
 sns.boxplot(data = inecol_df, y = "resultado", x = "calificacion_final", whis = 1.5)
 ```
 
-Como parámetro opcional se tiene `whis`, que define la extension de los "bigotes"
-de las cajas. En el ejemplo de arriba, 1.5 es 1.5 veces el rango intercuartílico.
+`whis` es un parámetro opcional que define la extension de los "bigotes" de las
+cajas, respecto al rango intercuartílico. En el ejemplo de arriba, 1.5 es 1.5 
+veces el rango intercuartílico.
 
-#### Diagramas de violín
+### Diagrama de violín
 
 Visualización combinada de un diagrama de cajas y de la distribución estimada de
 los datos.
@@ -101,9 +121,9 @@ los datos.
 sns.violinplot(data = inecol_df, y = "resultado", x = "calificacion_final")
 ```
 
-#### Barras
+### Gráfico de barras
 
-Mostrar en una gráfica de barras el número de centros INAH por estado
+Mostrar en un gráfico de barras el número de centros INAH por estado
 
 ```python
 # Usando los datos de visitantes a los centros INAH en 2022
@@ -117,7 +137,15 @@ inah_grouped = inah_grouped.reset_index() # Para que Estado no sea índice/label
 sns.barplot(data = inah_grouped, x = "Tipo", y = "Estado")
 ```
 
-## Edición
+{{% notice tip "Histograma vs gráfico de barras" %}}
+Ambos gráficos parecen iguales, ambos usan barras, pero no son lo mismo.
+
+Un histograma es un diagrama que muestra la frecuencia de datos numéricos,
+mientras que el gráfico de barras compara tamaños de diferentes variables 
+categóricas.
+{{% /notice %}}
+
+## Edición de gráficos
 
 Modificar etiquetas de los ejes y exportar imagen como PNG
 
@@ -137,7 +165,7 @@ plt.savefig('barplot_inah.png')
 plt.show()
 ```
 
-Girar ejes para mejorar la visualizacion
+Girar ejes para mejorar la visualización
 
 ```python
 # Misma boxplot de calificaciones de INECOL pero ahora los ejes invertidos
@@ -158,3 +186,18 @@ plt.show()
 2. Usando los datos `inah_visitantes_2022.csv`:
    - ¿Cuál es la visualización más representativa para mostrar el flujo de
    visitantes en los meses reportados para un Centro INAH (o estado!) determinado?
+
+{{% notice tip "Referencias" %}}
+- Visitantes a museos y zonas arqueologicas abiertas al público. Datos abiertos 
+de México. Disponible en: 
+https://datos.gob.mx/busca/dataset/visitantes-a-museos-y-zonas-arqueologicas-abiertas-al-publico
+
+- Selección de aspirantes. Datos abiertos de México. Disponible en: 
+https://datos.gob.mx/busca/dataset/seleccion-de-aspirantes
+
+- Estudiantes de posgrado en el Reino Unido en 2021. Sin publicar.
+
+- The Python graph gallery. Disponible en: https://python-graph-gallery.com/
+
+- seaborn documentation. Michael Waskom. Disponible en: https://seaborn.pydata.org/
+{{% /notice %}}

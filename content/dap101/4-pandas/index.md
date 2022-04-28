@@ -3,40 +3,62 @@ title = "4. Manejo de datos"
 description = "Manejo de datos con pandas"
 disabletoc = false
 weight = 4
+tags = ["pandas"]
 +++
 
-## Datos
-
-Para los ejercicios de este tema, usaremos los siguientes archivos:
-
-{{% attachments title="Archivos" pattern=".*csv"/%}}
 
 ## Introducción
 
-1. Creamos un Jupyter notebook como `pandas.ipynb` y creamos un cuadro con 
+pandas es la librería de Python más utilizada para procesar datos. pandas puede
+leer datos de archivos CSV, xls, xlsx, json, entre otros. La estructura de datos 
+más común de esta librería es DataFrame, que es una estructura de datos tabular 
+bidimensional con ejes etiquetados (filas y columnas).
+
+**Datos**
+
+Usaremos los siguientes archivos para los ejercicios de este tema:
+
+{{% attachments title="Archivos" pattern=".*csv"/%}}
+
+## Primeros pasos
+
+Creamos un Jupyter notebook como `pandas.ipynb` y creamos un cuadro con 
 código. Analizaremos el archivo `inah_visitantes_2022.csv`.
 
-Este archivo es especial porque usa , para separar miles. Esto se puede hacer 
-usando la keywords `thousands`. 
+Este archivo es especial porque usa comas para separar miles. pandas puede 
+procesar esto usando la keywords `thousands`. 
+
+### Importar datos
+
+Importamos el CSV usando el método `read_csv`. El nombre del archivo debe ir
+entre comillas.
 
 ```python
 import pandas as pd
-import os # interfaces de sistemas operativos
-
-# definir la ubicacion del archivo
-path = os.path.join(os.getcwd(), "inah_visitantes_2022.csv")
 
 # Método read_csv() para leer el CSV y procesarlo como dataframe
-inah_visitantes2022 = pd.read_csv(path, thousands = ",")
+inah_visitantes2022 = pd.read_csv("inah_visitantes_2022.csv", thousands = ",")
+```
 
+`inah_visitantes2022` es un objeto DataFrame que contiene los datos de este CSV.
+
+Podemos ver lo que contiene el dataframe:
+
+```python
 # Miramos lo que contiene el dataframe
 inah_visitantes2022
 ```
 
+### head or tail
+
+Ver sólo ver las primeras _n_ filas con el método `head`. O las últimas _n_ 
+filas con el método `tail`.
+
 ```python
-# ver solo las primeras n filas
+# ver solo las primeras 5 filas
 inah_visitantes2022.head(5)
 ```
+
 ### Resumen general
 
 El método `info` muestra información general del DataFrame como el tipo de datos
@@ -84,8 +106,9 @@ Ordenar por dos columnas, en orden descendente.
 # Ordenar por "enero_nac, febrero_nac" en orden descendente
 inah_visitantes2022.sort_values(by=['enero_nac', 'febrero_nac'], ascending = False)
 ```
-### Series
+## DataFrame vs Series
 
+### Selección de columnas
 Podemos crear un DataFrame más pequeño sólo con algunas columnas.
 
 ```python
@@ -96,7 +119,9 @@ inah_visitantes_nac = inah_visitantes2022[["Centro INAH", "enero_nac", "febrero_
 inah_visitantes_nac.head(5)
 ```
 
-Series - Arreglo unidimensional de datos
+### Series
+
+Una serie es un arreglo unidimensional de datos (vector columna).
 
 ```python
 # Una serie con los datos de los centros INAH
@@ -128,7 +153,7 @@ Accedemos a las medidas descriptivas de los datos usando el método describe()
 inah_visitantes2022.describe()
 ```
 
-### Serie
+### Series
 
 Para una serie con valores numéricos, se reportan las mismas medidas que en un
 DataFrame. Pero para una serie con valores de texto, se reportan:
@@ -172,7 +197,7 @@ inah_visitantes2022[inah_visitantes2022["enero_nac"] >= 10000]
 
 ```python
 # Sintaxis
-df[(df["columna"] condición1) operador_lógico df["columna"] condición2) ... ]
+df[(df["columna"] condición1) operador_lógico (df["columna"] condición2) ... ]
 ```
 
 donde el operador lógico puede ser `&` (operador "y") o `|` (operador "o")
@@ -208,7 +233,6 @@ df.query('expresion')
 Para seleccionar los datos de centros INAH del estado de Guerrero con visitantes
 nacionales en enero mayores o igual a 1000, podriamos escribirlo como en el
 ejemplo 2, o usando query:
-
 
 ```python
 # Seleccion usando query
@@ -289,15 +313,16 @@ inah_visitantes2022.iloc[0:2,0:3]
 df.groupby(by = "columna").funcion()
 ```
 
-La funcion puede ser:
-- count() – Conteo
-- sum() – Suma
-- mean() – Media
-- median() – Mediana
-- min() – Valor minimo
-- max() – Valor maximo
-- std() – Desviacion tipica
-- var() – Varianza
+La función puede ser:
+
+- `count` – Conteo
+- `sum` – Suma
+- `mean` – Media
+- `median` – Mediana
+- `min` – Valor mínimo
+- `max` – Valor máximo
+- `std` – Desviación tipica
+- `var` – Varianza
 
 ```python
 # Agrupar datos por estado, sumando valores
@@ -315,7 +340,6 @@ pueden ser usadas como identificadores, y las demás columnas como valores.
 pd.melt(inah_visitantes2022)
 ```
 
-
 ## Ejercicios
 
 Usando los datos en `estudiantes_mxuk2021.csv`, realizar los siguientes 
@@ -324,20 +348,32 @@ ejercicios. Puedes utilizar un jupyter notebook.
 1. ¿Cuántos estudiantes de Puebla estudian un posgrado?
 2. ¿Cuál es la edad promedio de los estudiantes que estudian un posgrado?
 3. Seleccionar los registros que satisfagan las siguientes condiciones:
-   1. Estudiantes mayores de 27 años y que no son de CDMX
-   2. Estudiantes menores de 28 años y, que estudian en University of York y en University of Sussex
-4. Calcular (tal vez sea útil usar _groupby_):
-   1. Número de estudiantes por universidad
-   2. Número de estudiantes por estado
-   3. ¿Cuál es la universidad con más estudiantes mexicanos?
+   - Estudiantes mayores de 27 años y que no son de CDMX
+   - Estudiantes menores de 28 años y, que estudian en University of York y en University of Sussex
+4. Calcular (tal vez sea útil usar `groupby`):
+   - Número de estudiantes por universidad
+   - Número de estudiantes por estado
+   - ¿Cuál es la universidad con más estudiantes mexicanos?
 
-{{% notice info "Fuentes de datos" %}}
-1. Visitantes a museos y zonas arqueologicas abiertas al publico. https://datos.gob.mx/busca/dataset/visitantes-a-museos-y-zonas-arqueologicas-abiertas-al-publico
+{{% notice tip "Referencias" %}}
+- Visitantes a museos y zonas arqueologicas abiertas al público. Datos abiertos
+de México. Disponible en: 
+https://datos.gob.mx/busca/dataset/visitantes-a-museos-y-zonas-arqueologicas-abiertas-al-publico
 
-2. Estudiantes de posgrado en el Reino Unido en 2021. Sin publicar
+- Estudiantes de posgrado en el Reino Unido en 2021. Sin publicar.
 
-Sitios mayas
-https://www.kaggle.com/datasets/ujwalkandi/archaeological-sites-with-maya-inscriptions
+- Filtrado y uso de query con pandas en Python. Naps Tecnología y educación.
+Disponible en: https://naps.com.mx/blog/uso-de-query-con-pandas-en-python/
 
+- Pandas I. Curso Ciencia de Datos con Python CIDE. Disponible en: 
+https://rafneta.github.io/CienciaDatosPythonCIDE/Laboratorios/Lab9/PandasI.html
+
+- loc vs iloc pandas. Analytics Vidhya. Disponible en: 
+https://www.analyticsvidhya.com/blog/2020/02/loc-iloc-pandas/
+
+- pandas documentation. the pandas development team. Disponible en: 
+https://pandas.pydata.org/pandas-docs/stable/ 
+
+- How to use iloc and loc for indexing and slicing pandas dataframes. Marsja.
+Disponible en: https://www.marsja.se/how-to-use-iloc-and-loc-for-indexing-and-slicing-pandas-dataframes/
 {{% /notice %}}
-

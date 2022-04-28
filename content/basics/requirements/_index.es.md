@@ -6,7 +6,7 @@ disableToc: false
 
 ### Especificaciones
 
-Se espera que la computadora para seguir los materiales publicados en este sitio
+Para seguir los materiales publicados en este sitio se espera que la computadora 
 tenga las siguientes especificaciones técnicas:
 
 - Sistema operativo: 
@@ -55,7 +55,8 @@ programar.
 {{% notice note %}}
 También existen los entornos integrados de desarrollo (Integrated Development 
 Environment, **IDE**, en inglés) que son programas con muchas más 
-funcionalidades que un editor de código. Por ejemplo, [Visual Studio](https://visualstudio.microsoft.com/vs/)
+funcionalidades que un editor de código. Por ejemplo, 
+[Visual Studio](https://visualstudio.microsoft.com/vs/)
 es muy conocido, aunque por lo mismo, puede ser pesado y consumir bastantes
 recursos. Para estos cursos, nos limitaremos a usar VSCode por su soporte
 multiplataforma y entorno modular.

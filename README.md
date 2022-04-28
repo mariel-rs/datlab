@@ -3,15 +3,10 @@
 Dat Lab es un sitio web donde subo los materiales utilizados en los talleres que 
 imparto de Python y de análisis de datos.
 
-Si bien este material puede ser usado de forma independiente, es para ser 
-utilizado como material de apoyo a las sesiones en vivo.
-
 Este espacio nace por la idea de aportar herramientas necesarias a personas con
 poca o nulo acercamiento a tecnologías más alla de una hoja de cálculo, pero que
 tienen interés en mejorar su productividad (sea en investigación, sector público 
-o privado) y así dar un _booster_ o una recarga a su portafolio de habilidades 
-técnicas.
-
+o privado) y así dar una recarga a su portafolio de habilidades técnicas.
 
 ## Licencia
 

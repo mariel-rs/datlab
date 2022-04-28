@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.0.6 (2022-04-28)
+
+### Actualización a _Análisis de datos en Python_
+
+- Creación del ejercicios de prueba de hipótesis del tema _Análisis estadístico_
+- Inicio de revisión ortográfica para _Bucles_, _Manejo de datos_ y 
+_Visualizaciones_
+- Actualización de referencias en los temas: _Introducción a Python_, 
+_Primer programa_, _Bucles_, _Manejo de datos_, _Visualizaciones_ y 
+_Análisis estadístico_
+- Ligera restructuración en tema _Primer programa_
+- Inclusión de una breve introducción en temas: _Introducción a_ 
+_Python_, _Manejo de datos_, _Visualizaciones_ y _Análisis estadístico_
+- Inclusión de **tags** con palabras clave para cada tema
+
 ## 0.0.5 (2022-04-27)
 
 ### Actualización a _Análisis de datos en Python_
@@ -48,4 +63,4 @@ _Proyecto final_
 ### Mantenimiento
 
 - Migración del theme Learn a Relearn para evitar el bug que ocasionaba el 
-_landing page URL_ cuando existe un idioma distinto al inglés.
+_landing page URL_ cuando existe un idioma distinto al inglés
