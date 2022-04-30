@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>scipy on Español</title><link>https://mariel-rs.github.io/datlab/tags/scipy/</link><description>Recent content in scipy on Español</description><generator>Hugo -- gohugo.io</generator><language>es</language><atom:link href="https://mariel-rs.github.io/datlab/tags/scipy/index.xml" rel="self" type="application/rss+xml"/><item><title>6. Análisis estadístico</title><link>https://mariel-rs.github.io/datlab/dap101/6-stats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mariel-rs.github.io/datlab/dap101/6-stats/</guid><description>Introducción Python tiene bastantes librerías para realizar análisis estadístico. En esta sección nos concentraremos en SciPy y statsmodels.
 Datos
 Usaremos los siguientes archivos para los ejercicios de este tema:
-Archivos aspirantes_inecol2020.csv (2 KB) derrama-economica-destino-turistico-generada-turismo-puebla.csv (1 KB) estudiantes_uk2021.csv (10 KB) FCN-DA-19-DDP-TPA.csv (382 KB) inah_bibliotecas_abiertas.csv (13 KB) inah_visitantes_2022.csv (20 KB) mayan_sites.csv (23 KB) precipitacion_guerrero.csv (3 KB) Temperatura_promedio.csv (146 KB) Librerias
-Para esta seccion usaremos las siguientes librerias
-import pandas as pd import matplotlib.</description></item></channel></rss>
+Archivos edadpesograsas.txt (266 B) precipitacion_guerrero.csv (3 KB) Librerías
+Para esta sección usaremos las siguientes librerías:
+import pandas as pd import matplotlib.pyplot as plt import seaborn as sns import scipy.stats as stats Datos de precipitacion
+Usaremos el archivo precipitacion_guerrero.csv que contiene datos históricos mensuales y anuales de precipitación en Guerrero desde 1985 hasta 2020.</description></item></channel></rss>
