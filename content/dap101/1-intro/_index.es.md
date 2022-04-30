@@ -284,8 +284,7 @@ referencia de Python [Estructuras de Datos](https://docs.python.org/3/es/tutoria
     1. Llenar el diccionario con un ejemplo de un estudiante
     2. **Reto** Llenar el diccionario con 3 estudiantes.
 
-{{% notice tip "Referencias" %}} 
+## Material adicional
+
 - Introducción a la programación con Python. Bartolomé Sintes Marco. Disponible 
 en: https://www.mclibre.org/consultar/python/index.html
-{{% /notice %}}
-

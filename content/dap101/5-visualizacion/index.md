@@ -16,7 +16,7 @@ matplotlib y seaborn.
 
 Usaremos los siguientes archivos para los ejercicios de este tema:
 
-{{% attachments title="Archivos" pattern=".*csv"/%}}
+{{% attachments style="blue" title="Archivos" pattern=".*(csv|txt)"/%}}
 
 ## matplotlib
 
@@ -47,6 +47,8 @@ ax.legend(loc='lower right', fontsize=14)
 # Mostrar el grafico
 plt.show()
 ```
+
+### Barras
 
 ## seaborn
 
@@ -187,7 +189,8 @@ plt.show()
    - ¿Cuál es la visualización más representativa para mostrar el flujo de
    visitantes en los meses reportados para un Centro INAH (o estado!) determinado?
 
-{{% notice tip "Referencias" %}}
+## Referencias y material adicional
+
 - Visitantes a museos y zonas arqueologicas abiertas al público. Datos abiertos 
 de México. Disponible en: 
 https://datos.gob.mx/busca/dataset/visitantes-a-museos-y-zonas-arqueologicas-abiertas-al-publico
@@ -200,4 +203,3 @@ https://datos.gob.mx/busca/dataset/seleccion-de-aspirantes
 - The Python graph gallery. Disponible en: https://python-graph-gallery.com/
 
 - seaborn documentation. Michael Waskom. Disponible en: https://seaborn.pydata.org/
-{{% /notice %}}

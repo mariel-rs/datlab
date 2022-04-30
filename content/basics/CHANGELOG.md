@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.7 (2022-04-29)
+
+### Actualización a _Análisis de datos en Python_
+
+- Inclusión de prueba de Levene y regresión lineal en el tema 
+_Análisis estadístico_
+
 ## 0.0.6 (2022-04-28)
 
 ### Actualización a _Análisis de datos en Python_

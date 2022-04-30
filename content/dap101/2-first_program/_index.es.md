@@ -329,7 +329,6 @@ Para verificar tu función, puedes usar las siguientes pruebas:
 | print(contabilidad([100, 300, 20], 750)) | 330 |
 | print(contabilidad([300, 39, 700, 500, 220, 740], 2500)) | 1 |
 
-{{% notice tip "Referencias" %}}
+## Material adicional
 - Introducción a la programación con Python. Bartolomé Sintes Marco. Disponible 
 en: https://www.mclibre.org/consultar/python/index.html
-{{% /notice %}}

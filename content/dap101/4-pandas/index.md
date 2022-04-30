@@ -6,7 +6,6 @@ weight = 4
 tags = ["pandas"]
 +++
 
-
 ## Introducción
 
 pandas es la librería de Python más utilizada para procesar datos. pandas puede
@@ -18,7 +17,7 @@ bidimensional con ejes etiquetados (filas y columnas).
 
 Usaremos los siguientes archivos para los ejercicios de este tema:
 
-{{% attachments title="Archivos" pattern=".*csv"/%}}
+{{% attachments style="blue" title="Archivos" pattern=".*(csv|txt)"/%}}
 
 ## Primeros pasos
 
@@ -355,7 +354,7 @@ ejercicios. Puedes utilizar un jupyter notebook.
    - Número de estudiantes por estado
    - ¿Cuál es la universidad con más estudiantes mexicanos?
 
-{{% notice tip "Referencias" %}}
+## Referencias
 - Visitantes a museos y zonas arqueologicas abiertas al público. Datos abiertos
 de México. Disponible en: 
 https://datos.gob.mx/busca/dataset/visitantes-a-museos-y-zonas-arqueologicas-abiertas-al-publico
@@ -376,4 +375,3 @@ https://pandas.pydata.org/pandas-docs/stable/
 
 - How to use iloc and loc for indexing and slicing pandas dataframes. Marsja.
 Disponible en: https://www.marsja.se/how-to-use-iloc-and-loc-for-indexing-and-slicing-pandas-dataframes/
-{{% /notice %}}
