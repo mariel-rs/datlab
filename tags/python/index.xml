@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>python on Español</title><link>https://mariel-rs.github.io/datlab/tags/python/</link><description>Recent content in python on Español</description><generator>Hugo -- gohugo.io</generator><language>es</language><atom:link href="https://mariel-rs.github.io/datlab/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>1. Introducción a Python</title><link>https://mariel-rs.github.io/datlab/dap101/1-intro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mariel-rs.github.io/datlab/dap101/1-intro/</guid><description>Introducción Python es un lenguaje de programación fácil de aprender, con estructuras de datos eficientes. Es considerado como el lenguaje más popular para aprender por su versatilidad, su enfoque sencillo y la cantidad de librerías disponibles para machine learning, análisis de datos y visualización de datos.
 Salida por pantalla Lo primero que se suele hacer cuando aprendemos a programar es saludar&amp;hellip; Hello world
-print(&amp;#34;Hello world&amp;#34;) print(1+1) Un comentario Los comentarios no se ejecutan.</description></item><item><title>2. Primer programa en Python</title><link>https://mariel-rs.github.io/datlab/dap101/2-first_program/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mariel-rs.github.io/datlab/dap101/2-first_program/</guid><description>Operaciones Python puede realizar las siguientes operaciones matemáticas:
-Suma
+print(&amp;#34;Hello world&amp;#34;) print(1+1) Un comentario Los comentarios no se ejecutan.</description></item><item><title>2. Primer programa en Python</title><link>https://mariel-rs.github.io/datlab/dap101/2-first_program/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mariel-rs.github.io/datlab/dap101/2-first_program/</guid><description>Introducción Python es un lenguaje de programación completo que puede realiar distintos tipos de operaciones: matemáticas, lógicas, relacionales. Aquí veremos los operadores que Python utiliza para dichas operaciones y su uso.
+Operaciones matemáticas Suma
 Se indica con el operador +
 print(2 + 3) Resta
 Se indica con el operador -
 print(2 - 3) Multiplicación
 Se indica con el operador *
 # Multiplicaciones print(2 * 3) Potencias
-Las potencias se indican con el operador ** (Python no usa ^ para indicar potencias como otros lenguajes)
-# cuidado con el operador... print(2 ** 3) Divisiones
-Dependiendo lo que se requiera, las divisiones se indican con el operador /, // o %</description></item><item><title>3. Bucles</title><link>https://mariel-rs.github.io/datlab/dap101/3-loop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mariel-rs.github.io/datlab/dap101/3-loop/</guid><description>Bucles For Accesando una lista por sus elementos
-# Una lista con numeros a = [1, 2, 10, 0, 6] for el in a: print(el) Range
-range(j) # 0, 1, 2, ..., j-1 range(i, j) # i, i+1, i+2, ..., j-1 range(i, j, k) # i, i+k, i+2k, ..., i+m Algunos ejemplos
-range_list = list(range(5)) print(range_list) ten_hundred = list(range(10, 101, 10)) print(ten_hundred) Accesando a la lista usando indices
-# Ahora usamos indice for i in range(len(a)): print(a[i]) Ejercicio</description></item></channel></rss>
+Las potencias se indican con el operador ** (Python no usa ^ para indicar potencias como otros lenguajes)</description></item><item><title>3. Bucles</title><link>https://mariel-rs.github.io/datlab/dap101/3-loop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mariel-rs.github.io/datlab/dap101/3-loop/</guid><description>Introducción Un bucle es estructura de control que repite un bloque de código con instrucciones una y otra vez. Los bucles pueden ser finitos (se repiten un determinado número de veces) o infinitos.
+Bucles For For es un bucle finito, puesto que definimos el inicio y el fin. Típicamente se usan cuando conocemos la cantidad de veces que deseamos repetir instrucciones.
+Por ejemplo, cuando queremos acceder a una lista por sus elementos.</description></item></channel></rss>
