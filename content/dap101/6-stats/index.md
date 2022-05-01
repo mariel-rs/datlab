@@ -241,7 +241,7 @@ de cambiar detalles en el servicio.
 - Comparar el progreso del mismo grupo de pacientes, antes y después, de 
 introducir un medicamento en su tratamiento.
 
-En esta prueba se contrasta la diferencia entre las medias `μd`. Si son iguales,
+En esta prueba se contrasta la diferencia entre las medias $\mu_d$. Si son iguales,
 la diferencia será igual a 0.
 
 Entonces, las hipótesis contrastadas son:
@@ -380,23 +380,21 @@ $$y = \beta_{0} + \beta_{i}x_i + ... + \epsilon_i \ \ \ \ \ i = 1, ... n $$
 
 donde,
 
-βi representan los coeficientes que describen la relación o la influencia que
-tiene la variable xi sobre la variable dependiente.
+$\beta_i$ representan los coeficientes que describen la relación o la influencia
+que tiene la variable $x_i$ sobre la variable dependiente.
 
-β0 representa el intercepto. Este valor describe la relación entre la variable
-dependiente y las variables independientes xi, cuando xi = 0.
+$\beta_0$ representa el intercepto. Este valor describe la relación entre la variable
+dependiente y las variables independientes $x_i$, cuando $x_i$ = 0.
 
-xi son las variables independientes utilizadas en el modelo.
+$x_i$ son las variables independientes utilizadas en el modelo.
 
-ɛi representa el error aleatorio que se introduce en el modelo por cada una de
+$\epsilon_i$ representa el error aleatorio que se introduce en el modelo por cada una de
 las variables independientes x. Estos errores son independientes y siguen una 
-distribución normal. De tal manera que,
-
-$$\epsilon_i \sim \mathcal{N}(0, \sigma^2) $$
+distribución normal. $\epsilon_i \sim \mathcal{N}(0, \sigma^2) $
 
 ### Mínimos cuadrados ordinarios
 
-Existen distintos métodos para determinar los coeficientes β, uno de ellos es
+Existen distintos métodos para determinar los coeficientes $\beta$, uno de ellos es
 mínimos cuadrados ordinarios. **statsmodels** es una librería de Python que 
 contiene una colección grande de modelos estadísticos. Para ajustar un modelo
 lineal usando mínimos cuadrados ordinarios, usaremos la función 

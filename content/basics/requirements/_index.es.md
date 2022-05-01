@@ -47,8 +47,12 @@ VSCode) como editor de código. Es liviano, multiplataforma y con bastantes
 extensiones que mejoran la experiencia de programación. Soporta varios lenguajes 
 de programación. Para Python, he encontrado que VSCode es cómodo. 
 3. [Notepad++](https://notepad-plus-plus.org/) es hasta ahora, el mejor editor 
-de texto que he encontrado. Nos será muy útil para muchas más cosas, no sólo para 
-programar.
+de texto que he encontrado para Windows. Nos será muy útil para muchas más cosas, 
+no sólo para programar. Desafortunadamente Notepad++ no tiene soporte para otros 
+sistemas operativos. Como alternativas, está [Notepadqq](https://notepadqq.com/s/) 
+para Linux. En Mac están [Atom](https://atom.io/) y 
+[Sublime Text](https://www.sublimetext.com/), aunque este último nunca lo he 
+utilizado.
 1. [Git](https://git-scm.com/). Control de versiones libre más utilizado
 
 

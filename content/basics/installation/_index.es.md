@@ -12,19 +12,22 @@ Desafortunadamente, aquí sí afecta el orden de instalación :( Para evitar
 modificar [variables de entorno](https://es.wikipedia.org/wiki/Variable_de_entorno) 
 posteriormente (y a mano), recomiendo el siguiente orden:
 
-1. Notepad++
+1. Notepad++ **Sólo Windows**
 2. Anaconda
 3. VSCode
 4. Git (Si se necesita usar control de versiones.)
 
 ### Notepad++
 
-Notepad++ es muy rápido de instalar y no causa problemas. Con seguir los pasos 
+ Notepad++ es muy rápido de instalar y no causa problemas. Con seguir los pasos 
 de la instalación es suficiente. <i class="fas fa-smile"></i>
+
+
 
 ### Anaconda
 
-En algún punto de la instalación de Anaconda, veremos las opciones avanzadas:
+**Sólo Windows**: En algún punto de la instalación de Anaconda, veremos las 
+opciones avanzadas:
 
 ![Opciones Anaconda](https://docs.anaconda.com/_images/win-install-options.png?height=300px&width=400px)
 
@@ -34,8 +37,8 @@ mejor opción para que VSCode encuentre a Anaconda.
 
 ### VSCode
 
-Esta instalación es muy amigable. Sólo recomiendo revisar que la casilla "Add to 
-PATH" esté activada.
+**Sólo Windows**: Esta instalación es muy amigable. Sólo recomiendo revisar que 
+la casilla "Add to PATH" esté activada.
 
 ![Opciones VSCode](images/vscode_options.png?height=300px&width=400px)
 

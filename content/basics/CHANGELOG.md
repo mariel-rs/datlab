@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.0.7 (2022-04-30)
+
+### Actualización a _Análisis de datos en Python_
+
+- Actualización al tema _Recapitulación_
+- Inclusión de párrafo de introducción en el tema _Bucles_
+- Inclusión de tópicos adicionales en _Manejo de datos_
+- Inicio de revisión ortográfica y gramatical de todo el curso.
+- Revisión menor al tópico de _Instalación_.
+
 ## 0.0.7 (2022-04-29)
 
 ### Actualización a _Análisis de datos en Python_

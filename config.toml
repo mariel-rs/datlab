@@ -81,12 +81,6 @@ title = "Dat Lab"
     landingPageName = "<i class='fas fa-home'></i> Inicio"
 
   [[Languages.es.menu.shortcuts]]
-    name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
-    identifier = "ds"
-    url = "https://github.com/mariel-rs/datlab"
-    weight = 10
-
-  [[Languages.es.menu.shortcuts]]
     name = "<i class='fas fa-fw fa-camera'></i> Escaparate"
     url = "more/showcase/"
     weight = 11

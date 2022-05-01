@@ -167,6 +167,15 @@ DataFrame. Pero para una serie con valores de texto, se reportan:
 inah_visitantes2022["Estado"].describe()
 ```
 
+## Operaciones
+
+### Crear columnas
+
+### Eliminar columnas
+
+### Modificar columnas
+
+
 ## Selección de datos
 
 ### Condicionales

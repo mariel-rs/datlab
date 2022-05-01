@@ -6,9 +6,13 @@ weight = 2
 tags = ["python"]
 +++
 
-## Operaciones
+## Introducción
 
-Python puede realizar las siguientes operaciones matemáticas:
+Python es un lenguaje de programación completo que puede realiar distintos tipos
+de operaciones: matemáticas, lógicas, relacionales. Aquí veremos los operadores
+que Python utiliza para dichas operaciones y su uso.
+
+## Operaciones matemáticas
 
 **Suma**
 
@@ -156,8 +160,9 @@ print(not z)
 
 ### if
 
-if (si, en español) es una sentencia condicional que permite que un programa ejecute un
-bloque de código si se cumple una condición (si la condición es verdadera).
+if (si, en español) es una sentencia condicional que permite que un programa 
+ejecute un bloque de código si se cumple una condición (si la condición es 
+verdadera).
 
 ```python
 # Sintaxis de if
@@ -297,7 +302,7 @@ def temp_convert(tf):
     # Aqui va tu codigo
 ```
 
-{{% notice info %}}
+{{% notice tip %}}
 Puedes usar la función **round(x, 2)** para redondear el valor de _x_ a 2 
 decimales.
 {{% /notice %}}
@@ -318,7 +323,7 @@ def contabilidad(pagos, ingresos):
     # Aqui va tu codigo
 ```
 
-{{% notice info %}}
+{{% notice tip %}}
 Puedes usar la función **sum()** para sumar todos los elementos de la lista.
 {{% /notice %}}
 

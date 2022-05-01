@@ -6,11 +6,20 @@ weight = 3
 tags = ["python"]
 +++
 
+## Introducción
+
+Un bucle es estructura de control que repite un bloque de código con
+instrucciones una y otra vez. Los bucles pueden ser finitos (se repiten un
+determinado número de veces) o infinitos.
+
 ## Bucles
 
 ### For
 
-Accesando una lista por sus elementos
+For es un bucle finito, puesto que definimos el inicio y el fin. Típicamente
+se usan cuando conocemos la cantidad de veces que deseamos repetir instrucciones.
+
+Por ejemplo, cuando queremos acceder a una lista por sus elementos.
 
 ```python
 # Una lista con numeros
@@ -21,6 +30,9 @@ for el in a:
 ```
 
 **Range**
+
+Range es un tipo de datos especial, que representa una secuencia de números. Se
+utiliza para especificar la cantidad de veces que el bucle For se ejecuta.
 
 ```python
 range(j)             # 0, 1, 2, ..., j-1
@@ -40,7 +52,7 @@ ten_hundred = list(range(10, 101, 10))
 print(ten_hundred)
 ```
 
-Accesando a la lista usando indices
+Usemos ahora **range** para acceder a los elementos de la lista usando índices.
 
 ```python
 # Ahora usamos indice
@@ -62,7 +74,6 @@ calificaciones:
 | Psicologia | 8.5 |
 
 
-
 {{% notice tip %}}
 Representa las calificaciones como una lista. Primero sumar y al final, dividir.
 
@@ -76,6 +87,11 @@ $$ \bar{x} = \frac{1}{N}\sum_{i=1}^N x $$
 
 ### While
 
+While es un bucle de tipo infinito. En él, se repite la ejecución de un bloque de 
+instrucciones mientras se satisfaga una condición.
+
+El siguiente ejemplo imprimirá en pantalla el número 0 tres veces. 
+
 ```python
 i = 1
 while i <= 3:
@@ -84,7 +100,7 @@ while i <= 3:
 print("Hasta que se acabe el dedo")
 ```
 
-Otro ejemplo
+Otro ejemplo.
 
 ```python
 i = 10
@@ -94,7 +110,7 @@ while i >= 0:
 print("Cuenta terminada")
 ```
 
-Un infinito
+Un infinito (Definimos mal la condición a satisfacer)
 
 ```python
 i = 1
@@ -102,7 +118,7 @@ while i <= 10:
     print(i)
 ```
 
-Casi infinito
+Casi infinito.
 
 ```python
 # Are you human?
@@ -114,7 +130,7 @@ while(answer == "si"):
     answer = input().lower()
 ```
 
-Romper un bucle while con _break_
+Podemos romper un bucle while con _break_
 
 ```python
 def break_loop():
