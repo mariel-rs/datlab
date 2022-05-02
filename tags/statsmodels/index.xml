@@ -3,5 +3,5 @@ Datos
 Usaremos los siguientes archivos para los ejercicios de este tema:
 Archivos edadpesograsas.txt (266 B) precipitacion_guerrero.csv (3 KB) Librerías
 Para esta sección usaremos las siguientes librerías:
-import pandas as pd import matplotlib.pyplot as plt import seaborn as sns import scipy.stats as stats Datos de precipitacion
+import pandas as pd import matplotlib.pyplot as plt import seaborn as sns import scipy.stats as stats Datos de precipitación
 Usaremos el archivo precipitacion_guerrero.csv que contiene datos históricos mensuales y anuales de precipitación en Guerrero desde 1985 hasta 2020.</description></item></channel></rss>
