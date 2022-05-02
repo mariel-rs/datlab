@@ -102,7 +102,7 @@ print(x < y)
 **Mayor que, estrictamente mayor**
 
 ```python
-# Menor que
+# Mayor que
 print(x > y)
 ```
 

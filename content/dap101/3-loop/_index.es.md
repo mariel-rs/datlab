@@ -31,13 +31,13 @@ for element in a:
 
 **Range**
 
-Range es un tipo de datos especial, que representa una secuencia de números. Se
+Range es un tipo de datos especial que representa una secuencia de números. Se
 puede utilizar para especificar la cantidad de veces que el bucle For se ejecuta.
 
 ```python
 range(j)             # 0, 1, 2, ..., j-1
 range(i, j)          # i, i+1, i+2, ..., j-1
-range(i, j, k)       # i, i+k, i+2k, ..., i+m
+range(i, j, k)       # i, i+k, i+2k, ..., j-1
 ```
 
 Algunos ejemplos:

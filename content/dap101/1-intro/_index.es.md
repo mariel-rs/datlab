@@ -204,7 +204,7 @@ funciona un diccionario físico.
 
 ```python
 # Un diccionario vacio
-empty_list = {}
+empty_dict = {}
 ```
 
 ```python
