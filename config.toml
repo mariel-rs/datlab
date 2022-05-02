@@ -1,6 +1,7 @@
 baseURL = "https://mariel-rs.github.io/datlab"
 canonifyURLs = false
 relativeURLs = false
+googleAnalytics = "G-RYB0SFFXNW"
 
 #themesdir = "themes/hugo-theme-relearn"
 theme = "hugo-theme-relearn"
@@ -12,7 +13,6 @@ disableLanguages = ['pir', 'en']
 title = "Dat Lab"
 
 [params]
-  #editURL = "https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/"
   description = "Dat Lab"
   author = "Mariel Reyes"
   showVisitedLinks = false
@@ -74,7 +74,7 @@ title = "Dat Lab"
 # your project
 [Languages]
   [Languages.es]
-    title = "Español"
+    title = ""
     weight = 1
     languageName = "Español"
     landingPageURL = "/"

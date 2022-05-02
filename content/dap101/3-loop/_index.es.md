@@ -25,14 +25,14 @@ Por ejemplo, cuando queremos acceder a una lista por sus elementos.
 # Una lista con numeros
 a = [1, 2, 10, 0, 6]
 
-for el in a:
-    print(el)
+for element in a:
+    print(element)
 ```
 
 **Range**
 
 Range es un tipo de datos especial, que representa una secuencia de números. Se
-utiliza para especificar la cantidad de veces que el bucle For se ejecuta.
+puede utilizar para especificar la cantidad de veces que el bucle For se ejecuta.
 
 ```python
 range(j)             # 0, 1, 2, ..., j-1
@@ -40,7 +40,7 @@ range(i, j)          # i, i+1, i+2, ..., j-1
 range(i, j, k)       # i, i+k, i+2k, ..., i+m
 ```
 
-Algunos ejemplos
+Algunos ejemplos:
 
 ```python
 range_list = list(range(5))
@@ -122,11 +122,11 @@ Casi infinito.
 
 ```python
 # Are you human?
-print("Eres una persona? Responde Si o No")
+print("¿Eres una persona? Responde Si o No")
 answer = input().lower()
 
 while(answer == "si"):
-    print("En serio? Intenta otra vez. Responde Si o No")
+    print("¿En serio? Intenta otra vez. Responde Si o No")
     answer = input().lower()
 ```
 
@@ -139,14 +139,14 @@ def break_loop():
     
     while True:
         
-        print("Deseas terminar el programa? Escribe Si o No")
+        print("¿Deseas terminar el programa? Escribe Si o No")
         respuesta = input()
         
         # Actualizar el contador
         contador += 1
         
         if contador >= 5:
-            print("Ya me ejecute muchas veces. Voy a descansar.")
+            print("Ya me ejecuté muchas veces. Voy a descansar.")
             break
 ```
 

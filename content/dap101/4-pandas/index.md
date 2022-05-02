@@ -72,12 +72,12 @@ Ver sólo ver las primeras _n_ filas con el método
 O las últimas _n_ filas con el método [**tail()**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.tail.html).
 
 ```python
-# ver solo las primeras 5 filas
+# ver las primeras 5 filas
 inah_visitantes2022.head(5)
 ```
 
 ```python
-# ver solo las ultimas 5 filas
+# ver las últimas 5 filas
 inah_visitantes2022.tail(5)
 ```
 
@@ -95,7 +95,7 @@ inah_visitantes2022.info()
 ### Dimensiones
 
 Para inspeccionar las dimensiones de los datos importados, usamos el atributo 
-[**shape**](https://pandas.pydata.org/pandas-docs/version/1.3.0/reference/api/pandas.DataFrame.shape.html)
+[**shape**](https://pandas.pydata.org/pandas-docs/version/1.3.0/reference/api/pandas.DataFrame.shape.html).
 
 ```python
 # Dimensiones
@@ -107,7 +107,8 @@ de este DataFrame.
 
 ### Columnas
 
-Para inspeccionar el nombre de las columnas, usamos el atributo [**columns**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.columns.html)
+Para inspeccionar el nombre de las columnas, usamos el atributo 
+[**columns**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.columns.html).
 
 ```python
 # Columnas
@@ -116,7 +117,8 @@ inah_visitantes2022.columns
 
 ### Ordenar datos
 
-Podemos ordenar datos usando el método [**sort_values()**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html).
+Podemos ordenar datos usando el método 
+[**sort_values()**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html).
 
 En el siguiente ejemplo, ordenamos por una columna, en orden ascendente.
 
@@ -229,7 +231,8 @@ inah_visitantes2022["enero_visitantes"] = inah_visitantes2022["enero_nac"] + ina
 ### Eliminar columnas
 
 Para eliminar columnas innecesarias o que fueron creadas por error, se puede 
-hacer con el método [**drop()**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html)
+hacer con el método 
+[**drop()**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html).
 
 La sintaxis es la siguiente:
 
@@ -273,7 +276,7 @@ def test_function(col):
     return col
 ```
 
-Usemos map para aplicar esta función a una nueva columna "respuesta"
+Usemos map para aplicar esta función a una nueva columna "respuesta".
 
 ```python
 inah_visitantes2022["respuesta"] = inah_visitantes2022["enero_nac"].map(test_function)
@@ -309,8 +312,7 @@ inah_visitantes2022[inah_visitantes2022["Estado"] == "Guerrero"]
 ```
 
 ```python
-# Mostrar centros con mas de 1000 visitantes nacionales en enero
-
+# Mostrar centros con más de 1000 visitantes nacionales en enero
 inah_visitantes2022[inah_visitantes2022["enero_nac"] >= 10000]
 ```
 
@@ -324,7 +326,7 @@ df[(df["columna"] condición1) operador_lógico (df["columna"] condición2) ... 
 donde el operador lógico puede ser `&` (operador "y") o `|` (operador "o")
 
 ```python
-# Mostrar los centros con mas de 1000 visitantes nacionales en Guerrero
+# Mostrar los centros con más de 1000 visitantes nacionales en Guerrero
 inah_visitantes2022[(inah_visitantes2022["Estado"] == "Guerrero") & (inah_visitantes2022["enero_nac"] > 1000)]
 ```
 
@@ -338,7 +340,7 @@ nos permite utilizar una lista para comparar valores.
 df[df["columna"].isin(lista)]
 ```
 
-Mostrar los centros con mas de 1000 visitantes nacionales en Guerrero y Quintana 
+Mostrar los centros con más de 1000 visitantes nacionales en Guerrero y Quintana 
 Roo en el mes de marzo.
 
 ```python
@@ -414,7 +416,7 @@ inah_visitantes2022.iloc[[0]]
 2. Más de una fila, en desorden
    
 ```python
-# Mas de una fila, en distinto orden
+# Más de una fila, en distinto orden
 inah_visitantes2022.iloc[[7, 2, 0]]
 ```
 
@@ -440,8 +442,9 @@ inah_visitantes2022.iloc[0:2,0:3]
 
 ## Agrupación de datos
 
-Además de lo ya visto, [**groupby()**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html) 
-puede agrupar datos por columnas y crear un DataFrame más compacto.
+[**groupby()**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html) 
+es un método que permite agrupar datos por columnas y crear un DataFrame más 
+compacto.
 
 ```python
 # Sintaxis
@@ -500,7 +503,7 @@ preguntas.
 de México. Disponible en: 
 https://datos.gob.mx/busca/dataset/visitantes-a-museos-y-zonas-arqueologicas-abiertas-al-publico
 
-- Estudiantes de posgrado en el Reino Unido en 2021. Sin publicar.
+- Estudiantes de posgrado en el Reino Unido. Sin publicar.
 
 - Filtrado y uso de query con pandas en Python. Naps Tecnología y educación.
 Disponible en: https://naps.com.mx/blog/uso-de-query-con-pandas-en-python/

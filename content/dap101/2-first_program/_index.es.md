@@ -55,13 +55,13 @@ Dependiendo lo que se requiera, las divisiones se indican con el operador `/`,
 `//` o `%`
 
 ```python
-# Division
+# División
 print(38 / 5)
 
-# Cociente de la division (devuelve un entero)
+# Cociente de la división (devuelve un entero)
 print(38 // 5)
 
-# Residuo de la division
+# Residuo de la división
 print(38 % 5)
 ```
 
@@ -257,7 +257,7 @@ cajeros = 3
 
 clientes = int(input("Escriba el numero de clientes usando un cajero "))
 
-# Calcular cuantos cajeros estan disponibles
+# Calcular cajeros disponibles
 cajeros_disp = cajeros - clientes
 
 if (cajeros_disp == cajeros):
@@ -270,7 +270,7 @@ elif (cajeros_disp == 0):
     print(f"No hay cajeros disponibles")
 
 else:
-    print("Intenta un numero mayor que 0 pero menor o igual a 3")
+    print("Intenta un número mayor que 0 pero menor o igual a 3")
 ```
 
 ## Funciones
@@ -305,7 +305,7 @@ def mi_funcion(arg1, arg2):
 
 ## Ejercicios
 
-1. Escribe una función **media** que calcule la media de dos numeros `a` y `b`, y 
+1. Escribe una función **media** que calcule la media de dos números `a` y `b`, y 
 que **imprima** el resultado en pantalla.
 
 ```python
@@ -337,6 +337,7 @@ Para verificar tu función, puedes usar las siguientes pruebas:
 | ------ | ----------- |
 | temp_convert(59) | 15 |
 | temp_convert(32) | 0 |
+| temp_convert(-40) | -40 |
 
 3. Crea una función llamada **contabilidad** que tome una lista `pagos` con los 
 pagos del mes y una variable `ingresos` que indica el total de ingresos del mes 

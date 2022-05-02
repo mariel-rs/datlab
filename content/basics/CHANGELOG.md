@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.0 (2022-05-02)
+
+### Primer curso completo
+
+- Contenido del curso _Análisis de datos en Python_ terminado. 
+- Finalizada la revisión ortográfica y gramatical del curso.
+
+### Mantenimiento
+
+- Inclusión de licencia CC en el footer.
+
 ## 0.0.8 (2022-05-01)
 
 ### Actualización a _Análisis de datos en Python_

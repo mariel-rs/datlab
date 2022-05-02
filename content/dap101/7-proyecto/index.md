@@ -12,7 +12,7 @@ visualizaciónes y análisis estadístico, haremos un pequeño ejercicio.
 
 **Datos**
 
-Usaremos el siguiente archivos para recapitular todos lo aprendido:
+Usaremos el siguiente archivo para recapitular todo lo aprendido:
 
 {{% attachments style="blue" title="Archivos" pattern=".*(csv|txt)"/%}}
 
@@ -111,7 +111,7 @@ que seaborn usará. Para mejorar la vista, hemos usado la paleta Blues. Si el
 factor de correlación se acerca más al valor 1, el cuadro tendrá un color azul
 más fuerte. Si te interesa ver más opciones puedes ver la documentación de
 [colormaps](https://matplotlib.org/stable/tutorials/colors/colormaps.html) de
-matplotlib
+matplotlib.
 
 Adicionalmente, por ser una visualización de 24x24, el tamaño de la figura debe
 ser más grande.
@@ -181,7 +181,8 @@ ajustar los datos o no. Las hipótesis están definidas como:
 $$H_0: \beta_i = 0 $$
 $$H_1: \beta_i \neq 0 $$
 
-Asimismo, nos regresa los valores-p de dicha prueba. (¿Cuándo rechazábamos la hipótesis nula?)
+Asimismo, nos regresa los valores-p de dicha prueba. (¿Cuándo rechazábamos la 
+hipótesis nula?)
 {{% /notice  %}}
 
 
@@ -190,11 +191,12 @@ Asimismo, nos regresa los valores-p de dicha prueba. (¿Cuándo rechazábamos la
 Veamos qué tal predice nuestro modelo el estrato socioeconómico.
 
 ```python
-# Guardamos la prediccion del modelo en una Serie
+# Guardamos la predicción del modelo en una Serie
 Y_pred = pd.Series(modelo_ols.predict())
 ```
 
-Juntemos las series usando el método [**concat()**](https://pandas.pydata.org/docs/reference/api/pandas.concat.html).
+Juntemos las series usando el método 
+[**concat()**](https://pandas.pydata.org/docs/reference/api/pandas.concat.html).
 
 ```python
 comparison = pd.concat([encuesta_vivienda["ESTRATO"], Y_pred], keys = ["ESTRATO", "ESTRATO_p"], axis = 1)

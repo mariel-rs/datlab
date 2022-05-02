@@ -15,8 +15,8 @@ machine learning, análisis de datos y visualización de datos.
 
 ### Salida por pantalla
 
-Lo primero que se suele hacer cuando aprendemos a programar es saludar... 
-[Hello world](https://es.wikipedia.org/wiki/Hola_mundo)
+Lo primero que se suele hacer cuando aprendemos a programar es saludar. 
+[Hello world](https://es.wikipedia.org/wiki/Hola_mundo).
 
 ```python
 print("Hello world")
@@ -25,7 +25,8 @@ print(1+1)
 
 ### Un comentario
 
-Los comentarios no se ejecutan. Son eso, comentarios.
+Los comentarios son porciones del código que no se ejecutan. Son eso, 
+comentarios.
 
 ```python
 # Hola, soy un comentario.
@@ -58,7 +59,7 @@ tipo de dato. Python asumirá el tipo de valor usando una regla llamada
 ***duck typing***:
 
 "Si veo un ave que camina como un pato, nada como un pato y suena como un pato, 
-entonces a esa ave yo la llamo un pato"
+entonces a esa ave yo la llamo un pato."
 
 #### Enteros (_int_)
    
@@ -123,7 +124,7 @@ real_int = int(2.0)
 ## Entrada por teclado
 
 Podemos permitir que el usuario introduzca información usando la función **input()**.
-Input nos regresará lo que el usuario escribió como cadena de texto.
+Esta función nos regresará lo que el usuario escribió como cadena de texto.
 
 ```python
 # Entrada por teclado usando input()
@@ -165,7 +166,7 @@ mixed_list = [1, 1.0, "2", "Hola", True, "True", [1, 2]]
 # Aqui va tu codigo
 ```
 
-- Cuantos elementos tiene la lista?
+- ¿Cuántos elementos tiene la lista?
 
 ```python
 print(len(str_list))
@@ -211,7 +212,7 @@ empty_list = {}
 fruit_bag = {'apples': 4, 'pears': 9, "bananas": 0}
 ```
 
-Tambien se puede escribir delimitando espacios (Mira la sangría)
+También se puede escribir delimitando espacios (Mira la sangría)
 
 ```python
 # Un diccionario de una bolsa de frutas, con espacios
@@ -278,7 +279,8 @@ print(fruits)
    3. Convertir el valor a _float_
 
 2. Usando las listas ```mixed_list``` y ```str_list``` de los ejercicios:
-    1. Agregar el último elemento de la lista ```str_list``` a la lista ```mixed_list```
+    1. Agregar el último elemento de la lista ```str_list``` a la lista 
+   ```mixed_list```
     2. Imprimir en pantalla:
        1. Tipo de dato del primer elemento de ```mixed_list```
        2. Elemento con índice 6 de de ```mixed_list```
@@ -286,15 +288,15 @@ print(fruits)
     4. **Reto**  Verificar si los elementos con índices 0 y 1 son del mismo tipo
 
 3. Seguir el ejercicio de frutas en **5.1. More on Lists** en el sitio de 
-referencia de Python [Estructuras de Datos](https://docs.python.org/3/es/tutorial/datastructures.html)
+referencia de Python 
+[Estructuras de Datos](https://docs.python.org/3/es/tutorial/datastructures.html)
 
-4. Crear un diccionario llamado ```estudiante``` con 3 llaves:
+4. Crear un diccionario llamado ```estudiante``` con 2 llaves:
    - "id"
-   - "clave_materia"
    - "calificacion_final"
 
     Ejercicios:
-    1. Llenar el diccionario con un ejemplo de un estudiante
+    1. Llenar el diccionario con un ejemplo de un estudiante.
     2. **Reto** Llenar el diccionario con 3 estudiantes.
 
 ## Material adicional

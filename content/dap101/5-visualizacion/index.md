@@ -172,7 +172,7 @@ categóricas.
 
 ## Edición de gráficos
 
-Modificar etiquetas de los ejes y exportar imagen como PNG
+Modificar etiquetas de los ejes y exportar imagen como PNG.
 
 ```python
 # Declarar el grafico
@@ -190,7 +190,7 @@ plt.savefig('barplot_inah.png')
 plt.show()
 ```
 
-Girar ejes para mejorar la visualización
+Girar ejes para mejorar la visualización.
 
 ```python
 # Misma boxplot de calificaciones de INECOL pero ahora los ejes invertidos
@@ -221,7 +221,7 @@ https://datos.gob.mx/busca/dataset/visitantes-a-museos-y-zonas-arqueologicas-abi
 - Selección de aspirantes. Datos abiertos de México. Disponible en: 
 https://datos.gob.mx/busca/dataset/seleccion-de-aspirantes
 
-- Estudiantes de posgrado en el Reino Unido en 2021. Sin publicar.
+- Estudiantes de posgrado en el Reino Unido. Sin publicar.
 
 - The Python graph gallery. Disponible en: https://python-graph-gallery.com/
 
