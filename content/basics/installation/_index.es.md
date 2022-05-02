@@ -4,8 +4,11 @@ weight: 15
 disableToc: false
 ---
 
-Aquí se detallan los pasos para la instalación de los programas listados en la 
-sección de [Prerrequisitos](../requirements/)
+Aquí se detallan los pasos para la instalación de los programas sugeridos en la 
+sección de [Prerrequisitos](../requirements/). Las recomendaciones mostradas aquí
+son válidas para computadoras con sistema operativo Windows. Afortunadamente 
+macOS y Linux son mucho más simples para instalar y configurar, aunque puedes
+usar el orden sugerido.
 
 En matemáticas, el orden de los factores no altera la suma ni el producto.
 Desafortunadamente, aquí sí afecta el orden de instalación :( Para evitar 
@@ -21,8 +24,6 @@ posteriormente (y a mano), recomiendo el siguiente orden:
 
  Notepad++ es muy rápido de instalar y no causa problemas. Con seguir los pasos 
 de la instalación es suficiente. <i class="fas fa-smile"></i>
-
-
 
 ### Anaconda
 

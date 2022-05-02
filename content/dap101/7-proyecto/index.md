@@ -43,8 +43,8 @@ descripción de las columnas es la siguiente:
 | conexion_drenaje_3 | Binaria | La vivienda tiene drenaje o desagüe conectado a una tubería que va a dar a una barranca o grieta |
 | conexion_drenaje_4 | Binaria | La vivienda tiene drenaje o desagüe conectado a una tubería que va a dar a un río, lago o mar |
 | conexion_drenaje_5 | Binaria | La vivienda no tiene drenaje o desagüe |
-| tipo_poblacion_R | Binaria | La vivienda se encuentra en una poblacion rural |
-| tipo_poblacion_U | Binaria | La vivienda se encuentra en una poblacion urbana |
+| tipo_poblacion_R | Binaria | La vivienda se encuentra en una población rural |
+| tipo_poblacion_U | Binaria | La vivienda se encuentra en una población urbana |
 
 ## Inspección de datos
 
@@ -109,7 +109,7 @@ Hemos pasado un par de argumentos nuevos. `annot` nos reportará el valor del
 factor de correlación en la visualización. `cmap` es el mapa de colores que
 que seaborn usará. Para mejorar la vista, hemos usado la paleta Blues. Si el 
 factor de correlación se acerca más al valor 1, el cuadro tendrá un color azul
-más fuerte. Si te interesa ver más opciones puedes ver la documentacion de
+más fuerte. Si te interesa ver más opciones puedes ver la documentación de
 [colormaps](https://matplotlib.org/stable/tutorials/colors/colormaps.html) de
 matplotlib
 
@@ -132,8 +132,8 @@ sns.histplot(encuesta_vivienda["TLOC"])
 ```
 
 De igual manera, TLOC es una variable discreta. Los grupos de encuestados más
-representativos en la muestra, es de localidades con 100,000 y más habitantes, y
-de localidades con menos de 2500 habitantes. 
+representativos en la muestra, son de localidades con 100,000 y más habitantes,
+y de localidades con menos de 2500 habitantes. 
 
 Tracemos una recta entre ambas variables para encontrar más relaciones.
 
@@ -194,7 +194,7 @@ Veamos qué tal predice nuestro modelo el estrato socioeconómico.
 Y_pred = pd.Series(modelo_ols.predict())
 ```
 
-Juntemos las series usando el método [**concat**](https://pandas.pydata.org/docs/reference/api/pandas.concat.html).
+Juntemos las series usando el método [**concat()**](https://pandas.pydata.org/docs/reference/api/pandas.concat.html).
 
 ```python
 comparison = pd.concat([encuesta_vivienda["ESTRATO"], Y_pred], keys = ["ESTRATO", "ESTRATO_p"], axis = 1)
@@ -272,9 +272,10 @@ MAE: 0.5490078148166975 	 RMSE: 0.7043990103948065
 
 - Encuesta Nacional sobre Disponibilidad y Uso de Tecnologías de la Información
 en los Hogares (ENDUTIH) 2019. INEGI. Disponible en:
-https://www.inegi.org.mx/programás/dutih/2019/
+https://www.inegi.org.mx/programas/dutih/2019/
 
-- Modelos Lineales. Jesús Montanero Fernández. Disponible en: http://matematicas.unex.es/~jmf/Archivos/MODELOS_LINEALES.pdf
+- Modelos Lineales. Jesús Montanero Fernández. 
+Disponible en: http://matematicas.unex.es/~jmf/Archivos/MODELOS_LINEALES.pdf
 
 - Linear Regression - statsmodels. Josef Perktold, Skipper Seabold y Jonathan 
 Taylor. Disponible en: https://www.statsmodels.org/stable/regression.html

@@ -8,9 +8,9 @@ tags = ["python"]
 
 ## Introducción
 
-Python es un lenguaje de programación completo que puede realiar distintos tipos
-de operaciones: matemáticas, lógicas, relacionales. Aquí veremos los operadores
-que Python utiliza para dichas operaciones y su uso.
+Python es un lenguaje de programación completo que puede realizar distintos tipos
+de operaciones: matemáticas, lógicas y relacionales. En esta sección veremos los
+operadores que Python utiliza y cómo usarlos.
 
 ## Operaciones matemáticas
 
@@ -170,6 +170,19 @@ if condición:
     #Aquí va el código que se ejecutará si la condición es verdadera
 ```
 
+{{% notice info "Sangrías"%}}
+La sangría es la manera natural de Python de definir bloques de código. Las 
+sangrías típicamente se definen con un **tab**.
+
+Fíjate bien en la sangría una vez que definimos la sentencia **if**. La
+sangría define el bloque de código que se ejecutará si dicha condición es 
+verdadera. Si no dejamos la sangría, dicho bloque de código estará fuera del
+if, y seguramente tendremos errores...
+{{% /notice %}}
+
+El siguiente ejemplo pedirá al usuario que introduzca un número positivo.
+Después evaluará si el usuario realmente siguió la instrucción.
+
 ```python
 numero = int(input("Escribe un número positivo: "))
 
@@ -177,6 +190,10 @@ if numero < 0:
     print(f"{numero} no es un número positivo")
 print(f"Ha escrito el número {numero}")
 ```
+
+El siguiente ejemplo ahora pide al usuario que escriba un número mayor que 5. Si
+el usuario escriba un número menor o igual a 5, el programa imprimirá en 
+pantalla un mensaje informando que esta instrucción no se siguió.
 
 ```python
 numero = int(input("Escribe un número mayor que 5: "))
@@ -200,6 +217,9 @@ if condición:
 else:
     # Aquí va el código que se ejecutará si la condición no es verdadera
 ```
+
+El siguiente ejemplo es lo que hace parte del personal de seguridad en la 
+entrada a un lugar donde es necesario tener mayoría de edad.
 
 ```python
 print("Entrada del BabyO")
@@ -228,11 +248,14 @@ else:
 
 ```
 
+El siguiente ejemplo nos dirá cuántos cajeros están disponibles en un banco, 
+considerando el número de clientes que ya están usando un cajero.
+
 ```python
 # Multiples condiciones. Un banco con 3 cajeros
 cajeros = 3
 
-clientes = int(input("Escriba el numero de clientes esperando en la fila "))
+clientes = int(input("Escriba el numero de clientes usando un cajero "))
 
 # Calcular cuantos cajeros estan disponibles
 cajeros_disp = cajeros - clientes
@@ -256,7 +279,7 @@ Una función es un bloque de código que se ejecuta sólo cuando es llamada o
 invocada. Se les puede transferir valores utilizando argumentos y a su vez, una 
 función puede devolver valores.
 
-**Estructura de una funcion**
+**Estructura de una función**
 
 ```python
 def mi_funcion(arg):
@@ -268,7 +291,8 @@ def otra_funcion(mensaje):
     print(mensaje)
 ```
 
-Más de un argumento
+Las funciones pueden tener más de un argumento. Todo depende de lo que queramos
+que el programa realice.
 
 ```python
 def mi_funcion(arg1, arg2):

@@ -22,7 +22,7 @@ Usaremos los siguientes archivos para los ejercicios de este tema:
 
 matplotlib es una librería de bajo nivel, es decir, necesitamos definir muchas
 cosas, pero tendremos más libertad y flexibilidad en nuestros gráficos. 
-Revisaremos las gráficas de dispersión y barras.  
+Revisaremos las gráficas de dispersión en este paquete.  
 
 ### Dispersión
 
@@ -48,8 +48,6 @@ ax.legend(loc='lower right', fontsize=14)
 plt.show()
 ```
 
-### Barras
-
 ## seaborn
 
 seaborn es una librería basada en matplotlib, pero es de alto nivel. Es decir,
@@ -72,6 +70,31 @@ primer paso en nuestro análisis de datos.
 # Dale unos segundos...
 sns.pairplot(inecol_df)
 ```
+
+### Gráfico de dispersión
+
+En lugar de escribir un montón de código, seaborn tiene un método que simplifica
+esta tarea. Al ser un gráfico de dispersión, no une los puntos.
+
+```python
+# Dispersion
+sns.scatterplot(data = inecol_df, x = "calificacion_ingles", y = "calificacion_final")
+```
+
+### Gráfico de línea
+
+Este gráfico es similar al de dispersión, pero en este gráfico, seaborn une los
+puntos. Debido a que las medidas pueden ser ruidosas, seaborn estima la tendencia
+central de los datos y es lo que nos muestra trazado en una línea. Además, 
+muestra el intervalo de confianza de 95% de dicha tendencia.
+
+```python
+# Lineplot
+sns.lineplot(data = inecol_df, x = "calificacion_ingles", y = "calificacion_final")
+```
+
+Esta gráfica puede graficar la desviación típica, en lugar del intervalo de 
+confianza, usando el argumento `ci = "sd"`, o no mostrar nada con `ci = None`.
 
 ### Histograma
 
@@ -109,7 +132,7 @@ localización.
 sns.boxplot(data = inecol_df, y = "resultado", x = "calificacion_final", whis = 1.5)
 ```
 
-`whis` es un parámetro opcional que define la extension de los "bigotes" de las
+`whis` es un parámetro opcional que define la extensión de los "bigotes" de las
 cajas, respecto al rango intercuartílico. En el ejemplo de arriba, 1.5 es 1.5 
 veces el rango intercuartílico.
 
@@ -125,7 +148,7 @@ sns.violinplot(data = inecol_df, y = "resultado", x = "calificacion_final")
 
 ### Gráfico de barras
 
-Mostrar en un gráfico de barras el número de centros INAH por estado
+Mostrar en un gráfico de barras el número de centros INAH por estado.
 
 ```python
 # Usando los datos de visitantes a los centros INAH en 2022
@@ -181,7 +204,7 @@ plt.show()
 
 ## Ejercicios
 
-1. Usando los datos `estudiantes_mxuk2021.csv`, crear gráficos que muestren:
+1. Usando los datos `estudiantes_mxuk.csv`, crear gráficos que muestren:
    - Distribución de edad por universidad. 
    - Becas que tienen los estudiantes.
 

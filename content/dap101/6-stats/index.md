@@ -1,6 +1,6 @@
 +++
 title = "6. Análisis estadístico"
-description = "Pruebas de hipótesis y regresiones"
+description = "Pruebas de hipótesis y regresión"
 disabletoc = false
 weight = 6
 tags = ["pandas", "scipy", "statsmodels", "estadistica"]
@@ -28,11 +28,11 @@ import seaborn as sns
 import scipy.stats as stats
 ```
 
-**Datos de precipitacion**
+**Datos de precipitación**
 
 Usaremos el archivo `precipitacion_guerrero.csv` que contiene datos históricos 
 mensuales y anuales de precipitación en Guerrero desde 1985 hasta 2020. Estos 
-datos también usan comas para separar miles. 
+datos usan comas para separar miles. 
 
 ```python
 # Datos precipitacion
@@ -48,7 +48,7 @@ precipitacion.describe()
 
 ## Prueba de normalidad
 
-Podemos probar normalidad utilizando histogramas como los que ofrece seaborn, 
+Podemos observar normalidad utilizando histogramas como los que ofrece seaborn, 
 pero también podemos comprobar normalidad usando SciPy.
 
 SciPy ofrece varias pruebas de normalidad, por ahora veremos la prueba
@@ -93,7 +93,7 @@ def normal_test(datos, option = "shapiro"):
     print(test)
 ```
 
-Ahora, comprobemos si los datos de precipitación del mes de julio provienen de
+Ahora comprobemos si los datos de precipitación del mes de julio provienen de
 una distribución normal.
 
 ```python
@@ -241,8 +241,8 @@ de cambiar detalles en el servicio.
 - Comparar el progreso del mismo grupo de pacientes, antes y después, de 
 introducir un medicamento en su tratamiento.
 
-En esta prueba se contrasta la diferencia entre las medias $\mu_d$. Si son iguales,
-la diferencia será igual a 0.
+En esta prueba se contrasta la diferencia entre las medias $\mu_d$. Si son 
+iguales, la diferencia será igual a 0.
 
 Entonces, las hipótesis contrastadas son:
 
@@ -283,7 +283,7 @@ def t_test_dep(muestra_a, muestra_b):
     print(t_test)
 ```
 
-Probemos esta función con los valores de medias de precipitacion en julio. 
+Probemos esta función con los valores de medias de precipitación en julio. 
 Dividiremos la columna en dos series. Una serie para años anteriores a 2003, y 
 otra serie para años posteriores a 2003. 
 
@@ -383,13 +383,13 @@ donde,
 $\beta_i$ representan los coeficientes que describen la relación o la influencia
 que tiene la variable $x_i$ sobre la variable dependiente.
 
-$\beta_0$ representa el intercepto. Este valor describe la relación entre la variable
-dependiente y las variables independientes $x_i$, cuando $x_i$ = 0.
+$\beta_0$ representa el intercepto. Este valor describe la relación entre la
+variable dependiente y las variables independientes $x_i$, cuando $x_i$ = 0.
 
 $x_i$ son las variables independientes utilizadas en el modelo.
 
-$\epsilon_i$ representa el error aleatorio que se introduce en el modelo por cada una de
-las variables independientes x. Estos errores son independientes y siguen una 
+$\epsilon_i$ representa el error aleatorio que se introduce en el modelo por cada
+variable independiente $x_i$. Estos errores son independientes y siguen una 
 distribución normal. $\epsilon_i \sim \mathcal{N}(0, \sigma^2) $
 
 ### Mínimos cuadrados ordinarios
@@ -406,13 +406,14 @@ from statsmodels.formula.api import ols
 ```
 
 Ahora usaremos los datos `edadpesograsas.txt` que nos servirá para entender el 
-uso de `ols`. Este archivo contiene información de edad, peso y cantidad de 
+uso de **ols**. Este archivo contiene información de edad, peso y cantidad de 
 grasas en 25 pacientes.
 
 Lo primero que haremos es importar los datos. Como estos datos provienen de un
-archivo de texto (*.txt), usaremos ahora el método `read_table()` de pandas. 
-El separador usado en este archivo es un tabulador. Daremos esta información al
-método para que el archivo se importe correctamente:
+archivo de texto (*.txt), usaremos ahora el método 
+[**read_table()**](https://pandas.pydata.org/docs/reference/api/pandas.read_table.html) 
+de pandas. El separador usado en este archivo es un tabulador. Daremos esta 
+información al método para que el archivo se importe correctamente:
 
 ```python
 # Importar datos
@@ -431,7 +432,7 @@ Intentemos modelar la cantidad de grasas respecto a la edad:
 model = ols('grasas ~ edad', edad_peso).fit()
 ```
 
-Para revisar la información del modelo de regresion, usamos el metodo `summary()`
+Para revisar la información del modelo de regresion, usamos el método **summary()**
 
 ```python
 # Ver resultados
@@ -448,7 +449,7 @@ model = ols('grasas ~ edad + peso', edad_peso).fit()
 
 {{% notice tip "Regresión paso a paso"  %}}
 Lo que acabamos de hacer se llama regresión paso a paso (_stepwise regression_,
-en inglés). Esta metodologia es iterativa, pues implica seleccionar variables
+en inglés). Esta metodología es iterativa, pues implica seleccionar variables
 de forma automática y ver como mejora (o empeora) el modelo. Existen dos tipos
 de selección:
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.8 (2022-05-01)
+
+### Actualización a _Análisis de datos en Python_
+
+- Temario completo
+- Revisión ortográfica y gramatical de todo el curso.
+
 ## 0.0.7 (2022-04-30)
 
 ### Actualización a _Análisis de datos en Python_

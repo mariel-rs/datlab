@@ -105,6 +105,9 @@ print(a)
 
 ### Convertir tipos de datos
 
+Gracias al duck typing, a veces Python puede asumir un tipo de datos que no 
+queremos. Sin embargo, podemos convertir datos.
+
 ```python
 # Esto aunque parezca booleano, Python lo entendera como un entero
 bool_test = 1
@@ -118,6 +121,9 @@ real_int = int(2.0)
 ```
 
 ## Entrada por teclado
+
+Podemos permitir que el usuario introduzca información usando la función **input()**.
+Input nos regresará lo que el usuario escribió como cadena de texto.
 
 ```python
 # Entrada por teclado usando input()
@@ -138,6 +144,9 @@ Python tiene 4 estructuras de datos básicas: listas, sets, tuplas y dictionario
 En este curso sólo veremos listas y diccionarios.
 
 ### Listas
+
+Las listas son estructuras de datos que se usan para guardar ítems en una sola
+variable. Las listas pueden guardar cualquier tipo de datos.
 
 ```python
 # Una lista vacia
@@ -170,14 +179,14 @@ print(str_list[0])
 print(str_list[3])
 ```
 
-- Agregar elementos usando _append_
+- Agregar elementos usando **append()**
 
 ```python
 str_list.append("4")
 print(str_list[3])
 ```
 
-- Eliminar elementos usando _remove_
+- Eliminar elementos usando **remove()**
 
 ```python
 str_list.remove("4")
@@ -187,6 +196,10 @@ print(str_list[3])
 ```
 
 ### Diccionarios
+
+Los diccionarios se usan para guardar datos usando parejas de llaves y valores 
+(key: value). Los diccionarios no permiten repetición de llaves. Tal y como 
+funciona un diccionario físico. 
 
 ```python
 # Un diccionario vacio
@@ -209,13 +222,13 @@ fruit_bag = {
     }
 ```
 
-- Consultar las Keys (Llaves) existentes en el diccionario. Método _keys()_
+- Consultar las Keys (Llaves) existentes en el diccionario. Método **keys()**
 
 ```python
 print(fruit_bag.keys())
 ```
 
-- Values (Valores) Método _values()_
+- Values (Valores) Método **values()**
 
 ```python
 print(fruit_bag.values())
@@ -249,7 +262,7 @@ fruit_bag["kiwis"] = 1
 print(fruit_bag)
 ```
 
-- Eliminar una llave usando _del_
+- Eliminar una llave usando **del**
 
 ```python
 # Ya no es temporada de kiwis
