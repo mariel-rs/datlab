@@ -284,8 +284,10 @@ print(fruits)
     2. Imprimir en pantalla:
        1. Tipo de dato del primer elemento de ```mixed_list```
        2. Elemento con índice 6 de de ```mixed_list```
-    3. **Reto** Convertir el elemento con índice 1 a tipo  _int_
-    4. **Reto**  Verificar si los elementos con índices 0 y 1 son del mismo tipo
+    3. **Reto** Convertir el elemento con índice 1 de ```mixed_list```
+        a tipo  _int_
+    4. **Reto**  Verificar si los elementos con índices 0 y 1 de 
+    ```mixed_list``` y ```str_list```son del mismo tipo
 
 3. Seguir el ejercicio de frutas en **5.1. More on Lists** en el sitio de 
 referencia de Python 
