@@ -18,6 +18,31 @@ Usaremos los siguientes archivos para los ejercicios de este tema:
 
 {{% attachments style="blue" title="Archivos" pattern=".*(csv|txt)"/%}}
 
+**Librerías**
+
+Usaremos las siguientes librerías para los ejercicios de este tema:
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
+**Descripción de datos**
+
+Estos son datos abiertos de aspirantes a posgrados ofrecidos en el Instituto de 
+Ecología, A.C. (INECOL). La descripción de las columnas es la siguiente:
+
+| Columna | Tipo de dato | Descripción |
+| -------- | ------------- | ---------------------|
+| Id_aspirante | Numérico | Número de identificación interno asignado al aspirante |
+| Calificacion_ingles | Numérico | Calificación obtenida en prueba de inglés. Escala 0 - 10 |
+| Calificacion_conocimientos_tecnicos | Numérico | Calificación obtenida en prueba conocimientos técnicos. Escala 0 - 10  |
+| Entrevista | Numérico | Calificación obtenida en entrevista. Escala 0 - 10  |
+| Desempeno_academico | Numérico | Calificación obtenida por desempeño académico. Escala 0 - 10  |
+| Calificacion_final | Numérico | Calificación final asignada al aspirante. Escala 0 - 10  |
+| Resultado | Texto | Resultado del proceso de admisión |
+
 ## matplotlib
 
 matplotlib es una librería de bajo nivel, es decir, necesitamos definir muchas
@@ -84,9 +109,9 @@ sns.scatterplot(data = inecol_df, x = "calificacion_ingles", y = "calificacion_f
 ### Gráfico de línea
 
 Este gráfico es similar al de dispersión, pero en este gráfico, seaborn une los
-puntos. Debido a que las medidas pueden ser ruidosas, seaborn estima la tendencia
-central de los datos y es lo que nos muestra trazado en una línea. Además, 
-muestra el intervalo de confianza de 95% de dicha tendencia.
+puntos. Debido a que las medidas pueden ser ruidosas, seaborn estima la
+tendencia central de los datos y es lo que nos muestra trazado en una línea. 
+Además, muestra el intervalo de confianza de 95% de dicha tendencia.
 
 ```python
 # Lineplot
@@ -148,11 +173,37 @@ sns.violinplot(data = inecol_df, y = "resultado", x = "calificacion_final")
 
 ### Gráfico de barras
 
-Mostrar en un gráfico de barras el número de centros INAH por estado.
+Podemos agrupar los datos usando la columna "resultado", contando el número de 
+registros.
+
+```python
+# Agrupar por Resultado y recrear el indice
+inecol_resultado = inecol_df.groupby(by = "Resultado").count()
+
+# Recrear el indice para que "resultado" no sea indice
+inecol_resultado = inecol_resultado.reset_index()
+```
+
+{{% notice info "¿Por qué reset_index()?" %}}
+Al agrupar los valores con groupby(), la columna usada como argumento de `by` se 
+convierte en el índice del DataFrame compacto. 
+
+Si deseamos que el índice sea numérico y no la columna, la función 
+[**reset_index()** ](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.reset_index.html)
+nos sirve para recrear el índice numérico.
+{{% /notice %}}
+
+```python
+# Gráfico de barras resumiendo el resultado final de aspirantes
+sns.barplot(data = inecol_resultado, y = "resultado", x = "calificacion_final")
+```
+
+Usando los datos del INAH, creemos un gráfico de barras el número de centros 
+INAH por estado.
 
 ```python
 # Usando los datos de visitantes a los centros INAH en 2022
-inah_df = pd.read_csv("inah_visitantes_2022.csv", thousands = ",")
+inah_df = pd.read_csv("inah_visitantes_2022.csv")
 
 # Agrupando por estado y usando la función count()
 inah_grouped = inah_df.groupby(by = "Estado").count()
@@ -210,7 +261,8 @@ plt.show()
 
 2. Usando los datos `inah_visitantes_2022.csv`:
    - ¿Cuál es la visualización más representativa para mostrar el flujo de
-   visitantes en los meses reportados para un Centro INAH (o estado!) determinado?
+   visitantes en los meses reportados para un Centro INAH (o estado!) 
+   determinado?
 
 ## Referencias y material adicional
 
@@ -225,4 +277,5 @@ https://datos.gob.mx/busca/dataset/seleccion-de-aspirantes
 
 - The Python graph gallery. Disponible en: https://python-graph-gallery.com/
 
-- seaborn documentation. Michael Waskom. Disponible en: https://seaborn.pydata.org/
+- seaborn documentation. Michael Waskom. Disponible en: 
+https://seaborn.pydata.org/

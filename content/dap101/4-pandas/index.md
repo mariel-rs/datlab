@@ -454,14 +454,14 @@ df.groupby(by = "columna").funcion()
 Se requiere que definamos una función para que pandas pueda aplicar una 
 operación matemática para presentar los valores agrupados. La función puede ser:
 
-- `count` – Conteo
-- `sum` – Suma
-- `mean` – Media
-- `median` – Mediana
-- `min` – Valor mínimo
-- `max` – Valor máximo
-- `std` – Desviación tipica
-- `var` – Varianza
+- count() – Conteo
+- sum() – Suma
+- mean() – Media
+- median() – Mediana
+- min() – Valor mínimo
+- max() – Valor máximo
+- std() – Desviación tipica
+- var() – Varianza
 
 ```python
 # Agrupar datos por estado, sumando valores
@@ -493,7 +493,7 @@ preguntas.
    - Estudiantes mayores de 27 años y que no son de CDMX.
    - Estudiantes menores de 28 años y, que estudian en University of York y en 
       University of Sussex.
-4. Calcular (tal vez sea útil usar `groupby`):
+4. Calcular (tal vez sea útil usar `groupby()`):
    - Número de estudiantes por universidad
    - Número de estudiantes por estado
    - ¿Cuál es la universidad con más estudiantes mexicanos?
