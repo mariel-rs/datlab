@@ -27,8 +27,8 @@ descripción de las columnas es la siguiente:
 | auto_propio | Binaria | Las personas viviendo en esta vivienda disponen de automóvil o camioneta |
 | personas_vivienda | Numérica | Número de personas viviendo normalmente en la vivienda |
 | mismo_gasto | Binaria | El gasto para comer de todas las personas viviendo en la vivienda es el mismo |
-| TLOC | Numérica | Tamaño de la Localidad (1: 100 000 y más habitantes, 2: 15 000 a 99 999 habitantes, 3: 2 500 a 14 999 habitantes, 4: menor a 2500 habitantes) |
-| ESTRATO | Numérica | Estrato socioeconómico. (1: Bajo, 2: Medio bajo, 3: Medio alto, 4: Alto) |
+| TLOC | Numérica (ordinal) | Tamaño de la Localidad (1: 100 000 y más habitantes, 2: 15 000 a 99 999 habitantes, 3: 2 500 a 14 999 habitantes, 4: menor a 2500 habitantes) |
+| ESTRATO | Numérica (ordinal) | Estrato socioeconómico. (1: Bajo, 2: Medio bajo, 3: Medio alto, 4: Alto) |
 | material_1 | Binaria | El material predominante del piso de esta vivienda es tierra |
 | material_2 | Binaria | El material predominante del piso de esta vivienda es cemento |
 | material_3 | Binaria | El material predominante del piso de esta vivienda es madera, mosaico u otro |
@@ -85,10 +85,11 @@ La matriz de correlaciones se puede obtener con pandas usando el método
 Las correlaciones pueden calcularse usando distintos métodos como Pearson, 
 Spearman y Kendall usando el argumento `method`.
 
-Para este caso, utilizaremos Pearson, que es el valor predeterminado.
+Para este caso, utilizaremos Spearman como método puesto que la mayor parte de 
+las variables son binarias y sólo dos son de tipo ordinal.
 
 ```python
-corr_matrix = encuesta_vivienda.corr()
+corr_matrix = encuesta_vivienda.corr(method = "spearman")
 ```
 
 Esto nos devuelve otro DataFrame con la matriz de correlaciones. Este nuevo
@@ -203,7 +204,7 @@ comparison = pd.concat([encuesta_vivienda["ESTRATO"], Y_pred], keys = ["ESTRATO"
 ```
 
 Ahora calculemos columnas de error. El error se define como la diferencia del
-valor observado menos valor predecido.
+valor observado $y_i$ menos valor predecido $\hat{y}_i$.
 
 - Error: $y_i - \hat{y}_i$
 - Error cuadrado: $(y_i - \hat{y}_i)^2$
@@ -243,7 +244,7 @@ def model_metrics(df):
     MAE = df["abs_error"].sum()/df["abs_error"].count()
     RMSE = (df["sq_error"].sum()/df["sq_error"].count())**(1/2)
 
-    print("Model metrics")
+    print("Métricas del modelo")
     print("MAE: {} \t RMSE: {}".format(MAE, RMSE))
 
     return None
