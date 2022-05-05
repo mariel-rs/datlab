@@ -35,13 +35,13 @@ Ecología, A.C. (INECOL). La descripción de las columnas es la siguiente:
 
 | Columna | Tipo de dato | Descripción |
 | -------- | ------------- | ---------------------|
-| Id_aspirante | Numérico | Número de identificación interno asignado al aspirante |
-| Calificacion_ingles | Numérico | Calificación obtenida en prueba de inglés. Escala 0 - 10 |
-| Calificacion_conocimientos_tecnicos | Numérico | Calificación obtenida en prueba conocimientos técnicos. Escala 0 - 10  |
-| Entrevista | Numérico | Calificación obtenida en entrevista. Escala 0 - 10  |
-| Desempeno_academico | Numérico | Calificación obtenida por desempeño académico. Escala 0 - 10  |
-| Calificacion_final | Numérico | Calificación final asignada al aspirante. Escala 0 - 10  |
-| Resultado | Texto | Resultado del proceso de admisión |
+| id_aspirante | Numérico | Número de identificación interno asignado al aspirante |
+| calificacion_ingles | Numérico | Calificación obtenida en prueba de inglés. Escala 0 - 10 |
+| calificacion_conocimientos_tecnicos | Numérico | Calificación obtenida en prueba conocimientos técnicos. Escala 0 - 10  |
+| entrevista | Numérico | Calificación obtenida en entrevista. Escala 0 - 10  |
+| desempeno_academico | Numérico | Calificación obtenida por desempeño académico. Escala 0 - 10  |
+| calificacion_final | Numérico | Calificación final asignada al aspirante. Escala 0 - 10  |
+| resultado | Texto | Resultado del proceso de admisión |
 
 ## matplotlib
 
