@@ -3,4 +3,4 @@ Datos
 Usaremos los siguientes archivos para los ejercicios de este tema:
 Archivos aspirantes_inecol2020.csv (1 KB) estudiantes_mxuk.csv (9 KB) inah_visitantes_2022.csv (19 KB) Librerías
 Usaremos las siguientes librerías para los ejercicios de este tema:
-import pandas as pd import matplotlib.pyplot as plt import seaborn as sns Descripción de datos</description></item></channel></rss>
+import pandas as pd import matplotlib.pyplot as plt import seaborn as sns plt.</description></item></channel></rss>
