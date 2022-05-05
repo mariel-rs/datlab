@@ -26,6 +26,8 @@ Usaremos las siguientes librerías para los ejercicios de este tema:
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+plt.rcParams["figure.figsize"] = (10,8) # Definicion de tamaño en pulgadas
 ```
 
 **Descripción de datos**
@@ -178,7 +180,7 @@ registros.
 
 ```python
 # Agrupar por Resultado y recrear el indice
-inecol_resultado = inecol_df.groupby(by = "Resultado").count()
+inecol_resultado = inecol_df.groupby(by = "resultado").count()
 
 # Recrear el indice para que "resultado" no sea indice
 inecol_resultado = inecol_resultado.reset_index()
