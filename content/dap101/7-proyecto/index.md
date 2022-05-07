@@ -8,7 +8,7 @@ weight = 7
 ## Introducción
 
 Ahora que hemos aprendido sobre como usar las librerías de manipulación de datos,
-visualizaciónes y análisis estadístico, haremos un pequeño ejercicio.
+visualizaciones y análisis estadístico, hagamos un pequeño ejercicio.
 
 **Datos**
 
@@ -191,45 +191,75 @@ hipótesis nula?)
 
 Veamos qué tal predice nuestro modelo el estrato socioeconómico.
 
+Para acceder a las predicciones de nuestro modelo, llamamos al método predict() 
+del modelo de regresión.
+
 ```python
-# Guardamos la predicción del modelo en una Serie
-Y_pred = pd.Series(modelo_ols.predict())
+# Predicción del modelo
+Y_pred = modelo_ols.predict()
 ```
 
-Juntemos las series usando el método 
+Esta prediccion es un arreglo de NumPy, que es un tipo de datos optimizado
+para contener matrices. 
+
+Para evaluar nuestro modelo, tenemos que contrastar los valores observados de
+la variable dependiente con los valores predecidos por el modelo. Para esto,
+podemos crear un nuevo DataFrame conteniendo esta informacion como columnas.
+
+He creado la siguiente función que se encargará de todo.
+
+```python
+# Una funcion para evaluar nuestro modelo
+def model_evaluation(y_obs, y_pred):
+    '''
+    Esta función calculara las métricas RMSE y MAE de un modelo de regresión
+    lineal.
+
+    inputs:
+    y_obs: una serie de pandas que contiene los valores observados
+    de la variable dependiente 
+    y_pred: un arreglo que contiene los valores predecidos
+    de la variable dependiente utilizando el modelo de regresion de
+    statsmodels
+
+    output:
+    model_eval: un dataframe de pandas que contiene los errores de
+    regresion, asi como los valores observados y predecidos de la 
+    variable dependiente. 
+    '''
+
+    # Convertir variable predecida a una serie
+    y_pred = pd.Series(y_pred)
+
+    # Concatenar valores en un solo dataframe
+    model_eval = pd.concat([y_obs, y_pred], keys = ["y_obs", "y_pred"], axis = 1)
+    
+    # Calcular errores
+    model_eval["error"] = model_eval["y_obs"] - model_eval["y_pred"]
+    model_eval["sq_error"] = (model_eval["error"])**2
+    model_eval["abs_error"] = abs(model_eval["error"])
+
+    # Calculo de MAE y RMSE
+    MAE = model_eval["abs_error"].sum()/model_eval["abs_error"].count()
+    RMSE = (model_eval["sq_error"].sum()/model_eval["sq_error"].count())**(1/2)
+
+    print("Métricas")
+    print("MAE: {} \t RMSE: {}".format(MAE, RMSE))
+    
+    return model_eval
+```
+
+En esta función estamos concatenando ("juntando") las series usando 
 [**concat()**](https://pandas.pydata.org/docs/reference/api/pandas.concat.html).
 
-```python
-comparison = pd.concat([encuesta_vivienda["ESTRATO"], Y_pred], keys = ["ESTRATO", "ESTRATO_p"], axis = 1)
-```
-
-Ahora calculemos columnas de error. El error se define como la diferencia del
-valor observado $y_i$ menos valor predecido $\hat{y}_i$.
+Después se calcularon 3 columnas de error. El error se define como la diferencia
+del valor observado $y_i$ menos valor predecido $\hat{y}_i$.
 
 - Error: $y_i - \hat{y}_i$
 - Error cuadrado: $(y_i - \hat{y}_i)^2$
 - Error absoluto: $| y_i - \hat{y}_i |$
 
-```python
-# Crear columnas con errores
-def calculate_errors(df):
-    df["error"] = df.iloc[0:,0] - df.iloc[0:,1]
-    df["sq_error"] = (df["error"])**2
-    df["abs_error"] = abs(df["error"])
-    
-    return df
-```
-
-Ahora, usemos la función para calcular los errores como columnas adicionales.
-
-```python
-comparison = calculate_errors(comparison)
-```
-
-Si bien esto nos calcula los errores, aún no nos dice qué tan bien predice el
-modelo el estrato socioeconómico.
-
-Definimos las siguientes métricas:
+Estos errores nos sirven para definir las siguientes métricas:
 
 $$\text{MAE} = \frac{\sum_{i=1}^{N}| y_i - \hat{y}_i |}{N} \ \ \ \ \ \ \ \text{(Error absoluto medio)}$$
 
@@ -238,26 +268,18 @@ $$\text{RMSE} = \sqrt{\frac{\sum_{i=1}^{N}( y_i - \hat{y}_i )^2}{N}} \ \ \ \ \ \
 Estas métricas son utilizadas para determinar la calidad del modelo de regresión
 implementado.
 
-```python
-# Una pequeña función para calcular las métricas del modelo de regresión
-def model_metrics(df):
-    MAE = df["abs_error"].sum()/df["abs_error"].count()
-    RMSE = (df["sq_error"].sum()/df["sq_error"].count())**(1/2)
-
-    print("Métricas del modelo")
-    print("MAE: {} \t RMSE: {}".format(MAE, RMSE))
-
-    return None
-```
+Ahora usemos la función con nuestros datos.
 
 ```python
-model_metrics(comparison)
+comparison = model_evaluation(encuesta_vivienda["ESTRATO"], modelo_ols.predict())
+comparison
 ```
 
-Esto nos devuelve la siguiente información:
+Esto nos devuelve el DataFrame con los valores observados, predecidos, errores e
+imprime las métricas del modelo.
 
 ```
-Model metrics
+Métricas
 MAE: 0.5490078148166975 	 RMSE: 0.7043990103948065
 ```
 
@@ -266,6 +288,15 @@ MAE: 0.5490078148166975 	 RMSE: 0.7043990103948065
 {{% /notice %}}
 
 ## Conclusión
+
+Si bien la variable dependiente es una variable numérica, es una variable ordinal. 
+Una regresión lineal asume que la variable dependiente es una variable númerica 
+continua. Este ejercicio es fue diseñado para demostrar como utilizar Python 
+para analizar datos, encontrar tendencias usando visualizaciones, e implementar
+un modelo de regresión basándonos en estas tendencias.
+
+Lo más correcto para estos datos sería implementar un modelo de regresión 
+ordinal. Pero esos son otros temas de modelos de regresión generalizados... 
 
 ```python
 # Aqui van tus comentarios ;)

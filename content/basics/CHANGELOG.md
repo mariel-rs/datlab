@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 (2022-05-07)
+
+### Modificación _Análisis de datos en Python_
+
+- Modificación a la función evaluate_metrics() de la sección Recapitulación.
+- Inclusión de cálculo de alfa de Cronbach usando pingouin. 
+
 ## 0.1.0 (2022-05-02)
 
 ### Primer curso completo
