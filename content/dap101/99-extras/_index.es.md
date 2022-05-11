@@ -45,7 +45,7 @@ estadísticos. Pingouin puede procesar DataFrames de pandas nativamente.
 ### Instalación
 
 En una sesión de Terminal (macOS / Linux) o Anaconda Prompt 
-(Windows), lancemos el siguiente comando.
+(Windows), lancemos el siguiente comando:
 
 ```python
 pip install pingouin
@@ -56,6 +56,8 @@ o también
 ```python
 conda install -c conda-forge pingouin
 ```
+
+La instalación es rápida y termina en menos de 5 minutos.
 
 ### Uso
 

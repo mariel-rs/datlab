@@ -291,9 +291,9 @@ MAE: 0.5490078148166975 	 RMSE: 0.7043990103948065
 
 Si bien la variable dependiente es una variable numérica, es una variable ordinal. 
 Una regresión lineal asume que la variable dependiente es una variable númerica 
-continua. Este ejercicio es fue diseñado para demostrar como utilizar Python 
-para analizar datos, encontrar tendencias usando visualizaciones, e implementar
-un modelo de regresión basándonos en estas tendencias.
+continua. Este ejercicio fue diseñado para demostrar como utilizar Python para
+analizar datos, encontrar tendencias usando visualizaciones, e implementar un
+modelo de regresión basándonos en estas tendencias.
 
 Lo más correcto para estos datos sería implementar un modelo de regresión 
 ordinal. Pero esos son otros temas de modelos de regresión generalizados... 

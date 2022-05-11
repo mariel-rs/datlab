@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.2 (2022-05-08)
+
+### Modificación _Análisis de datos en Python_
+
+- Inclusión de descripción de archivos usados en ejercicios de las secciones
+_Visualización_ y _Análisis estadístico_.
+ 
+### Mantenimiento
+
+- Corrección menor al texto de licencia CC.
+
 ## 0.1.1 (2022-05-07)
 
 ### Modificación _Análisis de datos en Python_

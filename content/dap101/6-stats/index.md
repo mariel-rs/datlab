@@ -31,8 +31,29 @@ import scipy.stats as stats
 **Datos de precipitación**
 
 Usaremos el archivo `precipitacion_guerrero.csv` que contiene datos históricos 
-mensuales y anuales de precipitación en Guerrero desde 1985 hasta 2020. Estos 
-datos usan comas para separar miles. 
+mensuales y anuales de precipitación en Guerrero desde 1985 hasta 2020. La 
+descripción de las columnas es la siguiente:
+
+| Variable | Tipo variable | Descripción pregunta |
+| -------- | ------------- | ---------------------|
+| PERIODO | Numérica | Año en el que se reporta información de precipitación |
+| ENE | Numérica | Precipitación observada durante el mes de enero, en mm |
+| FEB | Numérica | Precipitación observada durante el mes de febrero, en mm  |
+| MAR | Numérica | Precipitación observada durante el mes de marzo, en mm  |
+| ABR | Numérica | Precipitación observada durante el mes de abril, en mm  |
+| MAY | Numérica | Precipitación observada durante el mes de mayo, en mm  |
+| JUN | Numérica | Precipitación observada durante el mes de junio, en mm  |
+| JUN | Numérica | Precipitación observada durante el mes de junio, en mm  |
+| JUL | Numérica | Precipitación observada durante el mes de julio, en mm  |
+| AGO | Numérica | Precipitación observada durante el mes de agosto, en mm  |
+| SEP | Numérica | Precipitación observada durante el mes de septiembre, en mm  |
+| OCT | Numérica | Precipitación observada durante el mes de octubre, en mm  |
+| NOV | Numérica | Precipitación observada durante el mes de noviembre, en mm  |
+| DIC | Numérica | Precipitación observada durante el mes de diciembre, en mm  |
+| ANUAL | Numérica | Precipitación observada durante todo el periodo (año), en mm  |
+
+Puesto que estos datos usan comas para separar miles, el argumento `thousands` 
+indica a pandas el separador usado en estos datos. Ahora, importemos estos datos.
 
 ```python
 # Datos precipitacion
@@ -407,13 +428,21 @@ from statsmodels.formula.api import ols
 
 Ahora usaremos los datos `edadpesograsas.txt` que nos servirá para entender el 
 uso de **ols**. Este archivo contiene información de edad, peso y cantidad de 
-grasas en 25 pacientes.
+grasas en 25 pacientes.  La descripción de las columnas es la siguiente:
+
+| Variable | Tipo variable | Descripción pregunta |
+| -------- | ------------- | ---------------------|
+| peso | Numérica | Peso corporal, en kg |
+| edad | Numérica | Edad |
+| grasas | Numérica | Colesterol, en mg/dl |
+
 
 Lo primero que haremos es importar los datos. Como estos datos provienen de un
 archivo de texto (*.txt), usaremos ahora el método 
 [**read_table()**](https://pandas.pydata.org/docs/reference/api/pandas.read_table.html) 
 de pandas. El separador usado en este archivo es un tabulador. Daremos esta 
-información al método para que el archivo se importe correctamente:
+información al método para que el archivo se importe correctamente usando el
+argumento `sep`.
 
 ```python
 # Importar datos
