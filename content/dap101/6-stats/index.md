@@ -124,7 +124,7 @@ normal_test(precipitacion["JUL"], "dagostino")
 
 ## Pruebas de hipótesis
 
-### t-test
+### Pruebas t
 
 #### Una muestra
 
