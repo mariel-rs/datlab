@@ -35,15 +35,15 @@ plt.rcParams["figure.figsize"] = (10,8) # Definicion de tamaño en pulgadas
 Estos son datos abiertos de aspirantes a posgrados ofrecidos en el Instituto de 
 Ecología, A.C. (INECOL). La descripción de las columnas es la siguiente:
 
-| Columna | Tipo de dato | Descripción |
+| Variable | Tipo de variable | Descripción |
 | -------- | ------------- | ---------------------|
-| id_aspirante | Numérico | Número de identificación interno asignado al aspirante |
-| calificacion_ingles | Numérico | Calificación obtenida en prueba de inglés. Escala 0 - 10 |
-| calificacion_conocimientos_tecnicos | Numérico | Calificación obtenida en prueba conocimientos técnicos. Escala 0 - 10  |
-| entrevista | Numérico | Calificación obtenida en entrevista. Escala 0 - 10  |
-| desempeno_academico | Numérico | Calificación obtenida por desempeño académico. Escala 0 - 10  |
-| calificacion_final | Numérico | Calificación final asignada al aspirante. Escala 0 - 10  |
-| resultado | Texto | Resultado del proceso de admisión |
+| id_aspirante | Numérica | Número de identificación interno asignado al aspirante |
+| calificacion_ingles | Numérica | Calificación obtenida en prueba de inglés. Escala 0 - 10 |
+| calificacion_conocimientos_tecnicos | Numérica | Calificación obtenida en prueba conocimientos técnicos. Escala 0 - 10  |
+| entrevista | Numérica | Calificación obtenida en entrevista. Escala 0 - 10  |
+| desempeno_academico | Numérica | Calificación obtenida por desempeño académico. Escala 0 - 10  |
+| calificacion_final | Numérica | Calificación final asignada al aspirante. Escala 0 - 10  |
+| resultado | Texto (Categórica) | Resultado del proceso de admisión |
 
 ## matplotlib
 
@@ -88,14 +88,28 @@ archivo `aspirantes_inecol2020.csv`.
 inecol_df = pd.read_csv("aspirantes_inecol2020.csv")
 ```
 
-### Pairplot
+### Diagrama de pares (pair plot)
 
-Este gráfico nos puede server para encontrar relaciones entre variables y como
-primer paso en nuestro análisis de datos. 
+Este diagrama nos puede servir para encontrar relaciones entre variables y como
+primer paso en nuestro análisis de datos. El diagrama de pares genera una matriz
+con gráficos de dispersión que relaciona parejas de variables en el conjunto
+de datos. En la diagonal se muestra la distribución de la variable usando un 
+histograma.
 
 ```python
 # Dale unos segundos...
-sns.pairplot(inecol_df)
+sns.pairplot(data = inecol_df)
+```
+
+seaborn nos permite generar un diagrama de pares distinguiendo valores en las
+gráficas de dispersión e histogramas en función de una variable categórica con 
+el argumento `hue`. En los datos de INECOL, la variable `resultado` es una 
+variable categórica pues define si el estudiante fue aceptado con beca, aceptado 
+sin beca o no aceptado.
+
+```python
+# agregando hue
+sns.pairplot(data = inecol_df, hue = "resultado")
 ```
 
 ### Gráfico de dispersión
@@ -113,33 +127,42 @@ sns.scatterplot(data = inecol_df, x = "calificacion_ingles", y = "calificacion_f
 Este gráfico es similar al de dispersión, pero en este gráfico, seaborn une los
 puntos. Debido a que las medidas pueden ser ruidosas, seaborn estima la
 tendencia central de los datos y es lo que nos muestra trazado en una línea. 
-Además, muestra el intervalo de confianza de 95% de dicha tendencia.
+Además, muestra el intervalo de confianza `ci` de 95% de dicha tendencia.
+
+Hagamos un gráfico de línea de la calificación final del aspirante 
+`calificacion_final` respecto a la calificación obtenida en la prueba de inglés 
+`calificacion_ingles`.
 
 ```python
-# Lineplot
+# Lineplot de calificacion_final respecto a calificacion_ingles
 sns.lineplot(data = inecol_df, x = "calificacion_ingles", y = "calificacion_final")
 ```
 
-Esta gráfica puede graficar la desviación típica, en lugar del intervalo de 
-confianza, usando el argumento `ci = "sd"`, o no mostrar nada con `ci = None`.
+Esta gráfica puede graficar la desviación típica en lugar del intervalo de 
+confianza usando el argumento `ci = "sd"`, o no mostrar nada con `ci = None`.
 
 ### Histograma
+
+Un histograma es una visualización que muestra gráficamente la distribución de
+variables numéricas utilizando barras. 
+
+La sintaxis básica de seaborn para generar histogramas es la siguiente:
 
 ```python
 # Sintaxis
 sns.histplot(data = df, x = "columna", stat, kde)
 ```
 
-Un ejemplo de un histograma utilizando porcentaje como medida estadística.
+donde
 
-```python
-sns.histplot(data = inecol_df, x = "calificacion_final", stat = "percent")
-```
+`stat` es un parámetro opcional para definir la medida estadística utilizada 
+para determinar la frecuencia de los valores de la variable. seaborn puede 
+utilizar las siguientes medidas:
 
-La medida estadística `stat` utilizada en el eje puede ser:
-
-- `count`: número de observaciones en cada segmento
-- `frequency`: muestra el número de observaciones dividido entre el "ancho" (intervalo) del segmento
+- `count`: número de observaciones en cada segmento. Este es el comportamiento 
+  predeterminado
+- `frequency`: muestra el número de observaciones dividido entre el "ancho" 
+  (intervalo) del segmento
 - `probability`: normaliza el eje para que la altura de las barras sumen 1
 - `percent`: normaliza el eje para que la altura de las barras sumen 100
 - `density`: normaliza el eje para que el total del área del histograma sea 1
@@ -148,10 +171,17 @@ La medida estadística `stat` utilizada en el eje puede ser:
 de los datos. Para activarlo pasamos el siguiente argumento cuando creemos el 
 objeto histoplot: `kde = True`
 
-### Diagramas de caja y bigotes (boxplot)
+Generemos el histograma de la calificación final utilizando porcentaje como 
+medida estadística.
 
-Muestra la distribución de datos cuantitativos utilizando sus medidas de
-localización.
+```python
+sns.histplot(data = inecol_df, x = "calificacion_final", stat = "percent")
+```
+
+### Diagramas de caja y bigotes (box plot)
+
+Este diagrama muestra la distribución de datos cuantitativos utilizando sus 
+medidas de localización.
 
 ```python
 # Ver la distribución de calificaciones finales de los aspirantes con boxplot
