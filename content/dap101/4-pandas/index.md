@@ -28,12 +28,11 @@ Este archivo contiene la información de visitantes a museos y zonas arqueológi
 manejadas por el INAH durante el año 2022. La descripción de las columnas es la 
 siguiente:
 
-| Variable | Tipo variable | Descripción de la variable |
+| Variable | Tipo de variable | Descripción |
 | -------- | ------------- | ---------------------|
 | Estado | Cadena de texto | Estado de la República donde se encuentra el centro INAH |
 | Clave_SIINAH | Numérica | Clave interna asociada al centro INAH |
 | Tipo | Cadena de texto | Tipo de centro. Z.A. - Zona arqueológica. M. M.H. - Museo o Museo histórico |
-| Clave_SIINAH | Numérica | Clave interna asociada al centro INAH |
 | Centro_INAH | Cadena de texto | Nombre del centro INAH |
 | Enero_nac | Numérica | Número de visitantes nacionales en el mes de enero |
 | Enero_ext | Numérica | Número de visitantes extranjeros en el mes de enero |
@@ -41,7 +40,6 @@ siguiente:
 | Febrero_ext | Numérica | Número de visitantes extranjeros en el mes de febrero |
 | Marzo_nac | Numérica | Número de visitantes nacionales en el mes de marzo |
 | Marzo_ext | Numérica | Número de visitantes extranjeros en el mes de marzo |
-
 
 ### Importar datos
 
@@ -350,7 +348,7 @@ inah_visitantes2022[(inah_visitantes2022["Estado"].isin(["Guerrero", "Quintana R
 
 4. Query
 
-Cuando se tienen más de una condición, 
+Cuando se tiene más de una condición, 
 [**query()**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.query.html) 
 puede ser más elegante.
 
@@ -446,9 +444,11 @@ inah_visitantes2022.iloc[0:2,0:3]
 es un método que permite agrupar datos por columnas y crear un DataFrame más 
 compacto.
 
+La sintaxis de este método es:
+
 ```python
 # Sintaxis
-df.groupby(by = "columna").funcion()
+df.groupby(by = "nombre_columna").funcion()
 ```
 
 Se requiere que definamos una función para que pandas pueda aplicar una 
@@ -462,6 +462,9 @@ operación matemática para presentar los valores agrupados. La función puede s
 - max() – Valor máximo
 - std() – Desviación tipica
 - var() – Varianza
+
+Agrupemos los datos de visitantes a centros INAH usando la columna estado, 
+sumando los valores.
 
 ```python
 # Agrupar datos por estado, sumando valores

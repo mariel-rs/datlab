@@ -1,6 +1,6 @@
 +++
 title = "1. Introducción a Python"
-description = "Ejercicios y tareas del material introductorio a Python"
+description = "Ejercicios del material introductorio a Python"
 disabletoc = false
 weight = 1
 tags = ["python"]

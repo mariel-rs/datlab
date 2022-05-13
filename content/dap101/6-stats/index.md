@@ -34,7 +34,7 @@ Usaremos el archivo `precipitacion_guerrero.csv` que contiene datos históricos
 mensuales y anuales de precipitación en Guerrero desde 1985 hasta 2020. La 
 descripción de las columnas es la siguiente:
 
-| Variable | Tipo variable | Descripción pregunta |
+| Variable | Tipo de variable | Descripción |
 | -------- | ------------- | ---------------------|
 | PERIODO | Numérica | Año en el que se reporta información de precipitación |
 | ENE | Numérica | Precipitación observada durante el mes de enero, en mm |
@@ -430,7 +430,7 @@ Ahora usaremos los datos `edadpesograsas.txt` que nos servirá para entender el
 uso de **ols**. Este archivo contiene información de edad, peso y cantidad de 
 grasas en 25 pacientes.  La descripción de las columnas es la siguiente:
 
-| Variable | Tipo variable | Descripción pregunta |
+| Variable | Tipo de variable | Descripción |
 | -------- | ------------- | ---------------------|
 | peso | Numérica | Peso corporal, en kg |
 | edad | Numérica | Edad |
