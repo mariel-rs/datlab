@@ -72,6 +72,7 @@ title = "Dat Lab"
 # showcase of the menu shortcuts; you can use relative URLs linking
 # to your content or use fully-quallified URLs to link outside of
 # your project
+
 [Languages]
   [Languages.es]
     title = ""
@@ -80,20 +81,27 @@ title = "Dat Lab"
     landingPageURL = "/"
     landingPageName = "<i class='fas fa-home'></i> Inicio"
 
-  [[Languages.es.menu.shortcuts]]
-    name = "<i class='fas fa-fw fa-camera'></i> Escaparate"
-    url = "more/showcase/"
-    weight = 11
-
 #  [[Languages.es.menu.shortcuts]]
-#    name = "<i class='fas fa-fw fa-bullhorn'></i> Créditos"
-#    url = "more/credits/"
-#    weight = 30
-  
-    [[Languages.es.menu.shortcuts]]
+#    name = "<i class='fas fa-fw fa-camera'></i> Escaparate"
+#    url = "more/showcase/"
+#    weight = 11
+
+  [[Languages.es.menu.shortcuts]]
     name = "<i class='fas fa-child'></i> Acerca de"
     url = "more/about/"
     weight = 20
+
+  [[Languages.es.menu.shortcuts]]
+    name = "<i class='fas fa-fw fa-bullhorn'></i> Novedades"
+    url = "more/news/"
+    weight = 15
+
+  [[Languages.es.menu.shortcuts]]
+    name = "<i class='fas fa-clock'></i> Historia"
+    # <i class="fa-solid fa-timeline"></i>
+    # <i class="fa-solid fa-clock-rotate-left"></i>
+    url = "more/history/"
+    weight = 30
 
   [[Languages.es.menu.shortcuts]]
     name = "<i class='fas fa-fw fa-tags'></i> Tags"

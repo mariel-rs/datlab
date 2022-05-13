@@ -4,8 +4,8 @@ weight = 20
 +++
 
 Una vez que todo está instalado, recomiendo reiniciar el sistema antes de empezar. 
-En sistemas Windows, se forza a que el sistema reconozca el contenido de las
-variables de entorno.
+En sistemas Windows, reiniciar forza a que el sistema reconozca el contenido de
+las variables de entorno.
 
 VSCode va a ser nuestro editor de código. Como se mencionó anteriormente, es 
 liviano y diseñado de tal manera que podemos personalizarlo con lo que 

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.3 (2022-05-12)
+
+### Mantenimiento
+
+- Reubicación de páginas _Novedades_ e _Historia_ a la sección Más para una 
+  navegación más consistente.
+- Deshabilitación temporal de la página _Escaparate_ por estar vacía.
+
 ## 0.1.2 (2022-05-08)
 
 ### Modificación _Análisis de datos en Python_

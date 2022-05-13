@@ -21,6 +21,13 @@ Tengo muchas más ideas en mente para futuros cursos, por ejemplo:
 Si alguno de estos temas te interesa, ¡contáctame! 
 Seguro que algo podremos convenir.
 
+#### ¿Por qué _Dat Lab_?
+
+Es un juego de palabras entre _Dat_, una abreviatura coloquial e informal de 
+data o datos, y _Lab_, laboratorio. Entonces Dat Lab puede interpretarse como 
+el Laboratorio de Datos... , o también "Ese laboratorio de datos..." o
+simplemente "Dat Lab" <i class="fas fa-grin-wink"></i>
+
 #### ¿Quién escribe esto?
 
 Me llamo Mariel. _Soy una mexicana que código escribía, ciruela, chabacano..._ 
