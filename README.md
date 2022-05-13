@@ -8,11 +8,16 @@ poca o nulo acercamiento a tecnologías más alla de una hoja de cálculo, pero 
 tienen interés en mejorar su productividad (sea en investigación, sector público 
 o privado) y así dar una recarga a su portafolio de habilidades técnicas.
 
+Si te gusta el contenido, me gusta mucho el café y me mantiene productiva.
+
+<a href="https://www.buymeacoffee.com/chiclez" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Invitame un cafe" height="41" width="174"></a>
+
+
 ## Licencia
 
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-Este obra está bajo la licencia
+Esta obra está bajo la licencia
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
