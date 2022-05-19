@@ -140,7 +140,7 @@ Este es un texto simple.
 ```
 
 Este es un ejemplo de los niveles de encabezados que podemos definir con 
-Markdown. Así mismo, podemos agregar énfasis al texto usando cursiva y negrita.
+Markdown. También podemos agregar énfasis al texto usando cursiva y negrita.
 
 [The Markdown Guide](https://www.markdownguide.org/basic-syntax/) es una buena 
 referencia para consultar la sintaxis y buenas prácticas de Markdown.
