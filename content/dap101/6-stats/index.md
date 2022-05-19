@@ -2,7 +2,7 @@
 title = "6. Análisis estadístico"
 description = "Pruebas de hipótesis y regresión"
 disabletoc = false
-weight = 6
+weight = 7
 tags = ["pandas", "scipy", "statsmodels", "estadistica"]
 +++
 

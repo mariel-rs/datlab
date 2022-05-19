@@ -1,8 +1,8 @@
 +++
 title = "1. Introducción a Python"
-description = "Ejercicios del material introductorio a Python"
+description = "Variables, tipos de datos y estructuras de datos en Python"
 disabletoc = false
-weight = 1
+weight = 2
 tags = ["python"]
 +++
 
@@ -16,7 +16,10 @@ machine learning, análisis de datos y visualización de datos.
 ### Salida por pantalla
 
 Lo primero que se suele hacer cuando aprendemos a programar es saludar. 
-[Hello world](https://es.wikipedia.org/wiki/Hola_mundo).
+[Hello world](https://es.wikipedia.org/wiki/Hola_mundo). 
+
+Creemos un Jupyter notebook y agreguemos un bloque de código con las siguientes 
+líneas de código:
 
 ```python
 print("Hello world")
@@ -25,8 +28,8 @@ print(1+1)
 
 ### Un comentario
 
-Los comentarios son porciones del código que no se ejecutan. Son eso, 
-comentarios.
+Los comentarios son porciones del código que no se ejecutan. Python utiliza el
+símbolo **#** para definir comentarios.
 
 ```python
 # Hola, soy un comentario.

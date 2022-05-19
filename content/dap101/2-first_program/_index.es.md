@@ -2,7 +2,7 @@
 title = "2. Primer programa en Python"
 description = "Operaciones aritméticas. Condicionales. Funciones"
 disabletoc = false
-weight = 2
+weight = 3
 tags = ["python"]
 +++
 

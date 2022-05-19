@@ -2,7 +2,7 @@
 title = "4. Manejo de datos"
 description = "Manejo de datos con pandas"
 disabletoc = false
-weight = 4
+weight = 5
 tags = ["pandas"]
 +++
 

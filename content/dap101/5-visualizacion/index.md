@@ -2,7 +2,7 @@
 title = "5. Visualización"
 description = "Creación de gráficos y visualizaciones con seaborn y matplotlib"
 disabletoc = false
-weight = 5
+weight = 6
 tags = ["visualizaciones", "matplotlib", "seaborn", "pandas"]
 +++
 

@@ -2,7 +2,7 @@
 title = "3. Bucles"
 description = "Bucles: For, While"
 disabletoc = false
-weight = 3
+weight = 4
 tags = ["python"]
 +++
 

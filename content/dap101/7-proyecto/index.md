@@ -1,8 +1,8 @@
 +++
 title = "7. Recapitulación"
-description = "Ejercicio final para recapitular lo aprendido en el curso"
+description = "Ejercicio final para recapitular el contenido del curso"
 disabletoc = false
-weight = 7
+weight = 8
 +++
 
 ## Introducción
