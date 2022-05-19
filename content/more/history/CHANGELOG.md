@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.4 (2022-05-19)
+
+### Actualización _Análisis de datos en Python_
+
+- Adición de sección _Primeros pasos_ 
+
 ## 0.1.3 (2022-05-12)
 
 ### Mantenimiento
